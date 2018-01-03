@@ -1,0 +1,5 @@
+-e git+https://github.com/astropy/specutils.git@v0.2.2#egg=specutils
+-e git+https://github.com/ejeschke/ginga.git@v2.6.1#egg=ginga
+-e git+https://github.com/spacetelescope/gwcs.git@0.7#egg=gwcs
+-e git+https://github.com/spacetelescope/specviz.git@master#egg=specviz
+-e git+https://github.com/spacetelescope/stginga.git@0.1.3#egg=stginga
