@@ -38,14 +38,23 @@ If you would like to get a head start with the tools we will be concentrating on
 * [Basics on accessing data files, both FITS and ASCII tables](http://docs.astropy.org/en/stable/io/unified.html)
 * [Modeling and Fitting](http://docs.astropy.org/en/stable/modeling/index.html)
 * [Astropy WCS](http://docs.astropy.org/en/stable/wcs/index.html)
-* [Generalized WCS](http://gwcs.readthedocs.io/en/stable/)
-* Interactive visualization and analysis tools:
-  * Photometric tools, such as [photutils](http://photutils.readthedocs.io/)
+* [photutils](http://photutils.readthedocs.io/)
+* [Github](https://guides.github.com/activities/hello-world/)
+* [Contributing to Astropy](http://docs.astropy.org/en/stable/development/workflow/development_workflow.html)
+* [Affiliated Packages](http://www.astropy.org/affiliated/)
+
+* Other tools we can answer questions about but probably won't discuss explicitly:
   * [imexam](http://imexam.readthedocs.io/)
   * [Ginga](http://ginga.readthedocs.io/) and [stginga](http://stginga.readthedocs.io/)
   * [Glue](http://glueviz.org/)
-  * Spectroscopy tools, such as [SpecViz](http://specviz.readthedocs.io/en/latest/)
+  * [SpecViz](http://specviz.readthedocs.io/en/latest/)
+  * [Generalized WCS](http://gwcs.readthedocs.io/en/stable/)
 
 ## Problems or Questions?
 
 We encourage you to submit any problems or questions you have either to this repository [issue tracker](https://github.com/astropy/astropy-workshop/issues).
+
+## Past Workshops
+
+Materials from past workshops can be found here:
+https://github.com/astropy/astropy-workshops
