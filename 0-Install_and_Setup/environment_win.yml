@@ -1,0 +1,27 @@
+name: aas229-workshop
+
+channels:
+  - astropy
+  - conda-forge
+
+dependencies:
+  - python=3.5
+  - numpy>=1.7
+  - scipy>=0.15
+  - cython
+  - matplotlib>=1.3
+  - astropy>=1.2.1
+  - photutils>=0.3
+  - scikit-image>=0.12.3
+  - pandas>=0.18.1
+  - glue-vispy-viewers>=0.6
+  - glueviz>=0.9.1
+  - jupyter
+  - notebook
+  - ipython
+  - asdf
+  - beautifulsoup4
+  - requests
+  - keyring
+  - html5lib
+  - astroquery
