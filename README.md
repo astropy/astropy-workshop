@@ -7,8 +7,11 @@ Using Python and Astropy for Astronomical Data Analysis
 **LOCATION:** RiverView Ballroom B
 
 ## PRE-WORKSHOP SETUP 
-[installation and setup instructions!](0-Install_and_Setup)
+Please be sure your laptop is properly configured before the workshop by following the 
+[installation and setup instructions](0-Install_and_Setup).
 
+This could take as long as *one hour* depending on your current configuration and internet speeds.
+DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
 ## Description
 This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily 
@@ -45,4 +48,4 @@ If you would like to get a head start with the tools we will be concentrating on
 
 ## Problems or Questions?
 
-We encourage you to submit any problems or questions you have either to this repository [issue tracker](https://github.com/astropy/astropy-workshops/issues).
+We encourage you to submit any problems or questions you have either to this repository [issue tracker](https://github.com/astropy/astropy-workshop/issues).
