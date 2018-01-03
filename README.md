@@ -3,7 +3,7 @@ Using Python and Astropy for Astronomical Data Analysis
 *Workshop at [American Astronomical Society](http://aas.org/) Meeting #AAS231 in National Harbor, MD.*
 
 **DATE:** Monday, January 8  
-**TIME:** 9am - 5pm  
+**TIME:** 8:30am - 5pm  
 **LOCATION:** RiverView Ballroom B
 
 ## PRE-WORKSHOP SETUP 
