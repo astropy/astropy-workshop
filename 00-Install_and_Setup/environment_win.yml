@@ -11,7 +11,7 @@ dependencies:
   - cython
   - matplotlib>=1.3
   - astropy>=1.2.1
-  - photutils>=0.3
+  - photutils>=0.4
   - scikit-image>=0.12.3
   - pandas>=0.18.1
   - glue-vispy-viewers>=0.6
