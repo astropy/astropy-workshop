@@ -1,3 +1,11 @@
+# THIS FOLDER IS NOT BEING UPDATED
+Go to [00-Install_and_Setup](../00-Install_and_Setup) instead.
+
+#
+#
+#
+#
+#
 # Getting Started with Python and Anaconda
 
 Please come to the workshop with a laptop already configured as described below.
