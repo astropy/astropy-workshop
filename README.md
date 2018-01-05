@@ -8,7 +8,7 @@ Using Python and Astropy for Astronomical Data Analysis
 
 ## PRE-WORKSHOP SETUP 
 Please be sure your laptop is properly configured before the workshop by following the 
-[installation and setup instructions](0-Install_and_Setup).
+[installation and setup instructions](00-Install_and_Setup).
 
 This could take as long as *one hour* depending on your current configuration and internet speeds.
 DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
@@ -17,7 +17,7 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 | Time              | Topic    | Presenter |
 |-------------------|----------|-----------|
 |**8:30** | **Continental Breakfast** | |
-|8:30 - 9:00    | Install and config support available |  |
+|8:30 - 9:00    | [Install and config](00-Install_and_Setup) help, if needed  |  |
 |9:00 - 9:15 | [Intro to Astropy and Code of Conduct](01-IntroCoC) | Erik Tollerud |
 |9:15 - 10:00   | [Introduction to Python](02-PythonIntro) | Ellianna Schwab Abrahams |
 |*9:50* | *Last call on breakfast* | |
