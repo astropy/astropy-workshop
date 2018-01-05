@@ -9,7 +9,7 @@ Workshop Schedule
 |-------------------|----------|-----------|
 |**8:30** | **Continental Breakfast** | |
 |8:30 - 9:00    | Install and config support available |  |
-|9:00 - 9:15 | Intro to Astropy and Code of Conduct | Erik Tollerud |
+|9:00 - 9:15 | [Intro to Astropy and Code of Conduct](00-Install_and_Setup) | Erik Tollerud |
 |9:15 - 10:00   | Introduction to Python | Elliana Schwab-Abrahams |
 |*9:50* | *Last call on breakfast* | |
 |10:00 - 10:30  | Astropy Units, Quantities, and Constants | Miguel de Val Borro |
