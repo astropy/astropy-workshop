@@ -30,9 +30,9 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 |1:30 - 2:00 | [Models](07-Models) | Megan Sosey |
 | 2:00 - 2:45 | WCS and Images | David Shupe
 **2:45 - 3:15** | **BREAK** | *Snacks Provided* |
-|3:15 - 4:00 | [Photutils](09-Photutils) | Megan Sosey|
+|3:15 - 4:00 | [Photutils](09-Photutils) | Larry Bradley|
 |*3:20* | *Last call on snacks* | |
-|4:00 - 4:15 | [Astropy Communities](10-WrapUp) | | 
+|4:00 - 4:15 | [Astropy Communities](10-WrapUp) | Erik Tollerud | 
 |4:15 - 4:45 | [Contributing to Astropy](10-WrapUp) | Lia Corrales |
 |4:45 - 5:00 | [Survey](10-WrapUp) | Erik Tollerud |
 
