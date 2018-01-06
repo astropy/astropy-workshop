@@ -32,3 +32,4 @@ dependencies:
   - ds9>=7.1
   - pip:
     - astroquery
+    - wcsaxes

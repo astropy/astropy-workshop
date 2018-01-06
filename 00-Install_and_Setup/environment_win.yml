@@ -25,3 +25,4 @@ dependencies:
   - keyring
   - html5lib
   - astroquery
+  - wcsaxes
