@@ -28,7 +28,7 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 |**12:15 - 1:15**| **LUNCH** | *On your own* |
 |1:15 - 1:30 | [Astropy Tables](06-Tables)| Miguel de Val Borro  |
 |1:30 - 2:00 | [Models](07-Models) | Megan Sosey |
-| 2:00 - 2:45 | WCS and Images | David Shupe
+|2:00 - 2:45 | [WCS and Images](08-WCS) | David Shupe |
 **2:45 - 3:15** | **BREAK** | *Snacks Provided* |
 |3:15 - 4:00 | [Photutils](09-Photutils) | Larry Bradley|
 |*3:20* | *Last call on snacks* | |
