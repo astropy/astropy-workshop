@@ -1,5 +1,5 @@
 ### Photutils
 
-**Instructor**:  Megan Sosey
+**Instructor**:  Larry Bradley
 
 **Author**: Larry Bradley
