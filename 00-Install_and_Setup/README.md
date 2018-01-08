@@ -11,7 +11,7 @@ Download the workshop folder using [git](https://help.github.com/articles/set-up
 
 Navigate to this directory:
 
-    $ cd astropy-workshop/0-Install_and_Setup/
+    $ cd astropy-workshop/00-Install_and_Setup/
 
 ## 2. Install Anaconda (if needed)
 
@@ -31,7 +31,7 @@ Miniconda comes with fewer default packages so it's faster to download and takes
 *Anaconda includes an environment manager called conda.  you can create, export, list, remove and update environments that have different versions of Python and/or packages installed in them.* 
 
 [Create a conda environment for this workshop using a yml file](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file). 
-The python version and all needed packages, including astropy, are listed in the [environment.yml](https://github.com/astropy/astropy-workshop/blob/master/0-Install_and_Setup/environment.yml) file
+The python version and all needed packages, including astropy, are listed in the [environment.yml](https://github.com/astropy/astropy-workshop/blob/master/00-Install_and_Setup/environment.yml) file
 
 ### Mac, Linux
 
