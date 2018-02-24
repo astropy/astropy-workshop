@@ -25,15 +25,16 @@ def check_package(package_name, minimum_version=None, verbose=True):
         else:
             installed_version = pkg.__version__
         if (minimum_version is not None and
-                    LooseVersion(installed_version) <
-                    LooseVersion(str(minimum_version))):
-                print('Error: {0} version {1} or later is required, you '
-                      'have version {2}'.format(package_name, minimum_version,
-                                                installed_version))
-                errors = True
+            LooseVersion(installed_version) <
+                LooseVersion(str(minimum_version))):
+            print('Error: {0} version {1} or later is required, you '
+                  'have version {2}'.format(package_name, minimum_version,
+                                            installed_version))
+            errors = True
         if not errors and verbose:
             print('Found', package_name, installed_version)
     return errors
+
 
 pkgs = {'IPython': '5.1',
         'notebook': '4.2.3',
@@ -44,13 +45,8 @@ pkgs = {'IPython': '5.1',
         'photutils': '0.4',
         'skimage': '0.12.3',
         'pandas': '0.18.1',
-        'glue': '0.9.1',
-        'imexam': '0.6.2',
         'astroquery': '0.3',
-        'ginga': '2.6.1',
-        'stginga':'0.1.3',
         'gwcs': '0.7',
-        'specviz':'0.2'
         }
 
 if sys.platform.startswith('win'):
