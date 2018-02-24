@@ -1,16 +1,16 @@
 Using Python and Astropy for Astronomical Data Analysis
 ================================================================
-*Workshop at <next place>*
+*Workshop at `next place`*
 
-**DATE:** 
-**TIME:** 
-**LOCATION:** 
+**DATE:** `day, date`  
+**TIME:** `start - end time`  
+**LOCATION:** `room name`   
 
 ## PRE-WORKSHOP SETUP 
 Please be sure your laptop is properly configured before the workshop by following the 
 [installation and setup instructions](00-Install_and_Setup).
 
-This could take as long as *one hour* depending on your current configuration and internet speeds.
+This could take as long as *one hour* depending on your current configuration and internet speeds.  
 DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
 ## Schedule
