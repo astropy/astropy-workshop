@@ -81,4 +81,4 @@ We encourage you to submit any problems or questions you have either to this rep
 ## Past Workshops
 
 Materials from past workshops can be found here:
-https://github.com/astropy/astropy-workshops
+https://github.com/astropy/past-astropy-workshops
