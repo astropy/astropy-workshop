@@ -1,10 +1,10 @@
 Using Python and Astropy for Astronomical Data Analysis
 ================================================================
-*Workshop at `next place`*
+*Workshop at the 223rd Meeting of the AAS in Seattle*
 
-**DATE:** `day, date`  
-**TIME:** `start - end time`  
-**LOCATION:** `room name`   
+**DATE:** Sunday, 6 January 2019  
+**TIME:** 9:00am - 5:00pm  
+**LOCATION:** ROOM 4C-4 at the Washington State Convention Center 
 
 ## PRE-WORKSHOP SETUP 
 Please be sure your laptop is properly configured before the workshop by following the 
