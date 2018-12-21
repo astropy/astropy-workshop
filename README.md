@@ -24,13 +24,13 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 |10:00 - 10:30  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) |  |
 |**10:30 - 10:45**  |  **BREAK** | *Coffee provided*  |
 |10:45 - 11:15 | [Coordinates](04-Coordinates) |  |
-|11:15 - 12:15 | [I/O: FITS and ASCII](05-FITS) |  |
+|11:15 - 12:15 | [I/O: FITS and ASCII](05-FITS) | Lauren Chambers |
 |**12:15 - 1:15**| **LUNCH** | *On your own* |
 |1:15 - 1:45 | [Astropy Tables](06-Tables)| Clare Shanahan|
 |1:45 - 2:15 | [Models](07-Models) |  |
 |2:15 - 2:45 | [WCS and Images](08-WCS) | Clare Shanahan|
 **2:45 - 3:15** | **BREAK** | *Snacks Provided* |
-|3:15 - 4:00 | [Photutils](09-Photutils) | |
+|3:15 - 4:00 | [Photutils](09-Photutils) | Lauren Chambers |
 |*3:20* | *Last call on snacks* | |
 |4:00 - 4:15 | [Astropy Communities](10-WrapUp) |  |
 |4:15 - 4:45 | [Contributing to Astropy](10-WrapUp) |  |
