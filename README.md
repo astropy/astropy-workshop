@@ -32,9 +32,9 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 **2:45 - 3:15** | **BREAK** | *Snacks Provided* |
 |3:15 - 4:00 | [Photutils](09-Photutils) | |
 |*3:20* | *Last call on snacks* | |
-|4:00 - 4:15 | [Astropy Communities](10-WrapUp) |  |
-|4:15 - 4:45 | [Contributing to Astropy](10-WrapUp) |  |
-|4:45 - 5:00 | [Survey](10-WrapUp) |  |
+|4:00 - 4:15 | [Astropy Communities](10-WrapUp) | Adrian Price-Whelan |
+|4:15 - 4:45 | [Contributing to Astropy](10-WrapUp) | Adrian Price-Whelan |
+|4:45 - 5:00 | [Survey](10-WrapUp) | Adrian Price-Whelan |
 
 
 ## Description
