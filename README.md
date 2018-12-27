@@ -21,9 +21,9 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 |9:00 - 9:15 | [Intro to Astropy and Code of Conduct](01-IntroCoC) |  |
 |9:15 - 10:00   | [Introduction to Python](02-PythonIntro) |  Clare Shanahan|
 |*9:50* | *Last call on breakfast* | |
-|10:00 - 10:30  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) |  |
+|10:00 - 10:30  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Brett Morris  |
 |**10:30 - 10:45**  |  **BREAK** | *Coffee provided*  |
-|10:45 - 11:15 | [Coordinates](04-Coordinates) |  |
+|10:45 - 11:15 | [Coordinates](04-Coordinates) | Brett Morris |
 |11:15 - 12:15 | [I/O: FITS and ASCII](05-FITS) |  |
 |**12:15 - 1:15**| **LUNCH** | *On your own* |
 |1:15 - 1:45 | [Astropy Tables](06-Tables)| Clare Shanahan|
