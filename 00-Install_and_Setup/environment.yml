@@ -1,18 +1,21 @@
 name: astropy-workshop
 
 channels:
-  - http://ssb.stsci.edu/astroconda
+  - astropy
+  - conda-forge
 
 dependencies:
-  - python=3.5
-  - numpy>=1.7
+  - python=3.6
+  - numpy>=1.12
   - scipy>=0.15
   - cython
-  - matplotlib>=1.3
-  - astropy>=1.2.1
+  - matplotlib>=2.2.3
+  - astropy>=3
   - photutils>=0.4
   - scikit-image>=0.12.3
   - pandas>=0.18.1
+  - glue-vispy-viewers>=0.6
+  - glueviz>=0.9.1
   - specutils
   - jupyter
   - notebook
@@ -23,7 +26,5 @@ dependencies:
   - requests
   - keyring
   - html5lib
-  - ds9>=7.1
-  - pip:
-    - astroquery
-    - wcsaxes
+  - astroquery
+  - wcsaxes
