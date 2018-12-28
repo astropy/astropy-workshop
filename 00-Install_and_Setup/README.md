@@ -33,8 +33,6 @@ Miniconda comes with fewer default packages so it's faster to download and takes
 [Create a conda environment for this workshop using a yml file](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file). 
 The python version and all needed packages, including astropy, are listed in the [environment.yml](https://github.com/astropy/astropy-workshop/blob/master/00-Install_and_Setup/environment.yml) file
 
-### Mac, Linux
-
 Verify your shell environment: 
 
     $ echo $SHELL 
@@ -43,18 +41,6 @@ If the output text does not contain `bash` then switch to the bash shell before 
 
     % conda env create -n astropy-workshop --file environment.yml
     % source activate astropy-workshop
-
-### Windows
-
-
-    % conda env create -n astropy-workshop --file environment_win.yml
-    % activate astropy-workshop
-
-Install the rest of the packages:
-
-    % pip install -r pip_requirements_win.txt
-
-*Note: Windows distribution currently does not yet support imexam with DS9. However, all the imexam functionality including image viewing can be used with Ginga as the viewer.*
 
 ## 4. Check Installation
 

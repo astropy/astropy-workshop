@@ -14,6 +14,8 @@ dependencies:
   - photutils>=0.4
   - scikit-image>=0.12.3
   - pandas>=0.18.1
+  - glue-vispy-viewers>=0.6
+  - glueviz>=0.9.1
   - specutils
   - jupyter
   - notebook
