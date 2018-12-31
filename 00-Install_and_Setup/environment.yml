@@ -28,3 +28,4 @@ dependencies:
   - html5lib
   - astroquery
   - wcsaxes
+  - xlwt
