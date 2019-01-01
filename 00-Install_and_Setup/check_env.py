@@ -36,21 +36,19 @@ def check_package(package_name, minimum_version=None, verbose=True):
     return errors
 
 
-pkgs = {'IPython': '5.1',
-        'notebook': '4.2.3',
-        'numpy': '1.7',
-        'scipy': '0.15',
-        'matplotlib': '1.3',
-        'astropy': '1.2.1',
-        'photutils': '0.4',
-        'skimage': '0.12.3',
-        'pandas': '0.18.1',
+pkgs = {'IPython': '7.2',
+        'notebook': '5.7',
+        'numpy': '1.14',
+        'scipy': '1.1',
+        'matplotlib': '2.0',
+        'astropy': '3.1',
+        'photutils': '0.5',
+        'skimage': '0.14',
+        'pandas': '0.23',
         'astroquery': '0.3',
-        'gwcs': '0.7',
+        'imexam': '0.8',
+        'gwcs': '0.10',
         }
-
-if sys.platform.startswith('win'):
-    pkgs.pop('imexam')
 
 errors = []
 for package_name, min_version in pkgs.items():
