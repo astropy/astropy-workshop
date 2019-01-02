@@ -10,7 +10,7 @@ dependencies:
   - scipy>=0.15
   - cython
   - matplotlib>=2.2.3
-  - astropy>=3
+  - astropy>=3.1
   - photutils>=0.4
   - scikit-image>=0.12.3
   - pandas>=0.18.1
@@ -28,5 +28,5 @@ dependencies:
   - html5lib
   - astroquery
   - wcsaxes
-  - imexam
+  - imexam>=0.8.1
   - xlwt
