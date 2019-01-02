@@ -1,6 +1,6 @@
 Using Python and Astropy for Astronomical Data Analysis
 ================================================================
-*Workshop at the 223rd Meeting of the AAS in Seattle*
+*Workshop at the 233rd Meeting of the AAS in Seattle*
 
 **DATE:** Sunday, 6 January 2019  
 **TIME:** 9:00am - 5:00pm  
@@ -16,26 +16,25 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 ## Schedule
 | Time              | Topic    | Presenter |
 |-------------------|----------|-----------|
-|**8:30** | **Continental Breakfast** | |
-|8:30 - 9:00    | [Install and config](00-Install_and_Setup) help, if needed  |  |
-|9:00 - 9:15 | [Intro to Astropy and Code of Conduct](01-IntroCoC) |  |
-|9:15 - 10:00   | [Introduction to Python](02-PythonIntro) |  Clare Shanahan|
-|*9:50* | *Last call on breakfast* | |
-|10:00 - 10:30  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Brett Morris  |
-|**10:30 - 10:45**  |  **BREAK** | *Coffee provided*  |
-|10:45 - 11:15 | [Coordinates](04-Coordinates) | Brett Morris |
-|11:15 - 12:15 | [I/O: FITS and ASCII](05-FITS) | Lauren Chambers |
-|**12:15 - 1:15**| **LUNCH** | *On your own* |
-|1:15 - 1:45 | [Astropy Tables](06-Tables)| Clare Shanahan|
-|1:45 - 2:15 | [Models](07-Models) |  |
-|2:15 - 2:45 | [WCS and Images](08-WCS) | Clare Shanahan|
+|**9:00** | **Continental Breakfast** | |
+|9:00 - 9:30    | [Install and config](00-Install_and_Setup) help, if needed  | Juan Cabanela |
+|9:30 - 9:45 | [Intro to Astropy and Code of Conduct](01-IntroCoC) |  |
+|9:45 - 10:15   | [Introduction to Python](02-PythonIntro) |  Clare Shanahan|
+|**10:15 - 10:30**  |  **BREAK** |  |
+|*10:30* | *Last call on breakfast* | |
+|10:30 - 11:00  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Brett Morris  |
+|11:00 - 11:30 | [Coordinates](04-Coordinates) | Brett Morris |
+|11:30 - 12:00 | [I/O: FITS and ASCII](05-FITS) | Lauren Chambers |
+|**12:00 - 1:00**| **LUNCH** | *On your own* |
+|1:00 - 1:30 | [Astropy Tables](06-Tables)| Clare Shanahan|
+|1:30 - 2:00 | [WCS and Images](08-WCS) | Clare Shanahan|
+|2:00 - 2:45 | [Photutils](09-Photutils) | Lauren Chambers |
 **2:45 - 3:15** | **BREAK** | *Snacks Provided* |
-|3:15 - 4:00 | [Photutils](09-Photutils) | Lauren Chambers |
-|*3:20* | *Last call on snacks* | |
+|3:15 - 4:00 | Specutils | Erik Tollerud |
+|*3:30* | *Last call on snacks* | |
 |4:00 - 4:15 | [Astropy Communities](10-WrapUp) | Adrian Price-Whelan |
 |4:15 - 4:45 | [Contributing to Astropy](10-WrapUp) | Adrian Price-Whelan |
 |4:45 - 5:00 | [Survey](10-WrapUp) | Adrian Price-Whelan |
-
 
 ## Description
 This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily
