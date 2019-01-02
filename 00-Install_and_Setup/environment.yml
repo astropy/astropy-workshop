@@ -6,27 +6,27 @@ channels:
 
 dependencies:
   - python=3.6
-  - numpy>=1.12
-  - scipy>=0.15
+  - numpy>=1.14
+  - scipy>=1.1
   - cython
   - matplotlib>=2.2.3
   - astropy>=3.1
-  - photutils>=0.4
-  - scikit-image>=0.12.3
-  - pandas>=0.18.1
+  - photutils>=0.5
+  - scikit-image>=0.14
+  - pandas>=0.23
   - glue-vispy-viewers>=0.6
   - glueviz>=0.9.1
   - specutils
   - jupyter
-  - notebook
-  - ipython
+  - notebook>=5.7
+  - ipython>=7.2
   - asdf
-  - gwcs>=0.7
+  - gwcs>=0.10
   - beautifulsoup4
   - requests
   - keyring
   - html5lib
-  - astroquery
+  - astroquery>=0.3
   - wcsaxes
   - imexam>=0.8.1
   - xlwt
