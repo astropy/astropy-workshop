@@ -46,7 +46,6 @@ pkgs = {'IPython': '7.2',
         'skimage': '0.14',
         'pandas': '0.23',
         'astroquery': '0.3',
-        'imexam': '0.8.1',
         'gwcs': '0.10',
         }
 

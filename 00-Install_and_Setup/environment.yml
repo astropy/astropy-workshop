@@ -28,5 +28,4 @@ dependencies:
   - html5lib
   - astroquery>=0.3
   - wcsaxes
-  - imexam>=0.8.1
   - xlwt
