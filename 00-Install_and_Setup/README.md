@@ -66,6 +66,10 @@ If the script reports that some of the versions don't match, update the reported
 
     (astropy-workshop) % conda update <packagename>
     
+The exception to this is if the `astroquery` package is reported as out-of-date.  If you created the `astropy-workshop` environment using the `environment.yml` file, `astroquery` is installed using the `pip` package manager, because it typically has access to newer versions of `astroquery`.  To update a package installed with `pip`, use:
+
+	pip install <packagename> --upgrade
+    
 ## Additional Resources
 - [Set up git](https://help.github.com/articles/set-up-git/)
 - [Conda Users Guide](https://conda.io/docs/user-guide/index.html)
