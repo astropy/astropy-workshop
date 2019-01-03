@@ -28,3 +28,4 @@ dependencies:
   - xlwt
   - pip:
     - astroquery
+    - --pre
