@@ -2,7 +2,6 @@ name: astropy-workshop
 
 channels:
   - astropy
-  - conda-forge
 
 dependencies:
   - python=3.6
@@ -26,6 +25,6 @@ dependencies:
   - requests
   - keyring
   - html5lib
-  - astroquery>=0.3
-  - wcsaxes
   - xlwt
+  - pip:
+    - astroquery
