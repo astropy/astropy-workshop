@@ -10,7 +10,7 @@ dependencies:
   - cython
   - matplotlib>=2.2.3
   - astropy>=3.1
-  - photutils>=0.5
+  - photutils>=0.6
   - scikit-image>=0.14
   - pandas>=0.23
   - glue-vispy-viewers>=0.6
@@ -26,6 +26,7 @@ dependencies:
   - keyring
   - html5lib
   - xlwt
+  - webbpsf>=0.8
   - pip:
     - astroquery
     - --pre

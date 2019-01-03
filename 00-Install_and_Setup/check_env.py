@@ -42,11 +42,12 @@ pkgs = {'IPython': '7.2',
         'scipy': '1.1',
         'matplotlib': '2.2.3',
         'astropy': '3.1',
-        'photutils': '0.5',
+        'photutils': '0.6',
         'skimage': '0.14',
         'pandas': '0.23',
         'astroquery': '0.3',
         'gwcs': '0.10',
+        'webbpsf': '0.8'
         }
 
 errors = []
