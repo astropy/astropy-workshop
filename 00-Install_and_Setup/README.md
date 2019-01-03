@@ -52,7 +52,7 @@ In windows:
 And finally, on any platform, to install and activate the astropy-workshop environment, type:
 
     % conda env create -n astropy-workshop --file environment.yml
-    % source activate astropy-workshop
+    % conda activate astropy-workshop
 
 ## 4. Check Installation
 
@@ -62,7 +62,7 @@ Run the check_env.py script to check the Python environment and some of the requ
 
     (astropy-workshop) % python check_env.py
 
-If the script reports that some of the versions don't match, update the reported packages using the ``conda update`` method described up top, namely:
+If the script reports that some of the versions don't match, update the reported packages using the ``conda update``, namely:
 
     (astropy-workshop) % conda update <packagename>
     
