@@ -11,11 +11,11 @@ Assuming you cloned the astropy-workshop git repository all you have to do is op
     % cd astropy-workshop
     % git status
 
-If this does NOT report any modified files, all you have to do to update the workshop files is
+If this does NOT report any modified files in your local copy of `astropy-workshop`, all you have to do to update the workshop files is
 
     % git pull
 
-If there are modified files reported, your best option (which *will destroy* any local file changes you made):
+If there are modified local files reported, your best option (which *will destroy* any local file changes you made):
 
     % git fetch --all
     % git reset --hard origin/master
