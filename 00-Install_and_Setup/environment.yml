@@ -15,7 +15,7 @@ dependencies:
   - pandas>=0.23
   - glue-vispy-viewers>=0.6
   - glueviz>=0.9.1
-  - specutils
+  - specutils>=0.5.1
   - jupyter
   - notebook>=5.7
   - ipython>=7.2
