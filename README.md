@@ -74,6 +74,7 @@ If you would like to get a head start with the tools we will be concentrating on
   * [Generalized WCS](http://gwcs.readthedocs.io/en/stable/)
   * [Git and Github](https://guides.github.com/activities/hello-world/)
   * [Git branching](https://learngitbranching.js.org/) 
+  * [Git branching](https://learngitbranching.js.org/) 
 
 ## Problems or Questions?
 
