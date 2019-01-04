@@ -62,7 +62,7 @@ If you would like to get a head start with the tools we will be concentrating on
 * [Modeling and Fitting](http://docs.astropy.org/en/stable/modeling/index.html)
 * [Astropy WCS](http://docs.astropy.org/en/stable/wcs/index.html)
 * [photutils](http://photutils.readthedocs.io/)
-* [Github](https://guides.github.com/activities/hello-world/)
+* [specutils](https://specutils.readthedocs.io/)
 * [Contributing to Astropy](http://docs.astropy.org/en/stable/development/workflow/development_workflow.html)
 * [Affiliated Packages](http://www.astropy.org/affiliated/)
 
@@ -72,6 +72,7 @@ If you would like to get a head start with the tools we will be concentrating on
   * [Glue](http://glueviz.org/)
   * [SpecViz](http://specviz.readthedocs.io/en/latest/)
   * [Generalized WCS](http://gwcs.readthedocs.io/en/stable/)
+  * [Git and Github](https://guides.github.com/activities/hello-world/)
 
 ## Problems or Questions?
 
