@@ -74,3 +74,4 @@ The exception to this is if the `astroquery` package is reported as out-of-date.
 - [Set up git](https://help.github.com/articles/set-up-git/)
 - [Conda Users Guide](https://conda.io/docs/user-guide/index.html)
 - [Astropy Install Instructions](http://docs.astropy.org/en/stable/install.html)
+- [Instructions for keeping this repo up to date](Updating.md)
