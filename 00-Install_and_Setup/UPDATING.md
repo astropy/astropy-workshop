@@ -4,6 +4,8 @@ If you downloaded and installed your Astropy Workshop directory and conda enviro
 
 ## 1. Updating your Astropy Workshop files
 
+### Updating a git cloned repository
+
 Assuming you cloned the astropy-workshop git repository all you have to do is open up a command line, change your location to that directory and then perform a `git pull` using something like:
 
     % cd astropy-workshop
@@ -13,12 +15,23 @@ If this does NOT report any modified files, all you have to do to update the wor
 
     % git pull
 
-If there are modified files reported, your best option (which will destory any local file changes)
+If there are modified files reported, your best option (which *will destroy* any local file changes you made):
 
     % git fetch --all
     % git reset --hard origin/master
 
-If you used the (disfavored) *Download ZIP* option, you will have to do that again and overwrite the original directory you had.
+**ADVANCED OPTION**: This is not a `git` workshop, but if you want to keep your file modifications, you can commit your modified files to the git repository  and then create a new branch from the current version on the github server:
+
+    % git commit -a `Save my modified files`
+    % git fetch origin
+    % git checkout -b workshop-master origin/master
+
+Probably overkill unless you already use `git` regularly.
+
+
+### Updating a ZIP downloaded directory
+
+If you don't have `git` installed and used the (disfavored) *Download ZIP* option, you will have to do that again and overwrite the original directory you had.
 
 ## 2. Double-checking your Conda environment
 
@@ -54,10 +67,16 @@ If the "Build" of the package does *NOT* say `<pip>`,  you can then update the p
 
     % conda update <packagename>
 
-If the package was installed with `pip`, you can update it using the command:
+If the package was installed with `pip`, you can update it to the lastest pre-release package using the command:
 
-    % pip install --pre <packagename> --upgrade
+    % pip install --upgrade <packagename>
     
+Note that if the version reported includes `dev` in the version, it may be a pre-release version of the package and you may need to use:
+  
+    % pip install --pre --upgrade <packagename> 
+
+to update to the latest pre-release.
+      
 Once you have performed the updates, check your installation again using:
 
     % python setup_env.py
