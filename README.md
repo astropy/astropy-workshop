@@ -18,7 +18,7 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 |-------------------|----------|-----------|
 |**9:00** | **Continental Breakfast** | |
 |9:00 - 9:30    | [Install and config](00-Install_and_Setup) help, if needed  | Juan Cabanela |
-|9:30 - 9:45 | [Intro to Astropy and Code of Conduct](01-IntroCoC) |  |
+|9:30 - 9:45 | [Intro to Astropy and Code of Conduct](01-IntroCoC) | Erik Tollerud |
 |9:45 - 10:15   | [Introduction to Python](02-PythonIntro) |  Clare Shanahan|
 |**10:15 - 10:30**  |  **BREAK** |  |
 |*10:30* | *Last call on breakfast* | |
@@ -30,7 +30,7 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 |1:30 - 2:00 | [WCS and Images](08-WCS) | Clare Shanahan|
 |2:00 - 2:45 | [Photutils](09-Photutils) | Lauren Chambers |
 **2:45 - 3:15** | **BREAK** | *Snacks Provided* |
-|3:15 - 4:00 | Specutils | Erik Tollerud |
+|3:15 - 4:00 | [Specutils](09b-Specutils) | Erik Tollerud |
 |*3:30* | *Last call on snacks* | |
 |4:00 - 4:15 | [Astropy Communities](10-WrapUp) | Adrian Price-Whelan |
 |4:15 - 4:45 | [Contributing to Astropy](10-WrapUp) | Adrian Price-Whelan |
