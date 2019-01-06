@@ -53,13 +53,13 @@ In windows (your directory path may be different):
     
 Then we check if the environment is still up to date:
 
-    % python setup_env.py
+    % python check_env.py
     
 If this check reports a problem with a package, see what to do below below.
 
 ## 3. Updating python packages
 
-If the `setup_env.py` script reports that some package `<packagename>` is not of a recent enough build, we need to check where the package came from:
+If the `check_env.py` script reports that some package `<packagename>` is not of a recent enough build, we need to check where the package came from:
 
     % conda list <packagename>
 
@@ -79,4 +79,4 @@ to update to the latest pre-release.
       
 Once you have performed the updates, check your installation again using:
 
-    % python setup_env.py
+    % python check_env.py
