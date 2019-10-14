@@ -1,6 +1,6 @@
 Using Python and Astropy for Astronomical Data Analysis
 =======================================================
-*Workshop at the 233rd Meeting of the AAS in Seattle*
+*Workshop at the 235rd Meeting of the AAS in Honolulu*
 
 **DATE:** Saturday, 4 January 2020
 **TIME:** 9:00am - 5:30pm  
