@@ -2,9 +2,9 @@ Using Python and Astropy for Astronomical Data Analysis
 =======================================================
 *Workshop at the 235th Meeting of the AAS in Honolulu*
 
-**DATE:** Saturday, 4 January 2020
-**TIME:** 9:00am - 5:30pm
-**LOCATION:** ROOM 307B at the Hawai'i Convention Center
+* **DATE:** Saturday, 4 January 2020
+* **TIME:** 9:00am - 5:30pm
+* **LOCATION:** ROOM 307B at the Hawai'i Convention Center
 
 ## PRE-WORKSHOP SETUP
 Please be sure your laptop is properly configured before the workshop by following the
