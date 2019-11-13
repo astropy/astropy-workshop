@@ -3,14 +3,14 @@ Using Python and Astropy for Astronomical Data Analysis
 *Workshop at the 235th Meeting of the AAS in Honolulu*
 
 **DATE:** Saturday, 4 January 2020
-**TIME:** 9:00am - 5:30pm  
+**TIME:** 9:00am - 5:30pm
 **LOCATION:** ROOM 307B at the Hawai'i Convention Center
 
 ## PRE-WORKSHOP SETUP
 Please be sure your laptop is properly configured before the workshop by following the
 [installation and setup instructions](00-Install_and_Setup).
 
-This could take as long as *one hour* depending on your current configuration and internet speeds.  
+This could take as long as *one hour* depending on your current configuration and internet speeds.
 DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
 ## Schedule
@@ -45,7 +45,7 @@ well as provide ample hands-on time during which you’ll be able to explore the
 greater Python environment and community provide.
 
 We plan on accomplishing this with brief overview talks on the main tools followed by extended instructor guided tutorials
-where you’ll be able to try them out for yourself and ask questions in the company of expert users and developers.  
+where you’ll be able to try them out for yourself and ask questions in the company of expert users and developers.
 
 Some basic Python experience is highly recommended to be able to effectively participate in the exercises,
 but those without Python experience will still get much useful information about the capabilities for data analysis in
@@ -54,29 +54,31 @@ it into their work flow.
 
 If you would like to get a head start with the tools we will be concentrating on you can check out their documentation on readthedocs:
 
-* [Physical Units and Quantities](http://docs.astropy.org/en/stable/units/index.html)
-* [Constants](http://docs.astropy.org/en/stable/constants/index.html)
-* [Coordinate utilities](http://docs.astropy.org/en/stable/coordinates/index.html)
-* [Basics on accessing data files, both FITS and ASCII tables](http://docs.astropy.org/en/stable/io/unified.html)
-* [Modeling and Fitting](http://docs.astropy.org/en/stable/modeling/index.html)
-* [Astropy WCS](http://docs.astropy.org/en/stable/wcs/index.html)
-* [photutils](http://photutils.readthedocs.io/)
+* [Physical Units and Quantities](https://docs.astropy.org/en/stable/units/index.html)
+* [Constants](https://docs.astropy.org/en/stable/constants/index.html)
+* [Coordinate utilities](https://docs.astropy.org/en/stable/coordinates/index.html)
+* [Basics on accessing data files, both FITS and ASCII tables](https://docs.astropy.org/en/stable/io/unified.html)
+* [Modeling and Fitting](https://docs.astropy.org/en/stable/modeling/index.html)
+* [Astropy WCS](https://docs.astropy.org/en/stable/wcs/index.html)
+* [photutils](https://photutils.readthedocs.io/)
 * [specutils](https://specutils.readthedocs.io/)
-* [Contributing to Astropy](http://docs.astropy.org/en/stable/development/workflow/development_workflow.html)
-* [Affiliated Packages](http://www.astropy.org/affiliated/)
+* [Contributing to Astropy](https://docs.astropy.org/en/stable/development/workflow/development_workflow.html)
+* [Affiliated Packages](https://www.astropy.org/affiliated/)
 
 * Other tools we can answer questions about but probably won't discuss explicitly:
-  * [imexam](http://imexam.readthedocs.io/)
-  * [Ginga](http://ginga.readthedocs.io/) and [stginga](http://stginga.readthedocs.io/)
-  * [Glue](http://glueviz.org/)
-  * [SpecViz](http://specviz.readthedocs.io/en/latest/)
-  * [Generalized WCS](http://gwcs.readthedocs.io/en/stable/)
+  * [imexam](https://imexam.readthedocs.io/)
+  * [Ginga](https://ginga.readthedocs.io/) and [stginga](https://stginga.readthedocs.io/)
+  * [Glue](https://glueviz.org/)
+  * [SpecViz](https://specviz.readthedocs.io/en/latest/)
+  * [Generalized WCS](https://gwcs.readthedocs.io/en/stable/)
   * [Git and Github](https://guides.github.com/activities/hello-world/)
-  * [Git branching](https://learngitbranching.js.org/) 
+  * [Git branching](https://learngitbranching.js.org/)
 
 ## Problems or Questions?
 
-We encourage you to submit any problems or questions you have either to this repository [issue tracker](https://github.com/astropy/astropy-workshop/issues).
+We encourage you to submit any problems or questions you have to this
+repository [issue tracker](https://github.com/astropy/astropy-workshop/issues)
+by choosing the "Question from workshop participant" issue template.
 
 ## Past Workshops
 
