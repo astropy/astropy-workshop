@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**Which workshop are you sign up for?**
+**Which workshop are you signed up for”?**
 
 **What is your operating system?**
 
