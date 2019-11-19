@@ -26,13 +26,12 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 |11:00 - 11:30 | [I/O: FITS and ASCII](05-FITS) |  |
 |11:30 - 12:00 | [Astropy Tables](06-Tables)| |
 |**12:00 - 1:00**| **LUNCH** | *On your own* |
-|1:00 - 1:30 | [WCS and Images](08-WCS) | |
-|1:30 - 2:30 | [Photutils](09-Photutils) |  |
-**2:30 - 3:00** | **BREAK** | *Snacks Provided* |
-|3:00 - 4:00 | [Specutils](09b-Specutils) | |
-|*3:30* | *Last call on snacks* | |
-|4:00 - 4:15 | [Astropy Communities](10-WrapUp) |  |
-|4:15 - 4:45 | [Contributing to Astropy](10-WrapUp) |  |
+|1:00 - 1:15 | [Astropy Communities](10-WrapUp) |  |
+|1:15 - 1:45 | [Contributing to Astropy](10-WrapUp) |  |
+|1:45 - 2:15 | [WCS and Images](08-WCS) | |
+**2:15 - 2:45** | **BREAK** | *Snacks Provided* |
+|2:45 - 3:45 | [Photutils](09-Photutils) |  |
+|3:45 - 4:45 | [Specutils](09b-Specutils) | |
 |4:45 - 5:00 | [Survey](10-WrapUp) |  |
 
 ## Description
