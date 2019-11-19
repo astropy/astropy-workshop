@@ -34,6 +34,10 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 |3:45 - 4:45 | [Specutils](09b-Specutils) | Erik Tollerud |
 |4:45 - 5:00 | [Survey](10-WrapUp) |  |
 
+### Additional Helpers
+
+* Rebecca Lange
+
 ## Description
 This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily
 on UV, Optical, and IR data. Data analysis tools for JWST are being written in Python and distributed as part of Astropy,
