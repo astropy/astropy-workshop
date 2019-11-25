@@ -22,7 +22,7 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 |9:45 - 10:15  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Pey Lian Lim |
 |**10:15 - 10:30**  |  **BREAK** |  |
 |*10:30* | *Last call on breakfast* | |
-|10:30 - 11:00 | [Coordinates](04-Coordinates) | Astrian Price-Whelan |
+|10:30 - 11:00 | [Coordinates](04-Coordinates) | Adrian Price-Whelan |
 |11:00 - 11:30 | [I/O: FITS and ASCII](05-FITS) | Pey Lian Lim |
 |11:30 - 12:00 | [Astropy Tables](06-Tables)| Brigitta Sipőcz |
 |**12:00 - 1:00**| **LUNCH** | *On your own* |
