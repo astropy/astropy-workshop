@@ -17,22 +17,26 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 | Time              | Topic    | Presenter |
 |-------------------|----------|-----------|
 |**9:00** | **Continental Breakfast** | |
-|9:00 - 9:30    | [Install and config](00-Install_and_Setup) help, if needed  |  |
-|9:30 - 9:45 | [Intro to Astropy and Code of Conduct](01-IntroCoC) |  |
-|9:45 - 10:15  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | |
+|9:00 - 9:30    | [Install and config](00-Install_and_Setup) help, if needed  | All |
+|9:30 - 9:45 | [Intro to Astropy and Code of Conduct](01-IntroCoC) | Erik Tollerud |
+|9:45 - 10:15  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Pey Lian Lim |
 |**10:15 - 10:30**  |  **BREAK** |  |
 |*10:30* | *Last call on breakfast* | |
-|10:30 - 11:00 | [Coordinates](04-Coordinates) |  |
-|11:00 - 11:30 | [I/O: FITS and ASCII](05-FITS) |  |
-|11:30 - 12:00 | [Astropy Tables](06-Tables)| |
+|10:30 - 11:00 | [Coordinates](04-Coordinates) | Adrian Price-Whelan |
+|11:00 - 11:30 | [I/O: FITS and ASCII](05-FITS) | Pey Lian Lim |
+|11:30 - 12:00 | [Astropy Tables](06-Tables)| Brigitta Sipőcz |
 |**12:00 - 1:00**| **LUNCH** | *On your own* |
-|1:00 - 1:15 | [Astropy Communities](10-WrapUp) |  |
-|1:15 - 1:45 | [Contributing to Astropy](10-WrapUp) |  |
-|1:45 - 2:15 | [WCS and Images](08-WCS) | |
+|1:00 - 1:15 | [Astropy Communities](10-WrapUp) | Adrian Price-Whelan |
+|1:15 - 1:45 | [Contributing to Astropy](10-WrapUp) | Brigitta Sipőcz |
+|1:45 - 2:15 | [WCS and Images](08-WCS) | David Shupe |
 **2:15 - 2:45** | **BREAK** | *Snacks Provided* |
-|2:45 - 3:45 | [Photutils](09-Photutils) |  |
-|3:45 - 4:45 | [Specutils](09b-Specutils) | |
-|4:45 - 5:00 | [Survey](10-WrapUp) |  |
+|2:45 - 3:45 | [Photutils](09-Photutils) | Clare Shanahan |
+|3:45 - 4:45 | [Specutils](09b-Specutils) | Erik Tollerud |
+|4:45 - 5:00 | [Survey](10-WrapUp) | Erik Tollerud |
+
+### Additional Helpers
+
+* Rebecca Lange
 
 ## Description
 This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily
