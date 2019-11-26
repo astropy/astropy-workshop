@@ -36,6 +36,7 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
 ### Additional Helpers
 
+* Larry Bradley
 * Rebecca Lange
 
 ## Description
