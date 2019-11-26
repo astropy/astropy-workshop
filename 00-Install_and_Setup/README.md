@@ -2,7 +2,7 @@
 
 Please come to the workshop with a laptop already configured as described below.
 If you have any problems with any of these steps, please
-[open an issue](https://github.com/astropy/astropy-workshop/issues).
+[ask your question in the issue tracker](https://github.com/astropy/astropy-workshop/issues/new?assignees=&labels=workshop-question&template=question-from-workshop-participant.md&title=%5BQuestion%5D+Summarize+your+question+here).
 
 ## 1. Clone This Repository
 
@@ -22,7 +22,8 @@ update your copy of the repository if updates are made.
 *Miniconda is a free minimal installer for conda. It is a small, bootstrap
 version of Anaconda that includes only conda, Python, the packages they depend
 on, and a small number of other useful packages, including pip, zlib and a few
-others.*
+others. Note, though, that if you have either miniconda or the full Anaconda 
+already installed, you can skip to the next step.*
 
 Check if Miniconda is already installed.
 
@@ -36,7 +37,9 @@ On Windows, you might also need
 
 ## 3. Create a conda environment for the workshop
 
-*Miniconda includes an environment manager called conda. You can create,
+*Miniconda includes an environment manager called conda. Environments
+allow you to have multiple sets of Python packages installed at the same 
+time, making reproducibility and upgrades easier. You can create,
 export, list, remove, and update environments that have different versions of
 Python and/or packages installed in them.*
 
