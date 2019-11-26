@@ -3,7 +3,7 @@
 
 ## Before the workshop
 
-* [ ] Have USB drives ready with installers (e.g. anaconda or miniconda) and workbook materials.
+* [ ] Have USB drives ready with installers (e.g. Anaconda or Miniconda) and workbook materials.
 
 * [ ] Have USB-C to USB adaptor.
 
