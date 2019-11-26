@@ -23,7 +23,7 @@ update your copy of the repository if updates are made.
 *Miniconda is a free minimal installer for conda. It is a small, bootstrap
 version of Anaconda that includes only conda, Python, the packages they depend
 on, and a small number of other useful packages, including pip, zlib and a few
-others. Note, though, that if you have either miniconda or the full Anaconda 
+others. Note, though, that if you have either Miniconda or the full Anaconda 
 already installed, you can skip to the next step.*
 
 Check if Miniconda is already installed.
