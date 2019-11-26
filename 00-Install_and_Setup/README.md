@@ -1,7 +1,8 @@
 # Getting Started with Python and Anaconda
 
 Please come to the workshop with a laptop already configured as described below.
-If you have any problems with any of these steps, please
+If you have any problems with any of these steps, please check if your problem has
+already been reported at [the issue tracker](https://github.com/astropy/astropy-workshop/issues/). If not,
 [ask your question in the issue tracker](https://github.com/astropy/astropy-workshop/issues/new?assignees=&labels=workshop-question&template=question-from-workshop-participant.md&title=%5BQuestion%5D+Summarize+your+question+here).
 
 ## 1. Clone This Repository
