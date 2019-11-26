@@ -4,6 +4,7 @@ channels:
   - astropy
 
 dependencies:
+  - pip
   - python=3.7
   - ipython>=7.2
   - cython
