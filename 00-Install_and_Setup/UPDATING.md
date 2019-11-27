@@ -1,82 +1,102 @@
 # Getting Everything Up To Date
 
-If you downloaded and installed your Astropy Workshop directory and conda environment before the workshop, good for you!  We appreciate it.  However, there may well have been some updates made to the materials we are going to use in the workshop, so...
+If you downloaded and installed your Astropy Workshop directory and conda
+environment before the workshop, good for you!  We appreciate it.
+However, there may well have been some updates made to the materials we are
+going to use in the workshop, so...
 
 ## 1. Updating your Astropy Workshop files
 
 ### Updating a git cloned repository
 
-Assuming you cloned the astropy-workshop git repository all you have to do is open up a command line, change your location to that directory and then perform a `git pull` using something like:
+Assuming you cloned the astropy-workshop git repository, open up a terminal,
+change your location to that directory, and then follow the instructions below:
 
     % cd astropy-workshop
     % git status
 
-If this does NOT report any modified files in your local copy of `astropy-workshop`, all you have to do to update the workshop files is
+If this does NOT report any modified files in your local copy of
+`astropy-workshop`, do this to update the workshop files:
 
     % git pull
 
-If there are modified local files reported, your best option (which *will destroy* any local file changes you made):
+If there are modified local files reported, your best option instead is as
+follows (which *will destroy* any local file changes you made):
 
     % git fetch --all
     % git reset --hard origin/master
 
-**ADVANCED OPTION**: This is not a `git` workshop, but if you want to keep your file modifications, you can commit your modified files to the git repository  and then create a new branch from the current version on the github server:
+**ADVANCED OPTION**: This is not a git workshop, but if you want to keep
+your file modifications, you can commit your modified files to the git
+repository and then create a new branch from the current version on the
+GitHub server:
 
-    % git commit -a `Save my modified files`
+    % git commit -a "Save my modified files"
     % git fetch origin
-    % git checkout -b workshop-master origin/master
+    % git checkout origin/master -b workshop-master
 
-Probably overkill unless you already use `git` regularly.
-
+This is probably overkill unless you already use git regularly. When in doubt,
+please ask the instructors or helpers.
 
 ### Updating a ZIP downloaded directory
 
-If you don't have `git` installed and used the (disfavored) *Download ZIP* option, you will have to do that again and overwrite the original directory you had.
+If you do not have git installed and used the *Download ZIP* option
+(not recommended), you will have to do that again and overwrite the original
+directory you had.
 
 ## 2. Double-checking your Conda environment
 
-Assuming you properly installed your astropy-workshop conda environment, you should be able to (a) activate that conda environment, (b) go the the original installation directory and then (c) check to see if your environment still meets the requirements.  Let's do that now.
+Assuming you properly installed your astropy-workshop conda environment, you
+should be able to:
 
-Start by activating the conda environment:
-    
+a. activate that conda environment, and
+b. go the the original installation directory, and then
+c. check to see if your environment still meets the requirements.
+
+Let's do that now. Start by activating the conda environment:
+
     % conda activate astropy-workshop
 
-Then  switch to the directory containing the installer by doing the following:
+You will notice a change in your prompt; e.g., `(astropy-workshop) %`.
+Then, switch to the directory containing the installer by doing the following.
 
-On a mac/linux (your directory path may be different):
+On a Mac/Linux (your directory path may be different):
 
-    % cd astropy-workshop/00-Install_and_Setup/  
+    (astropy-workshop) % cd astropy-workshop/00-Install_and_Setup/
 
-In windows (your directory path may be different):
+On Windows (your directory path may be different):
 
-    % cd astropy-workshop\00-Install_and_Setup\
-    
-Then we check if the environment is still up to date:
+    (astropy-workshop) % cd astropy-workshop\00-Install_and_Setup\
 
-    % python check_env.py
-    
-If this check reports a problem with a package, see what to do below below.
+Next, we check if the environment is still up to date:
+
+    (astropy-workshop) % python check_env.py
+
+If this check reports a problem with a package, see what to do below.
 
 ## 3. Updating python packages
 
-If the `check_env.py` script reports that some package `<packagename>` is not of a recent enough build, we need to check where the package came from:
+If the `check_env.py` script reports that some package called `packagename`
+is not of a recent enough build, we need to check where the package came from
+(replace `packagename` with the real package name):
 
-    % conda list <packagename>
+    (astropy-workshop) % conda list packagename
 
-If the "Build" of the package does *NOT* say `<pip>`,  you can then update the package using
+If the "Build" of the package does *NOT* say `pypi`,  you can then update the
+package using:
 
-    % conda update <packagename>
+    (astropy-workshop) % conda update packagename
 
-If the package was installed with `pip`, you can update it to the lastest pre-release package using the command:
+If the package was installed from PyPI with pip, you can update it to the
+latest PyPI release using:
 
-    % pip install --upgrade <packagename>
-    
-Note that if the version reported includes `dev` in the version, it may be a pre-release version of the package and you may need to use:
-  
-    % pip install --pre --upgrade <packagename> 
+    (astropy-workshop) % pip install packagename --upgrade
 
-to update to the latest pre-release.
-      
+If you know you need the pre-release version from PyPI (e.g., `astroquery`),
+use:
+
+    (astropy-workshop) % pip install packagename --pre --upgrade
+
 Once you have performed the updates, check your installation again using:
 
-    % python check_env.py
+    (astropy-workshop) % python check_env.py

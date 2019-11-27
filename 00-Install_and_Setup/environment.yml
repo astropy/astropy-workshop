@@ -4,28 +4,30 @@ channels:
   - astropy
 
 dependencies:
-  - python=3.6
-  - numpy>=1.14
-  - scipy>=1.1
+  - pip
+  - python=3.7
+  - ipython>=7.2
   - cython
-  - matplotlib>=2.2.3
-  - astropy>=3.1
-  - photutils>=0.5
-  - scikit-image>=0.14
-  - pandas>=0.23
-  - glue-vispy-viewers>=0.6
-  - glueviz>=0.9.1
-  - specutils>=0.5.1
   - jupyter
   - notebook>=5.7
-  - ipython>=7.2
-  - asdf
-  - gwcs>=0.10
-  - beautifulsoup4
-  - requests
-  - keyring
-  - html5lib
-  - xlwt
+  - numpy>=1.16
+  - scipy>=1.1
+  - scikit-image>=0.14
+  - matplotlib>=2.2.3
+  - pandas>=0.23
   - pip:
+    - beautifulsoup4
+    - keyring
+    - html5lib
+    - xlwt
+    - requests
+    - jupyterlab
+    - "astropy>=4.0rc1"
+    - asdf
+    - "gwcs>=0.10"
+    - "photutils>=0.5"
+    - "specutils>=0.5.1"
+    - "glue-vispy-viewers>=0.6"
+    - "glueviz>=0.9.1"
     - astroquery
     - --pre
