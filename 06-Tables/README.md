@@ -1,5 +1,5 @@
-### Astropy Coordinates
+### Astropy Tables
 
-**Instructor**:  Erik Tollerud
+**Instructor**:  Brigitta Sipocz
 
-**Co-Authors**: Tim Pickering, Tom Aldcroft
+**Authors**: Tim Pickering, Tom Aldcroft

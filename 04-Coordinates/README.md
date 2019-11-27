@@ -1,3 +1,3 @@
 ### Astropy Coordinates
 
-**Instructor**:  Erik Tollerud
+**Instructor**:  Adrian Price-Whelan

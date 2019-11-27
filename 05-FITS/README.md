@@ -1,5 +1,5 @@
 ### I/O: FITS and ASCII
 
-**Instructor**:  Lauren Chambers
+**Instructor**:  Pey Lian Lim
 
-**Author**: Lía Corrales & Lauren Chambers
+**Authors**: Lía Corrales & Lauren Chambers

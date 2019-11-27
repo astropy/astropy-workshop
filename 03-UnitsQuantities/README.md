@@ -1,5 +1,5 @@
 ### Astropy Units, Quantities, and Constants
 
-**Instructor**:  Erik Tollerud
+**Instructor**: Pey Lian Lim
 
-**Co-Author**: Larry Bradley
+**Author**: Larry Bradley

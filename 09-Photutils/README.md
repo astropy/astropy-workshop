@@ -1,5 +1,5 @@
 ### Photutils
 
-**Instructor**:  Lauren Chambers
+**Instructor**:  Clare Shanahan
 
-**Author**: Larry Bradley & Lauren Chambers
+**Authors**: Larry Bradley & Lauren Chambers
