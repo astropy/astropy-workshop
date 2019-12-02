@@ -23,7 +23,7 @@ update your copy of the repository if updates are made.
 *Miniconda is a free minimal installer for conda. It is a small, bootstrap
 version of Anaconda that includes only conda, Python, the packages they depend
 on, and a small number of other useful packages, including pip, zlib and a few
-others. Note, though, that if you have either Miniconda or the full Anaconda 
+others. Note, though, that if you have either Miniconda or the full Anaconda
 already installed, you can skip to the next step.*
 
 Check if Miniconda is already installed.
@@ -39,7 +39,7 @@ On Windows, you might also need
 ## 3. Create a conda environment for the workshop
 
 *Miniconda includes an environment manager called conda. Environments
-allow you to have multiple sets of Python packages installed at the same 
+allow you to have multiple sets of Python packages installed at the same
 time, making reproducibility and upgrades easier. You can create,
 export, list, remove, and update environments that have different versions of
 Python and/or packages installed in them.*
@@ -115,11 +115,6 @@ To update the reported package with conda:
 Otherwise, to update with pip:
 
     (astropy-workshop) % pip install packagename --upgrade
-
-The exception to this is if the `astroquery` package is reported as
-out-of-date, always update to its pre-release version with pip:
-
-    (astropy-workshop) % pip install astroquery --pre --upgrade
 
 ## Additional Resources
 

@@ -92,8 +92,7 @@ latest PyPI release using:
 
     (astropy-workshop) % pip install packagename --upgrade
 
-If you know you need the pre-release version from PyPI (e.g., `astroquery`),
-use:
+If you know you need the pre-release version from PyPI, use:
 
     (astropy-workshop) % pip install packagename --pre --upgrade
 
