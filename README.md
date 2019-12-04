@@ -70,11 +70,9 @@ If you would like to get a head start with the tools we will be concentrating on
 * [Affiliated Packages](https://www.astropy.org/affiliated/)
 
 * Other tools we can answer questions about but probably won't discuss explicitly:
-  * [imexam](https://imexam.readthedocs.io/)
-  * [Ginga](https://ginga.readthedocs.io/) and [stginga](https://stginga.readthedocs.io/)
-  * [Glue](https://glueviz.org/)
-  * [SpecViz](https://specviz.readthedocs.io/en/latest/)
-  * [Generalized WCS](https://gwcs.readthedocs.io/en/stable/)
+  * [Numpy](https://numpy.org/)
+  * [Scipy](https://www.scipy.org/)
+  * [Jupyter](https://jupyter.org/)
   * [Git and Github](https://guides.github.com/activities/hello-world/)
   * [Git branching](https://learngitbranching.js.org/)
 
