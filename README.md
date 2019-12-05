@@ -36,8 +36,9 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
 ### Additional Helpers
 
-* Larry Bradley
 * Rebecca Lange
+* Larry Bradley
+* Tom Donaldson
 
 ## Description
 This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily
