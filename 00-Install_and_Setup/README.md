@@ -23,7 +23,7 @@ update your copy of the repository if updates are made.
 *Miniconda is a free minimal installer for conda. It is a small, bootstrap
 version of Anaconda that includes only conda, Python, the packages they depend
 on, and a small number of other useful packages, including pip, zlib and a few
-others. Note, though, that if you have either Miniconda or the full Anaconda 
+others. Note, though, that if you have either Miniconda or the full Anaconda
 already installed, you can skip to the next step.*
 
 Check if Miniconda is already installed.
@@ -39,7 +39,7 @@ On Windows, you might also need
 ## 3. Create a conda environment for the workshop
 
 *Miniconda includes an environment manager called conda. Environments
-allow you to have multiple sets of Python packages installed at the same 
+allow you to have multiple sets of Python packages installed at the same
 time, making reproducibility and upgrades easier. You can create,
 export, list, remove, and update environments that have different versions of
 Python and/or packages installed in them.*
@@ -120,6 +120,28 @@ The exception to this is if the `astroquery` package is reported as
 out-of-date, always update to its pre-release version with pip:
 
     (astropy-workshop) % pip install astroquery --pre --upgrade
+
+## 5. Check Jupyter Notebook
+
+In the conda environment created above, go into the directory
+of one of the chapters with notebooks (files ending with `.ipynb`)
+and start Jupyter notebook:
+
+    (astropy-workshop) % jupyter notebook
+
+If successful, your browser would open a new page/tab pointing to
+`localhost` and show you a listing of the directory.
+Click on a notebook and wait for it to launch. On the top right corner,
+if you see a blue "Kernel Ready" message appear and disappear,
+then all is well. However, if you see a red "Kernel Error," click on it
+and scroll down to see the error message. If it says `FileNotFoundError`,
+shut down the notebook server on your terminal and run this command:
+
+    (astropy-workshop) % python -m ipykernel install --user
+
+Now, try run `jupyter notebook` again as above, and the "Kernel Error"
+should be gone. Just to be sure, run the first cell (usually an `import`)
+and see if it is successful.
 
 ## Additional Resources
 
