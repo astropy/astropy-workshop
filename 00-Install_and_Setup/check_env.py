@@ -28,7 +28,7 @@ PKGS = {'IPython': '7.2',
         'astropy': '4.0',
         'asdf': None,
         'gwcs': '0.10',
-        'photutils': '0.5',
+        'photutils': '0.7.2',
         'specutils': '0.5.1',
         'glue_vispy_viewers': '0.6',
         'glue': '0.9.1',  # glueviz
