@@ -25,7 +25,7 @@ dependencies:
     - "astropy>=4.0rc1"
     - asdf
     - "gwcs>=0.10"
-    - "photutils>=0.5"
+    - "photutils>=0.7.2"
     - "specutils>=0.5.1"
     - "glue-vispy-viewers>=0.6"
     - "glueviz>=0.9.1"
