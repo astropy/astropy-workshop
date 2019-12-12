@@ -16,6 +16,7 @@ dependencies:
   - matplotlib>=2.2.3
   - pandas>=0.23
   - pip:
+    - pytest
     - beautifulsoup4
     - keyring
     - html5lib
