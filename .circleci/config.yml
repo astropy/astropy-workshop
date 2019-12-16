@@ -68,6 +68,7 @@ jobs:
       - run:
           name: Execute the notebooks
           command: |
+            source activate astropy-workshop
             which python
             python -m nbstatic execute .
 
