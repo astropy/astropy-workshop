@@ -58,11 +58,16 @@ jobs:
   test_linux:
     machine: true
     steps:
+      - *restore_cache
       - run: *install_pandoc
       - run: *setup_conda
       - checkout
       - run: *make_env
-      # TODO: run the tests
+      - *save_cache
+      - run:
+          name: Execute the notebooks
+          command: |
+            nbstatic execute .
 
   test_macos:
     macos:
@@ -96,6 +101,6 @@ workflows:
   version: 2
   default:
     jobs:
-      # - test_linux
+      - test_linux
       # - test_macos
       - test_windows
