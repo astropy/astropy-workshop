@@ -13,6 +13,9 @@ variables:
       paths:
         - $HOME/miniconda
 
+orbs:
+  win: circleci/windows@2.2.0
+
 install_pandoc: &install_pandoc
   name: Install pandoc
   command: |
@@ -56,6 +59,12 @@ jobs:
       - run: *install_pandoc
       - run: *setup_conda
       - run: *make_env
+      - checkout
+
+  test_windows:
+    executor:
+      name: win/default
+    steps:
       - checkout
 
 workflows:
