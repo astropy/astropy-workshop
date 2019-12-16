@@ -38,6 +38,7 @@ make_env: &make_env
   command: |
     conda env create -n astropy-workshop --file environment.yml
     conda activate astropy-workshop
+    python -m ipykernel install --user --name astropy-workshop
 
 jobs:
   test_linux:
