@@ -1,1 +1,2 @@
 ipykernel
+git+https://github.com/adrn/nbstatic

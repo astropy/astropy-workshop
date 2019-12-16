@@ -82,6 +82,10 @@ jobs:
       - run: *setup_conda_win
       - checkout
       - run: *make_env
+      - run:
+        name: Execute the notebooks
+        command: |
+          nbstatic execute .
 
 workflows:
   version: 2
