@@ -83,9 +83,9 @@ jobs:
       - checkout
       - run: *make_env
       - run:
-        name: Execute the notebooks
-        command: |
-          nbstatic execute .
+          name: Execute the notebooks
+          command: |
+            nbstatic execute .
 
 workflows:
   version: 2
