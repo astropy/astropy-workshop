@@ -33,12 +33,19 @@ setup_conda: &setup_conda
     conda info -a
     rm miniconda.sh
 
+make_env: &make_env
+  name: Make workshop environment
+  command: |
+    conda env create -n astropy-workshop --file environment.yml
+    conda activate astropy-workshop
+
 jobs:
   test_linux:
     machine: true
     steps:
       - run: *install_pandoc
       - run: *setup_conda
+      - run: *make_env
       - checkout
 
   test_macos:
@@ -47,6 +54,7 @@ jobs:
     steps:
       - run: *install_pandoc
       - run: *setup_conda
+      - run: *make_env
       - checkout
 
 workflows:
