@@ -79,9 +79,11 @@ jobs:
     executor:
       name: win/default
     steps:
+      - *restore_cache
       - run: *setup_conda_win
       - checkout
       - run: *make_env
+      - *save_cache
       - run:
           name: Execute the notebooks
           command: |
