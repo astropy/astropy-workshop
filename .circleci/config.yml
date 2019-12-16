@@ -39,7 +39,7 @@ setup_conda: &setup_conda
 make_env: &make_env
   name: Make workshop environment
   command: |
-    conda env create -n astropy-workshop --file environment.yml
+    conda create -n astropy-workshop --file environment.yml
     conda activate astropy-workshop
     python -m ipykernel install --user --name astropy-workshop
 
