@@ -68,7 +68,8 @@ jobs:
       - run:
           name: Execute the notebooks
           command: |
-            nbstatic execute .
+            which python
+            python -m nbstatic execute .
 
   # test_macos:
   #   macos:
