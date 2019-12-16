@@ -37,10 +37,13 @@ setup_conda: &setup_conda
     rm miniconda.sh
 
 setup_conda_win: &setup_conda_win
-  name: Install miniconda on Windows
+  name: Install miniconda for Windows
   command: |
     choco install miniconda3
     (& "C:\tools\miniconda3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
+    conda config --set always_yes yes
+    conda update -n base -c defaults conda
+    conda info -a
   shell: powershell.exe
 
 make_env: &make_env
