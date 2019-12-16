@@ -51,6 +51,7 @@ jobs:
       - run: *setup_conda
       - run: *make_env
       - checkout
+      # TODO: run the tests
 
   test_macos:
     macos:
@@ -60,7 +61,10 @@ jobs:
       - run: *setup_conda
       - run: *make_env
       - checkout
+      # TODO: run the tests
 
+  # TODO: fill out the windows build. I'm not sure how to set up conda on
+  # windows via circleci...
   test_windows:
     executor:
       name: win/default
