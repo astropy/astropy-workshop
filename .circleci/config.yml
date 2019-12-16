@@ -36,11 +36,19 @@ setup_conda: &setup_conda
     conda info -a
     rm miniconda.sh
 
+setup_conda_win: &setup_conda_win
+  name: Install miniconda on Windows
+  command: |
+    choco install miniconda3
+    (& "C:\tools\miniconda3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
+  shell: powershell.exe
+
 make_env: &make_env
   name: Make workshop environment
   command: |
     conda env create -n astropy-workshop --file 00-Install_and_Setup/environment.yml
     conda activate astropy-workshop
+    pip install -r .circleci/dev-requirements.txt
     python -m ipykernel install --user --name astropy-workshop
 
 jobs:
@@ -49,19 +57,21 @@ jobs:
     steps:
       - run: *install_pandoc
       - run: *setup_conda
-      - run: *make_env
       - checkout
+      - run: *make_env
       # TODO: run the tests
 
-  # test_macos:
-  #   macos:
-  #     xcode: "10.0.0"
-  #   steps:
-  #     - run: *install_pandoc
-  #     - run: *setup_conda
-  #     - run: *make_env
-  #     - checkout
-  #     # TODO: run the tests
+  test_macos:
+    macos:
+      xcode: "10.0.0"
+    steps:
+      - run: *install_pandoc
+      - run: *setup_conda
+      - checkout
+      - run: *make_env
+      # TODO: run the tests
+      # TODO: note that this currently doesn't run because we don't have a paid
+      # plan with circleci
 
   # TODO: fill out the windows build. I'm not sure how to set up conda on
   # windows via circleci...
@@ -69,11 +79,14 @@ jobs:
     executor:
       name: win/default
     steps:
+      - run: *setup_conda_win
       - checkout
+      - run: *make_env
 
 workflows:
   version: 2
   default:
     jobs:
-      - test_linux
-      - test_macos
+      # - test_linux
+      # - test_macos
+      - test_windows
