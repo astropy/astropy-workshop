@@ -35,6 +35,7 @@ setup_conda: &setup_conda
     conda update conda
     conda info -a
     rm miniconda.sh
+    conda init bash
 
 setup_conda_win: &setup_conda_win
   name: Install miniconda for Windows
@@ -52,16 +53,17 @@ make_env: &make_env
     conda env create -n astropy-workshop --file 00-Install_and_Setup/environment.yml
     conda activate astropy-workshop
     pip install -r .circleci/dev-requirements.txt
+    pip install git+https://github.com/adrn/nbstatic
     python -m ipykernel install --user --name astropy-workshop
 
 jobs:
   test_linux:
     machine: true
     steps:
+      - checkout
       - *restore_cache
       - run: *install_pandoc
       - run: *setup_conda
-      - checkout
       - run: *make_env
       - *save_cache
       - run:
@@ -69,27 +71,21 @@ jobs:
           command: |
             nbstatic execute .
 
-  test_macos:
-    macos:
-      xcode: "10.0.0"
-    steps:
-      - run: *install_pandoc
-      - run: *setup_conda
-      - checkout
-      - run: *make_env
+  # test_macos:
+  #   macos:
+  #     xcode: "10.0.0"
+  #   steps:
       # TODO: run the tests
       # TODO: note that this currently doesn't run because we don't have a paid
       # plan with circleci
 
-  # TODO: fill out the windows build. I'm not sure how to set up conda on
-  # windows via circleci...
   test_windows:
     executor:
       name: win/default
     steps:
+      - checkout
       - *restore_cache
       - run: *setup_conda_win
-      - checkout
       - run: *make_env
       - *save_cache
       - run:
