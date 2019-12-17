@@ -23,7 +23,7 @@ dependencies:
     - xlwt
     - requests
     - jupyterlab
-    - "astropy>=4.0rc1"
+    - "astropy>=4.0"
     - asdf
     - "gwcs>=0.10"
     - "photutils>=0.7.2"
