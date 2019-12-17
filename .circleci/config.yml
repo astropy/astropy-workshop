@@ -1,0 +1,112 @@
+# Python CircleCI 2.0 configuration file
+# Check https://circleci.com/docs/2.0/language-python/ for more details
+version: 2.1
+
+variables:
+  restore_cache: &restore_cache
+    restore_cache:
+      keys:
+        - miniconda-{{ checksum ".circleci/config.yml" }}-{{ arch }}
+  save_cache: &save_cache
+    save_cache:
+      key: miniconda-{{ checksum ".circleci/config.yml" }}-{{ arch }}
+      paths:
+        - $HOME/miniconda
+
+orbs:
+  win: circleci/windows@2.2.0
+
+install_pandoc: &install_pandoc
+  name: Install pandoc
+  command: |
+    sudo apt-get update
+    sudo apt-get install build-essential pandoc
+
+setup_conda: &setup_conda
+  name: Install miniconda
+  command: |
+    export MINICONDA=$HOME/miniconda
+    echo "export PATH=$MINICONDA/bin:$PATH" >> $BASH_ENV
+    source $BASH_ENV
+    hash -r
+    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+    bash miniconda.sh -b -f -p $MINICONDA
+    conda config --set always_yes yes
+    conda update conda
+    conda info -a
+    rm miniconda.sh
+
+setup_conda_win: &setup_conda_win
+  name: Install miniconda for Windows
+  command: |
+    choco install miniconda3
+    (& "C:\tools\miniconda3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
+    conda config --set always_yes yes
+    conda update -n base -c defaults conda
+    conda info -a
+  shell: powershell.exe
+
+make_env: &make_env
+  name: Make workshop environment
+  command: |
+    conda env create -n astropy-workshop --file 00-Install_and_Setup/environment.yml
+    source activate astropy-workshop
+    pip install -r .circleci/dev-requirements.txt
+    pip install git+https://github.com/adrn/nbstatic
+    python -m ipykernel install --user --name astropy-workshop
+
+execute_nb: &execute_nb
+  name: Execute the notebooks
+  command: |
+    source activate astropy-workshop
+    which python
+    python -m nbstatic execute .
+
+convert_nb: &convert_nb
+  name: Convert the notebooks to HTML
+  command: |
+    source activate astropy-workshop
+    which python
+    python -m nbstatic convert .
+
+jobs:
+  test_linux:
+    machine: true
+    steps:
+      - checkout
+      - *restore_cache
+      - run: *install_pandoc
+      - run: *setup_conda
+      - run: *make_env
+      - *save_cache
+      - run: *execute_nb
+      - run: *convert_nb  # only do this on linux
+      # TODO: now deploy converted notebooks to gh-pages
+
+
+  # test_macos:
+  #   macos:
+  #     xcode: "10.0.0"
+  #   steps:
+      # TODO: run the tests
+      # TODO: note that this currently doesn't run because we don't have a paid
+      # plan with circleci
+
+  test_windows:
+    executor:
+      name: win/default
+    steps:
+      - checkout
+      - *restore_cache
+      - run: *setup_conda_win
+      - run: *make_env
+      - *save_cache
+      - run: *execute_nb
+
+workflows:
+  version: 2
+  default:
+    jobs:
+      - test_linux
+      # - test_macos
+      # - test_windows
