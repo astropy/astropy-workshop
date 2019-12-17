@@ -55,6 +55,20 @@ make_env: &make_env
     pip install git+https://github.com/adrn/nbstatic
     python -m ipykernel install --user --name astropy-workshop
 
+execute_nb: &execute_nb
+  name: Execute the notebooks
+  command: |
+    source activate astropy-workshop
+    which python
+    python -m nbstatic execute .
+
+convert_nb: &convert_nb
+  name: Convert the notebooks to HTML
+  command: |
+    source activate astropy-workshop
+    which python
+    python -m nbstatic convert .
+
 jobs:
   test_linux:
     machine: true
@@ -65,12 +79,10 @@ jobs:
       - run: *setup_conda
       - run: *make_env
       - *save_cache
-      - run:
-          name: Execute the notebooks
-          command: |
-            source activate astropy-workshop
-            which python
-            python -m nbstatic execute .
+      - run: *execute_nb
+      - run: *convert_nb  # only do this on linux
+      # TODO: now deploy converted notebooks to gh-pages
+
 
   # test_macos:
   #   macos:
@@ -89,10 +101,7 @@ jobs:
       - run: *setup_conda_win
       - run: *make_env
       - *save_cache
-      - run:
-          name: Execute the notebooks
-          command: |
-            nbstatic execute .
+      - run: *execute_nb
 
 workflows:
   version: 2
