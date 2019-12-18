@@ -12,7 +12,7 @@ https://github.com/astropy/astropy-workshop/blob/master/00-Install_and_Setup
 
 Please be sure your laptop is properly configured BEFORE the workshop. The setup could take as long as one hour depending on your current configuration and internet speeds. If you have any trouble, please open an issue in the repo using https://github.com/astropy/astropy-workshop#problems-or-questions or post a message on the #workshop Slack channel in the Astropy workspace (described below). If on the morning of the workshop, you still have doubts or questions about your laptop setup, please arrive promptly at 9am.
 
-Our facilitators are still working the content of the workshop notebooks. We are pleased to be able to present features from our new 4.0 release of the astropy core package. We will send one more email just before the workshop with instructions to update to the final version of the notebooks.
+Our facilitators are still working on the content of the workshop notebooks. We are pleased to be able to present features from our new 4.0 release of the astropy core package. We will send one more email just before the workshop with instructions to update to the final version of the notebooks.
 
 __Schedule__
 https://github.com/astropy/astropy-workshop
@@ -23,11 +23,11 @@ This workshop is sold out and we are anticipating folks to show up who did not p
 
 Continental breakfast will be available from 9-10:30 and there will be snacks and coffee again in the afternoon. Lunch will NOT be provided.
 
-Slack Channel
+__Slack Channel__
 http://astropy-slack-invite.herokuapp.com/
 Please join the #workshop channel in the Astropy slack. 
 
-Looking forward!
+Looking forward to seeing you there!
 
 David Shupe, on behalf of the workshop team:
 
@@ -45,4 +45,3 @@ _Organizers and Contributors_
 * Lia Corrales
 * Kelle Cruz
 * Brett Morris
-
