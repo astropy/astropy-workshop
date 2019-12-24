@@ -1,3 +1,3 @@
-### WCS and Images
+### Modeling
 
 **Author**:  Unknown

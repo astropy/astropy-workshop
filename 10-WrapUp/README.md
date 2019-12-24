@@ -1,3 +1,3 @@
-### WCS and Images
+### Wrap-Up
 
 **Author**:  Unknown
