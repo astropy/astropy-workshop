@@ -1,3 +1,3 @@
 ### Wrap-Up
 
-**Author**:  Unknown
+**Author**: Erik Tollerud & Kelle Cruz
