@@ -1,3 +1,3 @@
 ### WCS and Images
 
-**Author**:  Unknown
+**Authors**: Megan Sosey, Juan Cabanela, & Adrian Price-Whelan

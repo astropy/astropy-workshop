@@ -1,3 +1,3 @@
 ### Astropy Coordinates
 
-**Author**:  Unknown
+**Authors**: Erik Tollerud & Adrian Price-Whelan

@@ -1,3 +1,3 @@
 ### Introduction and Code of Conduct
 
-**Author**:  Unknown
+**Authors**: Erik Tollerud & Kelle Cruz
