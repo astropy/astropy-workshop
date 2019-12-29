@@ -15,6 +15,8 @@ dependencies:
   - scikit-image>=0.14
   - matplotlib>=2.2.3
   - pandas>=0.23
+  - glue-vispy-viewers>=0.6
+  - glueviz>=0.9.1
   - pip:
     - pytest
     - beautifulsoup4
@@ -28,7 +30,5 @@ dependencies:
     - "gwcs>=0.10"
     - "photutils>=0.7.2"
     - "specutils>=0.5.1"
-    - "glue-vispy-viewers>=0.6"
-    - "glueviz>=0.9.1"
     - astroquery
     - --pre
