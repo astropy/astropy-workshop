@@ -22,16 +22,16 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 |9:45 - 10:15  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Pey Lian Lim |
 |**10:15 - 10:30**  |  **BREAK** |  |
 |*10:30* | *Last call on breakfast* | |
-|10:30 - 11:00 | [Coordinates](04-Coordinates) | Adrian Price-Whelan |
-|11:00 - 11:30 | [I/O: FITS and ASCII](05-FITS) | Pey Lian Lim |
-|11:30 - 12:00 | [Astropy Tables](06-Tables)| Brigitta Sipőcz |
-|**12:00 - 1:00**| **LUNCH** | *On your own* |
-|1:00 - 1:15 | [Astropy Communities](10-WrapUp) | Adrian Price-Whelan |
-|1:15 - 1:45 | [Contributing to Astropy](10-WrapUp) | Brigitta Sipőcz |
-|1:45 - 2:15 | [WCS and Images](08-WCS) | David Shupe |
-**2:15 - 2:45** | **BREAK** | *Snacks Provided* |
-|2:45 - 3:45 | [Photutils](09-Photutils) | Clare Shanahan |
-|3:45 - 4:45 | [Specutils](09b-Specutils) | Erik Tollerud |
+|10:30 - 11:15 | [Coordinates](04-Coordinates) | Adrian Price-Whelan |
+|11:15 - 11:45 | [I/O: FITS and ASCII](05-FITS) | Pey Lian Lim |
+|11:45 - 12:15 | [Astropy Tables](06-Tables)| Brigitta Sipőcz |
+|**12:15 - 1:15**| **LUNCH** | *On your own* |
+|1:15 - 1:30 | [Astropy Communities](10-WrapUp) | Adrian Price-Whelan |
+|1:30 - 1:45 | [Contributing to Astropy](10-WrapUp) | Brigitta Sipőcz |
+|1:45 - 2:30 | [WCS and Images](08-WCS) | David Shupe |
+**2:30 - 3:00** | **BREAK** | *Snacks Provided* |
+|3:00 - 4:00 | [Photutils](09-Photutils) | Clare Shanahan |
+|4:00 - 4:45 | [Specutils](09b-Specutils) | Erik Tollerud |
 |4:45 - 5:00 | [Survey](10-WrapUp) | Erik Tollerud |
 
 ### Additional Helpers
