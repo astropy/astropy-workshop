@@ -1,3 +1,3 @@
-### Astropy Coordinates
+### Modeling
 
 **Authors**: Erik Tollerud & Adrian Price-Whelan

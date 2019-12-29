@@ -14,7 +14,7 @@ This could take as long as *one hour* depending on your current configuration an
 DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
 ## Schedule
-| Time              | Topic    | Presenter |
+| Time              | Topic    | Presenter/Instructor |
 |-------------------|----------|-----------|
 |**9:00** | **Continental Breakfast** | |
 |9:00 - 9:30    | [Install and config](00-Install_and_Setup) help, if needed  | All |

@@ -1,5 +1,3 @@
 ### Astropy Tables
 
-**Instructor**:  Brigitta Sipocz
-
-**Authors**: Tim Pickering, Tom Aldcroft
+**Authors**: Tim Pickering & Tom Aldcroft

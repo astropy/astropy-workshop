@@ -1,4 +1,3 @@
 ### WCS and Images
 
-**Instructor**:  David Shupe
-
+**Authors**: Megan Sosey, Juan Cabanela, & Adrian Price-Whelan

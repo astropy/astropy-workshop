@@ -1,5 +1,4 @@
 ### Astropy Units, Quantities, and Constants
 
-**Instructor**: Pey Lian Lim
-
-**Author**: Larry Bradley
+**Authors**: Larry Bradley, , Pey Lian Lim, Juan Cabanela, David Shupe,
+Kelle Cruz, Adrian Price-Whelan, & Brett Morris
