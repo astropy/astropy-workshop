@@ -13,6 +13,8 @@ Please be sure your laptop is properly configured before the workshop by followi
 This could take as long as *one hour* depending on your current configuration and internet speeds.
 DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astropy/astropy-workshop/master)
+
 ## Schedule
 | Time              | Topic    | Presenter/Instructor |
 |-------------------|----------|-----------|
