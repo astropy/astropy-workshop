@@ -69,18 +69,12 @@ On Windows:
 
     % cd astropy-workshop\00-Install_and_Setup\
 
-On any platform, to create the astropy-workshop
-environment and install all required packages, type:
+And finally, on any platform, to install and activate the astropy-workshop environment, type:
 
     % conda env create -n astropy-workshop --file environment.yml
-  
-  To activate the environment on Mac/Linux:
-
-    % source activate astropy-workshop
-  
-  On Windows:
-    
     % conda activate astropy-workshop
+
+Note, you will need conda version 4.6 and later. If you need to update your version use `conda update conda`.
 
 ## 4. Check Installation
 
