@@ -80,8 +80,8 @@ jobs:
       - run: *make_env
       - *save_cache
       - run: *execute_nb
-      - run: *convert_nb  # only do this on linux
-      # TODO: now deploy converted notebooks to gh-pages
+      # TODO: now convert and deploy converted notebooks to gh-pages
+      # - run: *convert_nb  # only do this on linux
 
 
   # test_macos:
@@ -109,4 +109,4 @@ workflows:
     jobs:
       - test_linux
       # - test_macos
-      # - test_windows
+      - test_windows
