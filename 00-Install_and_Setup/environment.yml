@@ -27,8 +27,8 @@ dependencies:
     - jupyterlab
     - "astropy>=4.0"
     - asdf
-    - "gwcs>=0.10"
+    - "gwcs>=0.12"
     - "photutils>=0.7.2"
-    - "specutils>=0.5.1"
+    - "specutils>=0.7"
     - astroquery
     - --pre
