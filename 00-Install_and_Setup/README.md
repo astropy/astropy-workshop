@@ -5,6 +5,10 @@ If you have any problems with any of these steps, please check if your problem h
 already been reported at [the issue tracker](https://github.com/astropy/astropy-workshop/issues/). If not,
 [ask your question in the issue tracker](https://github.com/astropy/astropy-workshop/issues/new?assignees=&labels=workshop-question&template=question-from-workshop-participant.md&title=%5BQuestion%5D+Summarize+your+question+here).
 
+For the commands shown, `%` (and anything to the left of it) represents the
+terminal prompt. You do not need to copy it; instead only copy the command to the
+right of `%`.
+
 ## 1. Clone This Repository
 
 Download the workshop folder using
