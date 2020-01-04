@@ -13,9 +13,9 @@ Please be sure your laptop is properly configured before the workshop by followi
 This could take as long as *one hour* depending on your current configuration and internet speeds.
 DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://binder.flatironinstitute.org/v2/user/apricewhelan/aas-astropy)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astropy/astropy-workshop/master)
 
-[Alternate Binder Instance at mybinder.org](https://mybinder.org/v2/gh/astropy/astropy-workshop/master)
+[Alternate Binder Instance at the Flatiron Institute](https://binder.flatironinstitute.org/v2/user/apricewhelan/aas-astropy)
 
 ## Schedule
 | Time              | Topic    | Presenter/Instructor |
