@@ -15,6 +15,8 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astropy/astropy-workshop/master)
 
+[Alternate Binder Instance at the Flatiron Institute](https://binder.flatironinstitute.org/v2/user/apricewhelan/aas-astropy)
+
 ## Schedule
 | Time              | Topic    | Presenter/Instructor |
 |-------------------|----------|-----------|
