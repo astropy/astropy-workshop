@@ -35,6 +35,7 @@ setup_conda: &setup_conda
     conda update conda
     conda info -a
     rm miniconda.sh
+    conda init bash
 
 setup_conda_win: &setup_conda_win
   name: Install miniconda for Windows
