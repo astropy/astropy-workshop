@@ -35,7 +35,6 @@ setup_conda: &setup_conda
     conda update conda
     conda info -a
     rm miniconda.sh
-    conda init bash
 
 setup_conda_win: &setup_conda_win
   name: Install miniconda for Windows
@@ -50,6 +49,8 @@ setup_conda_win: &setup_conda_win
 make_env: &make_env
   name: Make workshop environment
   command: |
+    conda init bash
+    source ~/.bashrc
     conda env create -n astropy-workshop --file 00-Install_and_Setup/environment.yml
     conda activate astropy-workshop
     pip install -r .circleci/dev-requirements.txt
