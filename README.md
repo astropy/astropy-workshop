@@ -1,10 +1,10 @@
 Using Python and Astropy for Astronomical Data Analysis
 =======================================================
-*Workshop at the 235th Meeting of the AAS in Honolulu*
+*Workshop at the 237th Meeting of the AAS held online*
 
-* **DATE:** Saturday, 4 January 2020
-* **TIME:** 9:00am - 5:30pm
-* **LOCATION:** ROOM 301B at the Hawai'i Convention Center
+* **DATE:** , 7-8 January 2021
+* **TIME:** 11:00am - 2:00pm ET both days
+* **LOCATION:** Zoom webinar
 
 ## PRE-WORKSHOP SETUP
 Please be sure your laptop is properly configured before the workshop by following the
@@ -17,32 +17,29 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
 [Alternate Binder Instance at the Flatiron Institute](https://binder.flatironinstitute.org/v2/user/apricewhelan/aas-astropy)
 
-## Schedule
+## Schedule - TO BE UBDEATED
 | Time              | Topic    | Presenter/Instructor |
 |-------------------|----------|-----------|
 |**9:00** | **Continental Breakfast** | |
 |9:00 - 9:30    | [Install and config](00-Install_and_Setup) help, if needed  | All |
-|9:30 - 9:45 | [Intro to Astropy and Code of Conduct](01-IntroCoC) | Erik Tollerud |
-|9:45 - 10:15  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Pey Lian Lim |
+|9:30 - 9:45 | [Intro to Astropy and Code of Conduct](01-IntroCoC) | TBD |
+|9:45 - 10:15  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | TBD |
 |**10:15 - 10:30**  |  **BREAK** |  |
-|*10:30* | *Last call on breakfast* | |
-|10:30 - 11:15 | [Coordinates](04-Coordinates) | Adrian Price-Whelan |
-|11:15 - 11:45 | [I/O: FITS and ASCII](05-FITS) | Pey Lian Lim |
-|11:45 - 12:15 | [Astropy Tables](06-Tables)| Brigitta Sipőcz |
-|**12:15 - 1:15**| **LUNCH** | *On your own* |
-|1:15 - 1:30 | [Astropy Communities](10-WrapUp) | Adrian Price-Whelan |
-|1:30 - 1:45 | [Contributing to Astropy](10-WrapUp) | Brigitta Sipőcz |
-|1:45 - 2:30 | [WCS and Images](08-WCS) | David Shupe |
-**2:30 - 3:00** | **BREAK** | *Snacks Provided* |
-|3:00 - 4:00 | [Photutils](09-Photutils) | Clare Shanahan |
-|4:00 - 4:45 | [Specutils](09b-Specutils) | Erik Tollerud |
-|4:45 - 5:00 | [Survey](10-WrapUp) | Erik Tollerud |
+|10:30 - 11:15 | [Coordinates](04-Coordinates) | TBD |
+|11:15 - 11:45 | [I/O: FITS and ASCII](05-FITS) | TBD |
+|11:45 - 12:15 | [Astropy Tables](06-Tables)| TBD |
+|1:15 - 1:30 | [Astropy Communities](10-WrapUp) | TBD |
+|1:30 - 1:45 | [Contributing to Astropy](10-WrapUp) | TBD |
+|1:45 - 2:30 | [WCS and Images](08-WCS) | TBD |
+**2:30 - 3:00** | **BREAK** |  |
+|3:00 - 4:00 | [Photutils](09-Photutils) | TBD |
+|4:00 - 4:45 | [Specutils](09b-Specutils) | TBD |
+|4:45 - 5:00 | [Survey](10-WrapUp) | TBD |
 
 ### Additional Helpers
 
-* Rebecca Lange
-* Larry Bradley
-* Tom Donaldson
+* TBD
+* TBD
 
 ## Description
 This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily
@@ -89,5 +86,4 @@ by choosing the "Question from workshop participant" issue template.
 
 ## Past Workshops
 
-Materials from past workshops can be found here:
-https://github.com/astropy/past-astropy-workshops
+Materials from past workshops can be found in other branches on this repo and in the [past-astropy-workshops repo](https://github.com/astropy/past-astropy-workshops).
