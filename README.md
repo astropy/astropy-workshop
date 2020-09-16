@@ -17,7 +17,7 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
 [Alternate Binder Instance at the Flatiron Institute](https://binder.flatironinstitute.org/v2/user/apricewhelan/aas-astropy)
 
-## Schedule - TO BE UBDEATED
+## Schedule - TO BE UBDATED
 | Time              | Topic    | Presenter/Instructor |
 |-------------------|----------|-----------|
 |**9:00** | **Continental Breakfast** | |
