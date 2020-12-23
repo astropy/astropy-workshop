@@ -15,26 +15,32 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astropy/astropy-workshop/master)
 
-[Alternate Binder Instance at the Flatiron Institute](https://binder.flatironinstitute.org/v2/user/apricewhelan/aas-astropy)
+## Schedule - Presenters To Be Confirmed
 
-## Schedule - TO BE UBDATED
-| Time              | Topic    | Presenter/Instructor |
+**First Session: January 7, 2021**
+| Time (EST)        | Topic    | Presenter/Instructor |
 |-------------------|----------|-----------|
-|**9:00** | **Continental Breakfast** | |
-|9:00 - 9:30    | [Install and config](00-Install_and_Setup) help, if needed  | All |
-|9:30 - 9:45 | [Intro to Astropy and Code of Conduct](01-IntroCoC) | TBD |
-|9:45 - 10:15  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | TBD |
-|**10:15 - 10:30**  |  **BREAK** |  |
-|10:30 - 11:15 | [Coordinates](04-Coordinates) | TBD |
-|11:15 - 11:45 | [I/O: FITS and ASCII](05-FITS) | TBD |
-|11:45 - 12:15 | [Astropy Tables](06-Tables)| TBD |
-|1:15 - 1:30 | [Astropy Communities](10-WrapUp) | TBD |
-|1:30 - 1:45 | [Contributing to Astropy](10-WrapUp) | TBD |
-|1:45 - 2:30 | [WCS and Images](08-WCS) | TBD |
-**2:30 - 3:00** | **BREAK** |  |
-|3:00 - 4:00 | [Photutils](09-Photutils) | TBD |
-|4:00 - 4:45 | [Specutils](09b-Specutils) | TBD |
-|4:45 - 5:00 | [Survey](10-WrapUp) | TBD |
+|11:00 - 11:10    | [Install and config](00-Install_and_Setup) help, if needed  | David Shupe |
+|11:10 - 11:20 | [Intro to Astropy and Code of Conduct](01-IntroCoC) | Lia Corrales |
+|11:20 - 12:00  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Lia Corrales |
+|12:00 - 12:30 | [Coordinates](04-Coordinates) | Erik Tollerud |
+|**12:30 - 12:40**  |  **BREAK** - Have your favorite snack ready! |  |
+|12:40 - 1:10 | [I/O: FITS and ASCII](05-FITS) | Brett Morris |
+|1:10 - 1:30 | [Astropy Tables](06-Tables)| Brett Morris |
+|1:30 - 1:50 | [Visualizing Images with Coordinates](08-WCS) | David Shupe |
+|1:50 - 2:00 | [Astropy Communities](10-WrapUp) | David Shupe |
+
+**Second Session: January 8, 2021**
+| Time (EST)        | Topic    | Presenter/Instructor |
+|-------------------|----------|-----------|
+|11:00 - 11:10    | [Install and config](00-Install_and_Setup) help, if needed  | David Shupe |
+|11:10 - 11:20 | [Intro to Astropy and Code of Conduct](01-IntroCoC) | Brett Morris |
+|11:20 - 11:45 | Intro to Object Oriented Programming (OOP) | Brett Morris |
+|11:45 - 12:15 | Intro to ccdproc and guide } Matt Craig? |
+|**12:15 - 12:25**  |  **BREAK** - Have your favorite snack ready! |  |
+|12:25 - 1:10 | [Photutils](09-Photutils) | TBD (possibly C. Shanahan or L. Bradley) |
+|1:10 - 1:50 | [Specutils](09b-Specutils) | Erik Tollerud |
+|1:50 - 2:00 | [Astropy Communities & Contributing to Astropy](10-WrapUp) | Erik Tollerud |
 
 ### Additional Helpers
 
