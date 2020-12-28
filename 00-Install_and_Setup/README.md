@@ -144,6 +144,17 @@ Now, try run `jupyter notebook` again as above, and the "Kernel Error"
 should be gone. Just to be sure, run the first cell (usually an `import`)
 and see if it is successful.
 
+Furthermore, to ensure that the notebook is picking up `astropy` from
+the correct environment, create a new cell in the notebook (use the `+`
+button in the top menu) and run the following code:
+
+    import astropy
+    print(astropy.__version__)
+
+If the reported `astropy` version is older than expected and you have
+not run the `python -m ipykernel install --user` command, then run it
+as instructed above.
+
 ## Additional Resources
 
 - [Set up git](https://help.github.com/articles/set-up-git/)
