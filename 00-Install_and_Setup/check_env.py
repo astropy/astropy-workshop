@@ -10,29 +10,27 @@ from distutils.version import LooseVersion
 
 # NOTE: Update minversion values as needed.
 # This should match environment.yml file.
-PKGS = {'IPython': '7.2',
+PKGS = {'IPython': '7.17',
         'cython': None,
         'jupyter': None,
-        'notebook': '5.7',
+        'notebook': '6.0',
         'numpy': '1.16',
-        'scipy': '1.1',
-        'skimage': '0.14',
-        'matplotlib': '2.2.3',
-        'pandas': '0.23',
+        'scipy': '1.5',
+        'skimage': '0.17',
+        'matplotlib': '3.2',
+        'pandas': '1.0',
         'bs4': None,  # beautifulsoup4
         'keyring': None,
         'html5lib': None,
         'xlwt': None,
         'requests': None,
         'jupyterlab': None,
-        'astropy': '4.0',
+        'astropy': '4.2',
         'asdf': None,
-        'gwcs': '0.10',
-        'photutils': '0.7.2',
-        'specutils': '0.5.1',
-        'glue_vispy_viewers': '0.6',
-        'glue': '0.9.1',  # glueviz
-        'astroquery': '0.3'}
+        'gwcs': '0.16',
+        'photutils': '1.0.1',
+        'specutils': '1.0',
+        'astroquery': '0.4.1'}
 
 
 def check_package(package_name, minimum_version=None, verbose=True):

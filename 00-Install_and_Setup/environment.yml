@@ -5,18 +5,16 @@ channels:
 
 dependencies:
   - pip
-  - python=3.7
-  - ipython>=7.2
+  - python=3.8
+  - ipython>=7.17
   - cython
   - jupyter
-  - notebook>=5.7
+  - notebook>=6.0
   - numpy>=1.16
-  - scipy>=1.1
-  - scikit-image>=0.14
-  - matplotlib>=2.2.3
-  - pandas>=0.23
-  - glue-vispy-viewers>=0.6
-  - glueviz>=0.9.1
+  - scipy>=1.5
+  - scikit-image>=0.17
+  - matplotlib>=3.2
+  - pandas>=1.0
   - pip:
     - pytest
     - beautifulsoup4
@@ -25,10 +23,9 @@ dependencies:
     - xlwt
     - requests
     - jupyterlab
-    - "astropy>=4.0"
+    - "astropy>=4.2"
     - asdf
-    - "gwcs>=0.12"
-    - "photutils>=0.7.2"
-    - "specutils>=0.7"
+    - "gwcs>=0.16"
+    - "photutils>=1.0.1"
+    - "specutils>=1.0"
     - astroquery
-    - --pre
