@@ -10,7 +10,6 @@ dependencies:
   - cython
   - jupyter
   - notebook>=6.0
-  - jupyter-offlinenotebook
   - numpy>=1.16
   - scipy>=1.5
   - scikit-image>=0.17
@@ -24,6 +23,7 @@ dependencies:
     - xlwt
     - requests
     - jupyterlab
+    - jupyter-offlinenotebook
     - nbzip
     - nbgitpuller
     - "astropy>=4.2"
