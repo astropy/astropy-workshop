@@ -21,6 +21,7 @@ dependencies:
     - keyring
     - html5lib
     - xlwt
+    - xlrd
     - requests
     - jupyterlab
     - jupyter-offlinenotebook
