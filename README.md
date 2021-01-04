@@ -13,11 +13,11 @@ Please be sure your laptop is properly configured before the workshop by followi
 This could take as long as *one hour* depending on your current configuration and internet speeds.
 DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astropy/astropy-workshop/main)
+As an alternative, a workshop session can be run on mybinder.org via this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stargaser/workshop-env/astropy-env?urlpath=git-pull?repo=https://github.com/astropy/astropy-workshop)
 
-## Schedule - Presenters To Be Confirmed
+## Schedule
 
-**First Session: January 7, 2021**
+**Intro to Astropy (beginners): January 7, 2021**
 | Time (EST)        | Topic    | Presenter/Instructor |
 |-------------------|----------|-----------|
 |11:00 - 11:10    | [Install and config](00-Install_and_Setup) help, if needed  | David Shupe |
@@ -30,21 +30,20 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 |1:30 - 1:50 | [Visualizing Images with Coordinates](08-WCS) | David Shupe |
 |1:50 - 2:00 | [Astropy Communities](10-WrapUp) | David Shupe |
 
-**Second Session: January 8, 2021**
+**Astronomical Research with Astropy: January 8, 2021**
 | Time (EST)        | Topic    | Presenter/Instructor |
 |-------------------|----------|-----------|
 |11:00 - 11:10    | [Install and config](00-Install_and_Setup) help, if needed  | David Shupe |
 |11:10 - 11:20 | [Intro to Astropy and Code of Conduct](01-IntroCoC) | Brett Morris |
 |11:20 - 11:45 | Intro to Object Oriented Programming (OOP) | Brett Morris |
-|11:45 - 12:15 | Intro to ccdproc and guide } Matt Craig? |
-|**12:15 - 12:25**  |  **BREAK** - Have your favorite snack ready! |  |
-|12:25 - 1:10 | [Photutils](09-Photutils) | TBD (possibly C. Shanahan or L. Bradley) |
-|1:10 - 1:50 | [Specutils](09b-Specutils) | Erik Tollerud |
+|11:45 - 12:30 | [Specutils](09b-Specutils) | Erik Tollerud |
+|**12:30 - 12:40**  |  **BREAK** - Have your favorite snack ready! |  |
+|12:40 - 1:10 | Intro to ccdproc and guide } Matt Craig (TBC) |
+|1:10 - 1:50 | [Photutils](09-Photutils) | Larry Bradley |
 |1:50 - 2:00 | [Astropy Communities & Contributing to Astropy](10-WrapUp) | Erik Tollerud |
 
 ### Additional Helpers
 
-* TBD
 * TBD
 
 ## Description
