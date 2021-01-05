@@ -6,7 +6,7 @@ channels:
 dependencies:
   - pip
   - python=3.8
-  - ipython>=7.17
+  - ipython>=7.2
   - cython
   - jupyter
   - notebook>=6.0
