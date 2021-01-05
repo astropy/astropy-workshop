@@ -1,3 +1,3 @@
-### WCS and Images
+### Image Coordinates and Visualization
 
-**Authors**: Megan Sosey, Juan Cabanela, & Adrian Price-Whelan
+**Authors**: Megan Sosey, Juan Cabanela, Adrian Price-Whelan, David Shupe
