@@ -6,11 +6,10 @@ channels:
 dependencies:
   - pip
   - python=3.8
-  - ipython>=7.17
+  - ipython>=7.2
   - cython
   - jupyter
   - notebook>=6.0
-  - jupyter-offlinenotebook>=0.1.0
   - numpy>=1.16
   - scipy>=1.5
   - scikit-image>=0.17
@@ -22,8 +21,10 @@ dependencies:
     - keyring
     - html5lib
     - xlwt
+    - xlrd
     - requests
     - jupyterlab
+    - jupyter-offlinenotebook
     - nbzip
     - nbgitpuller
     - "astropy>=4.2"

@@ -10,7 +10,7 @@ from distutils.version import LooseVersion
 
 # NOTE: Update minversion values as needed.
 # This should match environment.yml file.
-PKGS = {'IPython': '7.17',
+PKGS = {'IPython': '7.2',
         'cython': None,
         'jupyter': None,
         'notebook': '6.0',
@@ -23,6 +23,7 @@ PKGS = {'IPython': '7.17',
         'keyring': None,
         'html5lib': None,
         'xlwt': None,
+        'xlrd': None,
         'requests': None,
         'jupyterlab': None,
         'nbgitpuller': None,
