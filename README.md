@@ -73,6 +73,7 @@ If you would like to get a head start with the tools we will be concentrating on
 * [Astropy WCS](https://docs.astropy.org/en/stable/wcs/index.html)
 * [photutils](https://photutils.readthedocs.io/)
 * [specutils](https://specutils.readthedocs.io/)
+* [ccdproc package documentation](https://ccdproc.readthedocs.io/en/latest/) and a more [extended guide to image reduction with ccdproc](https://github.com/astropy/ccd-reduction-and-photometry-guide)
 * [Contributing to Astropy](https://docs.astropy.org/en/stable/development/workflow/development_workflow.html)
 * [Affiliated Packages](https://www.astropy.org/affiliated/)
 
