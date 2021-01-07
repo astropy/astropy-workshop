@@ -27,7 +27,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |**12:30 - 12:40**  |  **BREAK** - Have your favorite snack ready! |  |
 |12:40 - 1:10 | [I/O: FITS and ASCII](05-FITS) | Brett Morris |
 |1:10 - 1:30 | [Astropy Tables](06-Tables)| Brett Morris |
-|1:30 - 1:50 | [Visualizing Images with Coordinates](08-WCS) | David Shupe |
+|1:30 - 1:50 | [Visualizing Images with Coordinates](08-Image-coords) | David Shupe |
 |1:50 - 2:00 | [Astropy Communities](10-WrapUp) | David Shupe |
 
 **Astronomical Research with Astropy: January 8, 2021**
