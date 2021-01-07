@@ -44,7 +44,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 
 ### Additional Helpers
 
-* TBD
+* Kelle Cruz
 
 ## Description
 This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily
