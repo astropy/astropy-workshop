@@ -35,7 +35,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |-------------------|----------|-----------|
 |11:00 - 11:10    | [Install and config](00-Install_and_Setup) help, if needed  | David Shupe |
 |11:10 - 11:20 | [Intro to Astropy and Code of Conduct](01-IntroCoC) | Brett Morris |
-|11:20 - 11:45 | Intro to Object Oriented Programming (OOP) | Brett Morris |
+|11:20 - 11:45 | [Intro to Object Oriented Programming (OOP)](02b-OOP) | Brett Morris |
 |11:45 - 12:30 | [Specutils](09b-Specutils) | Erik Tollerud |
 |**12:30 - 12:40**  |  **BREAK** - Have your favorite snack ready! |  |
 |12:40 - 1:10 | [Intro to ccdproc and guide](09c-Ccdproc) | Matt Craig |
