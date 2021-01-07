@@ -31,5 +31,5 @@ dependencies:
     - asdf
     - "gwcs>=0.16"
     - "photutils>=1.0.1"
-    - "specutils>=1.0"
+    - "specutils>=1.1.1"
     - astroquery
