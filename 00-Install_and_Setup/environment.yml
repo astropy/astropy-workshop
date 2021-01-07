@@ -15,6 +15,7 @@ dependencies:
   - scikit-image>=0.17
   - matplotlib>=3.2
   - pandas>=1.0
+  - ccdproc
   - pip:
     - pytest
     - beautifulsoup4

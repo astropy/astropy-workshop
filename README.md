@@ -38,7 +38,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |11:20 - 11:45 | Intro to Object Oriented Programming (OOP) | Brett Morris |
 |11:45 - 12:30 | [Specutils](09b-Specutils) | Erik Tollerud |
 |**12:30 - 12:40**  |  **BREAK** - Have your favorite snack ready! |  |
-|12:40 - 1:10 | Intro to ccdproc and guide } Matt Craig (TBC) |
+|12:40 - 1:10 | [Intro to ccdproc and guide](09c-Ccdproc) | Matt Craig |
 |1:10 - 1:50 | [Photutils](09-Photutils) | Larry Bradley |
 |1:50 - 2:00 | [Astropy Communities & Contributing to Astropy](10-WrapUp) | Erik Tollerud |
 
@@ -73,6 +73,7 @@ If you would like to get a head start with the tools we will be concentrating on
 * [Astropy WCS](https://docs.astropy.org/en/stable/wcs/index.html)
 * [photutils](https://photutils.readthedocs.io/)
 * [specutils](https://specutils.readthedocs.io/)
+* [ccdproc package documentation](https://ccdproc.readthedocs.io/en/latest/) and a more [extended guide to image reduction with ccdproc](https://github.com/astropy/ccd-reduction-and-photometry-guide)
 * [Contributing to Astropy](https://docs.astropy.org/en/stable/development/workflow/development_workflow.html)
 * [Affiliated Packages](https://www.astropy.org/affiliated/)
 
