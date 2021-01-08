@@ -30,8 +30,9 @@ PKGS = {'IPython': '7.2',
         'astropy': '4.2',
         'asdf': None,
         'gwcs': '0.16',
+        'ccdproc': '2.0',
         'photutils': '1.0.1',
-        'specutils': '1.0',
+        'specutils': '1.1.1',
         'astroquery': '0.4.1'}
 
 
