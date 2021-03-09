@@ -5,7 +5,7 @@ from our previous email).
 
 If you have not yet done so, please follow the setup instructions at
 
-https://github.com/astropy/astropy-workshop/blob/master/00-Install_and_Setup
+https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup
 
 If you are having problems, please arrive promptly at 9:00am so we can help you before the presentations
 start at 9:30am.
@@ -15,7 +15,7 @@ __Updating workshop materials__
 Our facilitators are polishing up workshop materials. To update the workshop notebooks, please follow
 these instructions:
 
-https://github.com/astropy/astropy-workshop/blob/master/00-Install_and_Setup/UPDATING.md
+https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup/UPDATING.md
 
 It may be necessary to update just before the workshop begins. We expect those changes to be small and
 to not take long.

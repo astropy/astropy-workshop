@@ -98,7 +98,7 @@ def show_image(image,
         # In case someone in the future wants to improve this:
         # https://joseph-long.com/writing/colorbars/
         # https://stackoverflow.com/a/33505522/3486425
-        # https://matplotlib.org/mpl_toolkits/axes_grid/users/overview.html#colorbar-whose-height-or-width-in-sync-with-the-master-axes
+        # https://matplotlib.org/mpl_toolkits/axes_grid/users/overview.html#colorbar-whose-height-or-width-in-sync-with-the-main-axes
 
     if not show_ticks:
         ax.tick_params(labelbottom=False, labelleft=False, labelright=False, labeltop=False)

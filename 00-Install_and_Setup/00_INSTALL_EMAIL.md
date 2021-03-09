@@ -8,7 +8,7 @@ __Pre-workshop Survey__
 Please fill out our survey at https://forms.gle/FUA1Bx17WgDjCKk27 regarding your past experience with astronomical Python as we can better ensure the workshop is tailored to your needs.
 
 __Setup Instructions__
-https://github.com/astropy/astropy-workshop/blob/master/00-Install_and_Setup
+https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup
 
 Please be sure your laptop is properly configured BEFORE the workshop. The setup could take as long as one hour depending on your current configuration and internet speeds. If you have any trouble, please open an issue in the repo using https://github.com/astropy/astropy-workshop#problems-or-questions or post a message on the #workshop Slack channel in the Astropy workspace (described below). If on the morning of the workshop, you still have doubts or questions about your laptop setup, please arrive promptly at 9am.
 
