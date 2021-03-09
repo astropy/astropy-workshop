@@ -2,8 +2,8 @@
 # dark subtraction and flat correction for a single image.
 
 stars_calibrated = ccdp.ccd_process(raw_stars,
-                                    main_bias=bias,
+                                    master_bias=bias,
                                     dark_frame=dark,
                                     exposure_key='exposure', exposure_unit=u.second,
                                     dark_scale=True,
-                                    main_flat=flat)
+                                    master_flat=flat)
