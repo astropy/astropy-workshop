@@ -11,7 +11,7 @@ if you feel you need to work through one or two of them before the workshop.
 * https://swcarpentry.github.io/python-novice-inflammation/
 * https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf
 * https://www.codecademy.com/learn/learn-python-3
-* https://github.com/astropy/past-astropy-workshops/tree/master/aas_233_workshop/02-PythonIntro
+* https://github.com/astropy/past-astropy-workshops/tree/main/aas_233_workshop/02-PythonIntro
   (Introductory notebooks from the last AAS workshop)
 
 You can install Anaconda (https://docs.anaconda.com/anaconda/install/) for working through

@@ -50,7 +50,7 @@ Python and/or packages installed in them.*
 
 [Create a conda environment for this workshop using a yml file](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
 The python version and all needed packages, including astropy, are listed in the
-[environment.yml](https://github.com/astropy/astropy-workshop/blob/master/00-Install_and_Setup/environment.yml) file.
+[environment.yml](https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup/environment.yml) file.
 
 On Mac or Linux, open your terminal and verify your shell environment:
 
