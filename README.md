@@ -1,9 +1,10 @@
 Using Python and Astropy for Astronomical Data Analysis
 =======================================================
-*Workshop at the 237th Meeting of the AAS held online*
+*Workshop at the 238th Meeting of the AAS held online*
 
-* **DATE:** , 7-8 January 2021
-* **TIME:** 11:00am - 2:00pm ET both days
+* **DATE:** , Friday, 4 June 2021
+* **TIME:** 9:00am - 12:00pm, 1:00pm-4:00pm Eastern Daylight Time (UTC-4h)
+* 
 * **LOCATION:** Zoom webinar
 
 ## PRE-WORKSHOP SETUP
@@ -15,36 +16,38 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
 As an alternative, a workshop session can be run on mybinder.org via this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stargaser/workshop-env/astropy-env/?urlpath=git-pull?repo=https://github.com/astropy/astropy-workshop%26amp%3Bbranch=main)
 
-## Schedule
+## Preliminary Schedule
 
-**Intro to Astropy (beginners): January 7, 2021**
+Presenters to be confirmed by early May 2021.
+
+**Intro to Astropy (beginners): June 4, 2021**
+| Time (EDT)        | Topic    | Presenter/Instructor |
+|-------------------|----------|-----------|
+|9:00 - 9:10am    | [Install and config](00-Install_and_Setup) help, if needed  | TBD |
+|9:10 - 9:20am | [Intro to Astropy and Code of Conduct](01-IntroCoC) | TBD |
+|9:20 - 9:40am  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | TBD |
+|9:40 - 10:05am | [Coordinates](04-Coordinates) | TBC |
+|10:05 - 10:30am | [Intro to Object Oriented Programming (OOP)](02b-OOP) | Brett Morris (TBC) |
+|**10:30 - 10:40am**  |  **BREAK** - Have your favorite snack ready! |  |
+|10:40 - 11:10am | [I/O: FITS and ASCII](05-FITS) | TBD |
+|11:10 - 11:30am | [Astropy Tables](06-Tables)| TBD |
+|11:30 - 11:50am | [Visualizing Images with Coordinates](08-Image-coords) | TBD |
+|11:50 - 12:00pm | [Astropy Communities](10-WrapUp) | TBD |
+
+**Astronomical Research with Astropy: June 4, 2021**
 | Time (EST)        | Topic    | Presenter/Instructor |
 |-------------------|----------|-----------|
-|11:00 - 11:10    | [Install and config](00-Install_and_Setup) help, if needed  | David Shupe |
-|11:10 - 11:20 | [Intro to Astropy and Code of Conduct](01-IntroCoC) | Lia Corrales |
-|11:20 - 12:00  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Lia Corrales |
-|12:00 - 12:30 | [Coordinates](04-Coordinates) | Erik Tollerud |
-|**12:30 - 12:40**  |  **BREAK** - Have your favorite snack ready! |  |
-|12:40 - 1:10 | [I/O: FITS and ASCII](05-FITS) | Brett Morris |
-|1:10 - 1:30 | [Astropy Tables](06-Tables)| Brett Morris |
-|1:30 - 1:50 | [Visualizing Images with Coordinates](08-Image-coords) | David Shupe |
-|1:50 - 2:00 | [Astropy Communities](10-WrapUp) | David Shupe |
-
-**Astronomical Research with Astropy: January 8, 2021**
-| Time (EST)        | Topic    | Presenter/Instructor |
-|-------------------|----------|-----------|
-|11:00 - 11:10    | [Install and config](00-Install_and_Setup) help, if needed  | David Shupe |
-|11:10 - 11:20 | [Intro to Astropy and Code of Conduct](01-IntroCoC) | Brett Morris |
-|11:20 - 11:45 | [Intro to Object Oriented Programming (OOP)](02b-OOP) | Brett Morris |
-|11:45 - 12:30 | [Specutils](09b-Specutils) | Erik Tollerud |
-|**12:30 - 12:40**  |  **BREAK** - Have your favorite snack ready! |  |
-|12:40 - 1:10 | [Intro to ccdproc and guide](09c-Ccdproc) | Matt Craig |
-|1:10 - 1:50 | [Photutils](09-Photutils) | Larry Bradley |
-|1:50 - 2:00 | [Astropy Communities & Contributing to Astropy](10-WrapUp) | Erik Tollerud |
+|1:00 - 1:10pm    | [Install and config](00-Install_and_Setup) help, if needed  | TBD |
+|1:10 - 1:20pm | [Intro to Astropy and Code of Conduct](01-IntroCoC) | TBD |
+|1:20 - 2:00pm | [Intro to ccdproc and guide](09c-Ccdproc) | TBD |
+|2:00 - 2:45pm | [Photutils](09-Photutils) | TBD |
+|**2:45 - 3:00pm**  |  **BREAK** - Have your favorite snack ready! |  |
+|3:00 - 3:45pm | [Specutils](09b-Specutils) | TBD |
+|3:45 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp) | TBD |
 
 ### Additional Helpers
 
-* Kelle Cruz
+* To be listed
 
 ## Description
 This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily
