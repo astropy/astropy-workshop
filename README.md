@@ -39,7 +39,7 @@ Presenters to be confirmed by early May 2021.
 |1:00 - 1:10pm    | [Install and config](00-Install_and_Setup) help, if needed  | TBD |
 |1:10 - 1:20pm | [Intro to Astropy and Code of Conduct](01-IntroCoC) | TBD |
 |1:20 - 2:00pm | [Intro to ccdproc and guide](09c-Ccdproc) | Matt Craig (TBC) |
-|2:00 - 2:45pm | [Photutils](09-Photutils) | TBD |
+|2:00 - 2:45pm | [Photutils](09-Photutils) | Larry Bradley |
 |**2:45 - 3:00pm**  |  **BREAK** - Have your favorite snack ready! |  |
 |3:00 - 3:45pm | [Specutils](09b-Specutils) | TBD |
 |3:45 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp) | TBD |
