@@ -34,10 +34,6 @@ operating system: https://conda.io/projects/conda/en/latest/user-guide/install/i
 Please be sure to install a **64-bit version** of Miniconda to ensure all packages work correctly.
 
 
-On Windows, you might also need
-[additional compilers](https://github.com/conda/conda-build/wiki/Windows-Compilers).
-
-
 ## 2. Open the conda command prompt
 
 *Miniconda includes an environment manager called conda. Environments
