@@ -46,7 +46,7 @@ directory you had.
 
 ## 2. Double-checking your Conda environment
 
-Assuming you properly installed your astropy-workshop conda environment, you
+Assuming you properly installed your astropy-env conda environment, you
 should be able to:
 
 a. activate that conda environment, and
@@ -55,22 +55,22 @@ c. check to see if your environment still meets the requirements.
 
 Let's do that now. Start by activating the conda environment:
 
-    % conda activate astropy-workshop
+    % conda activate astropy-env
 
-You will notice a change in your prompt; e.g., `(astropy-workshop) %`.
+You will notice a change in your prompt; e.g., `(astropy-env) %`.
 Then, switch to the directory containing the installer by doing the following.
 
 On a Mac/Linux (your directory path may be different):
 
-    (astropy-workshop) % cd astropy-workshop/00-Install_and_Setup/
+    (astropy-env) % cd astropy-workshop/00-Install_and_Setup/
 
 On Windows (your directory path may be different):
 
-    (astropy-workshop) % cd astropy-workshop\00-Install_and_Setup\
+    (astropy-env) % cd astropy-workshop\00-Install_and_Setup\
 
 Next, we check if the environment is still up to date:
 
-    (astropy-workshop) % python check_env.py
+    (astropy-env) % python check_env.py
 
 If this check reports a problem with a package, see what to do below.
 
@@ -80,23 +80,23 @@ If the `check_env.py` script reports that some package called `packagename`
 is not of a recent enough build, we need to check where the package came from
 (replace `packagename` with the real package name):
 
-    (astropy-workshop) % conda list packagename
+    (astropy-env) % conda list packagename
 
 If the "Build" of the package does *NOT* say `pypi`,  you can then update the
 package using:
 
-    (astropy-workshop) % conda update packagename
+    (astropy-env) % conda update packagename
 
 If the package was installed from PyPI with pip, you can update it to the
 latest PyPI release using:
 
-    (astropy-workshop) % pip install packagename --upgrade
+    (astropy-env) % pip install packagename --upgrade
 
 If you know you need the pre-release version from PyPI (e.g., `astroquery`),
 use:
 
-    (astropy-workshop) % pip install packagename --pre --upgrade
+    (astropy-env) % pip install packagename --pre --upgrade
 
 Once you have performed the updates, check your installation again using:
 
-    (astropy-workshop) % python check_env.py
+    (astropy-env) % python check_env.py
