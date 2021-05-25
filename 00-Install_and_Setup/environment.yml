@@ -1,4 +1,4 @@
-name: astropy-workshop
+name: astropy-env
 
 channels:
   - astropy

@@ -49,23 +49,23 @@ setup_conda_win: &setup_conda_win
 make_env: &make_env
   name: Make workshop environment
   command: |
-    conda env create -n astropy-workshop --file 00-Install_and_Setup/environment.yml
-    source activate astropy-workshop
+    conda env create -n astropy-env --file 00-Install_and_Setup/environment.yml
+    source activate astropy-env
     pip install -r .circleci/dev-requirements.txt
     pip install git+https://github.com/astropy/nbcollection
-    python -m ipykernel install --user --name astropy-workshop
+    python -m ipykernel install --user --name astropy-env
 
 execute_nb: &execute_nb
   name: Execute the notebooks
   command: |
-    source activate astropy-workshop
+    source activate astropy-env
     which python
     python -m nbcollection execute .
 
 convert_nb: &convert_nb
   name: Convert the notebooks to HTML
   command: |
-    source activate astropy-workshop
+    source activate astropy-env
     which python
     python -m nbcollection convert .
 
