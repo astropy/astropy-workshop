@@ -41,7 +41,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |2:00 - 2:45pm | [Photutils](09-Photutils) | Larry Bradley |
 |**2:45 - 3:00pm**  |  **BREAK** - Have your favorite snack ready! |  |
 |3:00 - 3:45pm | [Specutils](09b-Specutils) | Ricky O'Steen |
-|3:45 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp) | Larry Bradley |
+|3:45 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp) | Erik Tollerud |
 
 ### Additional Helpers
 
