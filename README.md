@@ -13,7 +13,7 @@ Please be sure your laptop is properly configured before the workshop by followi
 This could take as long as *one hour* depending on your current configuration and internet speeds.
 DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
-As an alternative, a workshop session can be run on mybinder.org via this link: [![Binder](https://mybinder.org/v2/gh/stargaser/workshop-env/astropy-env/?urlpath=git-pull?repo%3Dhttps%253A%252F%252Fgithub.com%252Fastropy%252Fastropy-workshop%26branch%3Dmain)
+As an alternative, a workshop session can be run on mybinder.org via this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stargaser/workshop-env/astropy-env/?urlpath=git-pull?repo%3Dhttps%253A%252F%252Fgithub.com%252Fastropy%252Fastropy-workshop%26branch%3Dmain)
 
 ## Schedule
 
