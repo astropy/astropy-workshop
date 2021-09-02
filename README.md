@@ -1,10 +1,10 @@
 Using Python and Astropy for Astronomical Data Analysis
 =======================================================
-*Workshop at the 238th Meeting of the AAS held online*
+*Workshop at the 239th Meeting of the AAS held online*
 
-* **DATE:** , Friday, 4 June 2021
-* **TIME:** 9:00am - 12:00pm, 1:00pm-4:00pm Eastern Daylight Time (UTC-4h)
-* **LOCATION:** Zoom webinar for presentations, and a Slack channel for questions
+* **DATE:** Saturday Jan 8th, 2022
+* **TIME:** TBD
+* **LOCATION:** TBD
 
 ## PRE-WORKSHOP SETUP
 Please be sure your laptop is properly configured before the workshop by following the
