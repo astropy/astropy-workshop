@@ -20,26 +20,17 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 **Intro to Astropy (beginners): June 4, 2021**
 | Time (EDT)        | Topic    | Presenter/Instructor |
 |-------------------|----------|-----------|
-|9:00 - 9:10am  | [Install and config](00-Install_and_Setup) help, if needed  | David Shupe |
-|9:10 - 9:20am  | [Intro to Astropy and Code of Conduct](01-IntroCoC) | David Shupe |
-|9:20 - 9:40am  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Nathaniel Starkman |
-|9:40 - 10:05am | [Coordinates](04-Coordinates) | Nathaniel Starkman |
-|10:05 - 10:30am | [Intro to Object Oriented Programming (OOP)](02b-OOP) | Brett Morris |
-|**10:30 - 10:40am**  |  **BREAK** - Have your favorite snack ready! |  |
-|10:40 - 11:00am | [I/O: FITS and ASCII](05-FITS) | Brett Morris |
-|11:00 - 11:20am | [Astropy Tables](06-Tables) | Brett Morris |
-|11:20 - 11:45am | [Cosmology](11-Cosmology) | Nathaniel Starkman |
-|11:45 - 12:00pm | [Astropy Communities](10-WrapUp) | Brett Morris |
-
-**Astronomical Research with Astropy: June 4, 2021**
-| Time (EDT)        | Topic    | Presenter/Instructor |
-|-------------------|----------|-----------|
-|1:00 - 1:10pm | [Install and config](00-Install_and_Setup) help, if needed  | David Shupe |
-|1:10 - 1:20pm | [Intro to Astropy and Code of Conduct](01-IntroCoC) | David Shupe |
-|1:20 - 1:40pm | [Visualizing Images with Coordinates](08-Image-coords) | David Shupe |
-|1:40 - 2:00pm | [Intro to ccdproc and guide](09c-Ccdproc) | David Shupe |
-|2:00 - 2:45pm | [Photutils](09-Photutils) | Larry Bradley |
-|**2:45 - 3:00pm**  |  **BREAK** - Have your favorite snack ready! |  |
+|9:00 - 9:10am  | [Install and config](00-Install_and_Setup) help, if needed  | Kelle Cruz |
+|9:10 - 9:20am  | [Intro to Astropy and Code of Conduct](01-IntroCoC) | Kelle Cruz |
+|9:20 - 9:40am  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Ricky O'Steen |
+|10:05 - 10:30am | [Intro to Object Oriented Programming (OOP)](02b-OOP) | Wilfred Gee |
+|9:40 - 10:05am | [Coordinates](04-Coordinates) | Erik Tollerud |
+|10:40 - 11:00am | [I/O: FITS and ASCII](05-FITS) | Wilfred Gee |
+|11:00 - 11:20am | [Astropy Tables](06-Tables) | Ricky O'Steen |
+|1:20 - 1:40pm | [Visualizing Images with Coordinates](08-Image-coords) | Ricky O'Steen |
+|1:40 - 2:00pm | [Intro to ccdproc and guide](09c-Ccdproc) | Erik Tollerud |
+|2:00 - 2:45pm | [Photutils](09-Photutils) | Wilfred Gee |
+|11:20 - 11:45am | [Modeling](07-Models) | Wilfred Gee |
 |3:00 - 3:45pm | [Specutils](09b-Specutils) | Ricky O'Steen |
 |3:45 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp) | Erik Tollerud |
 
