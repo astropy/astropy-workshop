@@ -5,7 +5,7 @@ channels:
 
 dependencies:
   - pip
-  - python=3.8
+  - python=3.9
   - ipython>=7.2
   - cython
   - jupyter
@@ -28,7 +28,7 @@ dependencies:
     - jupyter-offlinenotebook
     - nbzip
     - nbgitpuller
-    - "astropy>=4.2"
+    - "astropy>=4.3"
     - asdf
     - "gwcs>=0.16"
     - "photutils>=1.1.0"
