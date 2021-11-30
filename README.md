@@ -27,10 +27,10 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |9:40 - 10:05am | [Intro to Object Oriented Programming (OOP)](02b-OOP) | Wilfred Gee |
 |10:05 - 10:30am | [Coordinates](04-Coordinates) | Erik Tollerud |
 |10:30 - 10:40am | BREAK | |
-|10:40 - 11:00am | [I/O: FITS and ASCII](05-FITS) | Wilfred Gee |
+|10:40 - 11:00am | [I/O: FITS and ASCII](05-FITS) | David Shupe |
 |11:00 - 11:30am | [Astropy Tables](06-Tables) | Ricky O'Steen |
 |11:30 - 1:00pm | LUNCH | |
-|1:00 - 1:20pm | [Visualizing Images with Coordinates](08-Image-coords) | Ricky O'Steen |
+|1:00 - 1:20pm | [Visualizing Images with Coordinates](08-Image-coords) | David Shupe |
 |1:20 - 2:00pm | [Intro to ccdproc and guide](09c-Ccdproc) | Erik Tollerud |
 |2:00 - 2:45pm | [Photutils](09-Photutils) | Wilfred Gee |
 |2:45 - 3:15pm | [Modeling](07-Models) | Wilfred Gee |
@@ -41,7 +41,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 
 ### Additional Helpers
 
-* David Shupe
+* 
 
 ## Description
 This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily
