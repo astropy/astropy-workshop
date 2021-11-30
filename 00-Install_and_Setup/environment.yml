@@ -28,7 +28,7 @@ dependencies:
     - jupyter-offlinenotebook
     - nbzip
     - nbgitpuller
-    - "astropy>=4.3"
+    - "astropy>=5.0"
     - asdf
     - "gwcs>=0.16"
     - "photutils>=1.1.0"
