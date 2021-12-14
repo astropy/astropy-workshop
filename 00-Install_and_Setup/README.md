@@ -16,6 +16,13 @@ For the commands shown, `%` (and anything to the left of it) represents the
 terminal prompt. You do not need to copy it; instead only copy the command to the
 right of `%`.
 
+## 0. (Only for Windows) Install WSL
+
+*If you are using Windows, we now recommend using the Windows Subsystem for Linux (WSL) instead of using native Windows tools. WSL is now fully supported by Microsoft and tends to result in fewer install headaches, and lets you use tools that were developed for Linux seemlessly in windows. While you still may be able to use the Windows-native installation of Miniconda, these instructions focus on the WSL approach for the above reasons.*
+
+To install WSL, you should follow the instructions Microsoft provides here: https://docs.microsoft.com/en-us/windows/wsl/install. While you may choose an alternative Linux distribution from the default Ubuntu, the instructions below have been tested on Ubuntu, so unless you have a specific reason, we suggest you stick with the default.  Once you reach the point in the instructions with a working Linux terminal prompt, you can proceed to step 1 of these instructions.
+
+*Optional* While you can run a WSL terminal with the command prompt built into Windows, it's rather bare-bones and you may not have the best experience.  For WSL on Windows you'll probably want to [install Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/install) to have a terminal experience closer to what you'd see on Mac or Linux.
 
 ## 1. Install Miniconda (if needed)
 
@@ -33,6 +40,7 @@ If Miniconda is not already installed, follow these instructions for your
 operating system: https://conda.io/projects/conda/en/latest/user-guide/install/index.html.
 Please be sure to install a **64-bit version** of Miniconda to ensure all packages work correctly.
 
+(On native Windows, you might also need [additional compilers](https://github.com/conda/conda-build/wiki/Windows-Compilers), although this should not be necessary in WSL).
 
 ## 2. Open the conda command prompt
 
@@ -43,7 +51,7 @@ export, list, remove, and update environments that have different versions of
 Python and/or packages installed in them. For this workshop, we will configure the
 environment using the conda command prompt.*
 
-On MacOS or Linux, open a terminal window and verify that conda is working: 
+Open a terminal window and verify that conda is working: 
 
     % conda info
 
@@ -95,19 +103,11 @@ The python version and all needed packages, including astropy, are listed in the
 
 On Mac or Linux, open your terminal.
 
-On Windows, open the `Anaconda Prompt` terminal app.
-
 Now navigate to this directory in the terminal. For example, if you installed
 the astropy-workshop directory in your home directory, you could type the
 following.
 
-On a Mac/Linux:
-
-    % cd astropy-workshop/00-Install_and_Setup/
-
-On Windows:
-
-    % cd astropy-workshop\00-Install_and_Setup\
+% cd astropy-workshop/00-Install_and_Setup/
 
 And finally, on any platform, to install and activate the astropy-workshop environment, type:
 
