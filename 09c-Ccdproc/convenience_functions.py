@@ -1,5 +1,5 @@
 from astropy import visualization as aviz
-from astropy.nddata.utils import block_reduce, Cutout2D
+from astropy.nddata import block_reduce, Cutout2D
 from matplotlib import pyplot as plt
 
 
