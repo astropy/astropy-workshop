@@ -101,13 +101,13 @@ Python and/or packages installed in them.*
 The python version and all needed packages, including astropy, are listed in the
 [environment.yml](https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup/environment.yml) file.
 
-On Mac or Linux, open your terminal.
+Open a terminal window using the appropriate one for your operating system.
 
 Now navigate to this directory in the terminal. For example, if you installed
 the astropy-workshop directory in your home directory, you could type the
 following.
 
-% cd astropy-workshop/00-Install_and_Setup/
+    % cd astropy-workshop/00-Install_and_Setup/
 
 And finally, on any platform, to install and activate the astropy-workshop environment, type:
 
