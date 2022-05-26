@@ -4,7 +4,7 @@ Using Python and Astropy for Astronomical Data Analysis
 
 * **DATE:** Sunday June 12th, 2022
 * **TIME:** 9AM to 5:30PM Pacific Time
-* **LOCATION:** TBD at Pasadena Convention Center
+* **LOCATION:** Room 102 at the Pasadena Convention Center
 
 ## PRE-WORKSHOP SETUP
 Please be sure your laptop is properly configured before the workshop by following the
@@ -13,7 +13,7 @@ Please be sure your laptop is properly configured before the workshop by followi
 This could take as long as *one hour* depending on your current configuration and internet speeds.
 DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
-If you are having problems, we will have facilitators on-site as early as 8AM PT who can help you in person.
+If you are having problems, we will have facilitators on-site as early as 8:30AM PT who can help you in person.
 
 As an alternative, a workshop session can be run on mybinder.org via this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stargaser/workshop-env/astropy-env/?urlpath=git-pull?repo%3Dhttps%253A%252F%252Fgithub.com%252Fastropy%252Fastropy-workshop%26branch%3Dmain)
 
@@ -21,29 +21,27 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 
 | Time (PT)        | Topic    | Presenter/Instructor |
 |-------------------|----------|-----------|
-|9:00 - 9:10am  | [Install and config](00-Install_and_Setup) help, if needed  | *Available* |
-|9:10 - 9:20am  | [Intro to Astropy and Code of Conduct](01-IntroCoC) | *Available* |
+|9:00 - 9:10am  | [Install and config](00-Install_and_Setup) help, if needed  | David Shupe |
+|9:10 - 9:20am  | [Intro to Astropy and Code of Conduct](01-IntroCoC) | David Shupe |
 |9:20 - 9:40am  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Ricky O'Steen |
-|9:40 - 10:05am | [Intro to Object Oriented Programming (OOP)](02b-OOP) | *Available* |
+|9:40 - 10:05am | [Intro to Object Oriented Programming (OOP)](02b-OOP) | *TBD* |
 |10:05 - 10:30am | [Coordinates](04-Coordinates) | Erik Tollerud |
 |10:30 - 10:40am | BREAK | |
-|10:40 - 11:00am | [I/O: FITS and ASCII](05-FITS) | *Available* |
+|10:40 - 11:00am | [I/O: FITS and ASCII](05-FITS) | Leo Singer |
 |11:00 - 11:30am | [Astropy Tables](06-Tables) | Ricky O'Steen |
 |11:30 - 12:00pm | Intro to ASDF | Nadia Dencheva | 
-|12:00 - 1:00pm | LUNCH | |
-|1:00 - 1:20pm | [Visualizing Images with Coordinates](08-Image-coords) | David Shupe |
-|1:20 - 2:00pm | [Intro to ccdproc and guide](09c-Ccdproc) | Erik Tollerud |
-|2:00 - 2:45pm | [Photutils](09-Photutils) | *Available* |
-|2:45 - 3:15pm | [Modeling](07-Models) | Nadia Dencheva |
-|3:15 - 3:30pm | BREAK | |
-|3:30 - 4:15pm | [Specutils](09b-Specutils) | Ricky O'Steen |
-|4:15 - 4:45pm | [Astropy Communities & Contributing to Astropy](10-WrapUp) | Erik Tollerud |
-|4:45 - 5:30pm | Spare / informal interactions | | 
+|12:00 - 1:15pm | LUNCH | |
+|1:15 - 1:35pm | [Visualizing Images with Coordinates](08-Image-coords) | David Shupe |
+|1:35 - 2:15pm | [Intro to ccdproc and guide](09c-Ccdproc) | Erik Tollerud |
+|2:15 - 3:00pm | [Photutils](09-Photutils) | *TBD* |
+|3:00 - 3:30pm | [Modeling](07-Models) | Nadia Dencheva |
+|3:30 - 3:45pm | BREAK | |
+|3:45 - 4:30pm | [Specutils](09b-Specutils) | Ricky O'Steen |
+|4:30 - 5:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp) | Erik Tollerud |
+|5:00 - 5:30pm | Spare / informal interactions | | 
 
 ### Additional Helpers
 
-* William Jamieson
-* Perry Greenfield
 
 ## Description
 This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily
