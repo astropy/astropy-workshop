@@ -29,12 +29,12 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |10:30 - 10:40am | BREAK | |
 |10:40 - 11:00am | [I/O: FITS and ASCII](05-FITS) | Leo Singer |
 |11:00 - 11:30am | [Astropy Tables](06-Tables) | Ricky O'Steen |
-|11:30 - 12:00pm | Intro to ASDF | Nadia Dencheva | 
+|11:30 - 12:00pm | [Modeling](07-Models) | Nadia Dencheva |
 |12:00 - 1:15pm | LUNCH | |
 |1:15 - 1:35pm | [Visualizing Images with Coordinates](08-Image-coords) | David Shupe |
 |1:35 - 2:15pm | [Intro to ccdproc and guide](09c-Ccdproc) | Erik Tollerud |
 |2:15 - 3:00pm | [Photutils](09-Photutils) | *TBD* |
-|3:00 - 3:30pm | [Modeling](07-Models) | Nadia Dencheva |
+|3:00 - 3:30pm | [Intro to ASDF](12-ASDF) | Nadia Dencheva |
 |3:30 - 3:45pm | BREAK | |
 |3:45 - 4:30pm | [Specutils](09b-Specutils) | Ricky O'Steen |
 |4:30 - 5:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp) | Erik Tollerud |
