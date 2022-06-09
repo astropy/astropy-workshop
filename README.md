@@ -27,11 +27,11 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |9:40 - 10:05am | [Intro to Object Oriented Programming (OOP)](02b-OOP) | *TBD* |
 |10:05 - 10:30am | [Coordinates](04-Coordinates) | Erik Tollerud |
 |10:30 - 10:40am | BREAK | |
-|10:40 - 11:00am | [I/O: FITS and ASCII](05-FITS) | Leo Singer |
+|10:40 - 11:00am | [I/O: FITS and ASCII](05-FITS) | David Shupe |
 |11:00 - 11:30am | [Astropy Tables](06-Tables) | Ricky O'Steen |
 |11:30 - 12:00pm | [Modeling](07-Models) | Nadia Dencheva |
 |12:00 - 1:15pm | LUNCH | |
-|1:15 - 1:35pm | [Visualizing Images with Coordinates](08-Image-coords) | David Shupe |
+|1:15 - 1:35pm | [Visualizing Images with Coordinates](08-Image-coords) | Leo Singer |
 |1:35 - 2:15pm | [Intro to ccdproc and guide](09c-Ccdproc) | Erik Tollerud |
 |2:15 - 3:00pm | [Photutils](09-Photutils) | *TBD* |
 |3:00 - 3:30pm | [Intro to ASDF](12-ASDF) | Nadia Dencheva |
