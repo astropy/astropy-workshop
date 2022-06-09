@@ -24,7 +24,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |9:00 - 9:10am  | [Install and config](00-Install_and_Setup) help, if needed  | David Shupe |
 |9:10 - 9:20am  | [Intro to Astropy and Code of Conduct](01-IntroCoC) | David Shupe |
 |9:20 - 9:40am  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Ricky O'Steen |
-|9:40 - 10:05am | [Intro to Object Oriented Programming (OOP)](02b-OOP) | *TBD* |
+|9:40 - 10:05am | [Intro to Object Oriented Programming (OOP)](02b-OOP) | Leo Singer |
 |10:05 - 10:30am | [Coordinates](04-Coordinates) | Erik Tollerud |
 |10:30 - 10:40am | BREAK | |
 |10:40 - 11:00am | [I/O: FITS and ASCII](05-FITS) | Leo Singer |
