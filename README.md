@@ -32,8 +32,8 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |11:30 - 12:00pm | [Modeling](07-Models) | Nadia Dencheva |
 |12:00 - 1:15pm | LUNCH | |
 |1:15 - 1:35pm | [Visualizing Images with Coordinates](08-Image-coords) | Leo Singer |
-|1:35 - 2:15pm | [Intro to ccdproc and guide](09c-Ccdproc) | Erik Tollerud |
-|2:15 - 3:00pm | [Photutils](09-Photutils) | *TBD* |
+|1:35 - 2:15pm | [Intro to ccdproc and guide](09c-Ccdproc) | David Shupe |
+|2:15 - 3:00pm | [Photutils](09-Photutils) | Erik Tollerud |
 |3:00 - 3:30pm | [Intro to ASDF](12-ASDF) | Nadia Dencheva |
 |3:30 - 3:45pm | BREAK | |
 |3:45 - 4:30pm | [Specutils](09b-Specutils) | Ricky O'Steen |
