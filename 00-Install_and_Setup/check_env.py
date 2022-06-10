@@ -6,7 +6,7 @@ Usage::
   % python check_env.py
 
 """
-from distutils.version import LooseVersion
+from packaging.version import Version
 
 # NOTE: Update minversion values as needed.
 # This should match environment.yml file.
@@ -51,8 +51,8 @@ def check_package(package_name, minimum_version=None, verbose=True):
         else:
             installed_version = pkg.__version__
         if (minimum_version is not None and
-                LooseVersion(installed_version) <
-                LooseVersion(str(minimum_version))):
+                Version(installed_version) <
+                Version(str(minimum_version))):
             print(f'Error: {package_name} version {minimum_version} or '
                   f'later is required, you have version {installed_version}')
             errors = True
