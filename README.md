@@ -1,10 +1,10 @@
 Using Python and Astropy for Astronomical Data Analysis
 =======================================================
-*Workshop at the 240th Meeting of the AAS in Pasadena, California, USA*
+*Workshop at the 241st Meeting of the AAS in Seattle, Washington, USA*
 
-* **DATE:** Sunday June 12th, 2022
+* **DATE:** Sunday January 8th, 2023
 * **TIME:** 9AM to 5:30PM Pacific Time
-* **LOCATION:** Room 102 at the Pasadena Convention Center
+* **LOCATION:** Room 401 at the Seattle Convention Center
 
 ## PRE-WORKSHOP SETUP
 Please be sure your laptop is properly configured before the workshop by following the
@@ -23,25 +23,25 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |-------------------|----------|-----------|
 |9:00 - 9:10am  | [Install and config](00-Install_and_Setup) help, if needed  | David Shupe |
 |9:10 - 9:20am  | [Intro to Astropy and Code of Conduct](01-IntroCoC) | David Shupe |
-|9:20 - 9:40am  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Ricky O'Steen |
-|9:40 - 10:05am | [Intro to Object Oriented Programming (OOP)](02b-OOP) | Leo Singer |
-|10:05 - 10:30am | [Coordinates](04-Coordinates) | Erik Tollerud |
-|10:30 - 10:40am | BREAK | |
-|10:40 - 11:00am | [I/O: FITS and ASCII](05-FITS) | David Shupe |
-|11:00 - 11:30am | [Astropy Tables](06-Tables) | Ricky O'Steen |
-|11:30 - 12:00pm | [Modeling](07-Models) | Nadia Dencheva |
-|12:00 - 1:15pm | LUNCH | |
-|1:15 - 1:35pm | [Visualizing Images with Coordinates](08-Image-coords) | Leo Singer |
-|1:35 - 2:15pm | [Intro to ccdproc and guide](09c-Ccdproc) | David Shupe |
-|2:15 - 3:00pm | [Photutils](09-Photutils) | Erik Tollerud |
-|3:00 - 3:30pm | [Intro to ASDF](12-ASDF) | Nadia Dencheva |
-|3:30 - 3:45pm | BREAK | |
-|3:45 - 4:30pm | [Specutils](09b-Specutils) | Ricky O'Steen |
-|4:30 - 5:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp) | Erik Tollerud |
-|5:00 - 5:30pm | Spare / informal interactions | | 
+|9:20 - 9:45am  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Nathaniel Starkman |
+|9:45 - 10:15am | [Coordinates](04-Coordinates) | Brett Morris |
+|10:15 - 10:30am | BREAK | |
+|10:30 - 11:00am | [I/O: FITS and ASCII](05-FITS) | Leo Singer |
+|11:00 - 11:30pm | [Astropy Tables](06-Tables) | Brett Morris |
+|11:30 – 12:00pm | [Intro to Object Oriented Programming (OOP)](02b-OOP) | Brett Morris |
+|12:00 - 1:30pm | LUNCH | |
+|1:30 - 2:00pm | [Modeling](07-Models) | Nadia Dencheva |
+|2:00 - 2:30pm | [Visualizing Images with Coordinates](08-Image-coords) | Leo Singer |
+|2:30 - 3:00pm | [Intro to ccdproc and guide](09c-Ccdproc) | Brett Morris |
+|3:00 - 3:15pm | BREAK | |
+|3:15 - 4:00pm | [Photutils](09-Photutils) | Larry Bradley |
+|4:00 - 4:30pm | [Intro to ASDF](12-ASDF) | Nadia Dencheva |
+|4:30 - 5:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp) | Brett Morris |
+|5:00 - 5:30pm | Spare / informal interactions | |
 
 ### Additional Helpers
 
+* Kristen Larson
 
 ## Description
 This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily
