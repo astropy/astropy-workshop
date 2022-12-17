@@ -44,18 +44,18 @@ If you do not have git installed and used the *Download ZIP* option
 (not recommended), you will have to do that again and overwrite the original
 directory you had.
 
-## 2. Double-checking your Conda environment
+## 2. Double-checking your mamba environment
 
-Assuming you properly installed your astropy-env conda environment, you
+Assuming you properly installed your astropy-env mamba environment, you
 should be able to:
 
-a. activate that conda environment, and
+a. activate that mamba environment, and
 b. go the the original installation directory, and then
 c. check to see if your environment still meets the requirements.
 
-Let's do that now. Start by activating the conda environment:
+Let's do that now. Start by activating the mamba environment:
 
-    % conda activate astropy-env
+    % mamba activate astropy-env
 
 You will notice a change in your prompt; e.g., `(astropy-env) %`.
 Then, switch to the directory containing the installer by doing the following.
@@ -80,22 +80,17 @@ If the `check_env.py` script reports that some package called `packagename`
 is not of a recent enough build, we need to check where the package came from
 (replace `packagename` with the real package name):
 
-    (astropy-env) % conda list packagename
+    (astropy-env) % mamba list packagename
 
 If the "Build" of the package does *NOT* say `pypi`,  you can then update the
 package using:
 
-    (astropy-env) % conda update packagename
+    (astropy-env) % mamba update packagename
 
 If the package was installed from PyPI with pip, you can update it to the
 latest PyPI release using:
 
     (astropy-env) % pip install packagename --upgrade
-
-If you know you need the pre-release version from PyPI (e.g., `astroquery`),
-use:
-
-    (astropy-env) % pip install packagename --pre --upgrade
 
 Once you have performed the updates, check your installation again using:
 
