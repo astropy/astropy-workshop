@@ -27,7 +27,7 @@ To install WSL, you should follow the instructions Microsoft provides here: http
 ## 1. Install Mambaforge (if needed)
 
 *Mambaforge is a free minimal installer for mamba. It is a small, bootstrap
-version of Anaconda that includes only mamba, Python, the packages they depend
+version of mamba that includes only mamba, Python, and a few packages they depend
 on, and a small number of other useful packages, including pip, zlib and a few
 others. Note, though, that if you have Mambaforge, Miniconda or the full Anaconda
 already installed, you can skip to the next step.*
@@ -39,7 +39,7 @@ In a terminal window, check if Mambaforge is already installed.
 If Mambaforge is not already installed, obtain an installer for your
 operating system: https://github.com/conda-forge/miniforge#mambaforge.
 Then follow the installation instructions at
-https://mamba.readthedocs.io/en/latest/installation.html
+https://github.com/conda-forge/miniforge#mambaforge
 
 
 ## 2. Open the mamba command prompt
