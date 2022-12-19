@@ -6,7 +6,9 @@ configured with the packages in the
 These packages are the ones we use to verify that the notebooks are working as expected.
 
 These instructions describe setup using `git` and `Mambaforge`. It is not strictly necessary
-to use either of these.
+to use either of these. See the section
+[Alternate Installation Methods](#alternate-installation-methods) at the end
+of this document.
 
 If you have any problems with any of these steps, please check if your problem has
 already been reported at [the issue tracker](https://github.com/astropy/astropy-workshop/issues/). If not,
@@ -200,6 +202,14 @@ If the reported `astropy` version is older than expected and you have
 not run the `python -m ipykernel install --user` command, then run it
 as instructed above.
 
+## Alternate Installation Methods
+
+Although we recommend Mambaforge, you can use either the [conda package
+manager](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
+with the `environment.yml` file,  or 
+[pip/venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+with the `requirements.txt` file in this directory.
+ 
 ## Additional Resources
 
 - [Set up git](https://help.github.com/articles/set-up-git/)
