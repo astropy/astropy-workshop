@@ -1,8 +1,10 @@
-from photutils.segmentation import SegmentationImage
+import astropy.units as u
+from astropy.io import fits
+from photutils.segmentation import SegmentationImage, SourceCatalog
 
 # read in the F105W science data
 f105w_data = fits.getdata('data/xdf_hst_wfc3ir_60mas_f105w_sci.fits')
-f105w_data *= (u.electron / u.s)
+f105w_data <<= (u.electron / u.s)
 
 # read in the previously-saved F160W segmentation image data
 # and create a `SegmentationImage` object

@@ -1,3 +1,7 @@
+from astropy.table import QTable
+import numpy as np
+from photutils.segmentation import SourceCatalog
+
 # load the F160W source catalog table
 f160w_catalog_filename = 'xdf_f160w_catalog.ecsv'
 f160w_tbl = QTable.read(f160w_catalog_filename)
@@ -23,4 +27,4 @@ f160w_tbl['yh_color'] = yh_colors
 # then select the reddest 3 sources
 idx = f160w_tbl.argsort('yh_color', reverse=True)
 brightest = f160w_tbl[idx][0:3]
-brightest
+print(brightest)
