@@ -11,7 +11,7 @@ dependencies:
   - jupyter
   - notebook>=6.0
   - numpy>=1.16
-  - scipy>=1.5
+  - scipy>=1.6,<1.10.0
   - scikit-image>=0.17
   - matplotlib>=3.2
   - pandas>=1.0
