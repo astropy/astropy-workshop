@@ -26,12 +26,12 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |9:20 - 9:45am  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Nathaniel Starkman |
 |9:45 - 10:15am | [Coordinates](04-Coordinates) | Brett Morris |
 |10:15 - 10:30am | BREAK | |
-|10:30 - 11:00am | [I/O: FITS and ASCII](05-FITS) | Leo Singer |
+|10:30 - 11:00am | [I/O: FITS and ASCII](05-FITS) | Brett Morris |
 |11:00 - 11:30pm | [Astropy Tables](06-Tables) | Brett Morris |
 |11:30 – 12:00pm | [Intro to Object Oriented Programming (OOP)](02b-OOP) | Brett Morris |
 |12:00 - 1:30pm | LUNCH | |
 |1:30 - 2:00pm | [Modeling](07-Models) | Nadia Dencheva |
-|2:00 - 2:30pm | [Visualizing Images with Coordinates](08-Image-coords) | Leo Singer |
+|2:00 - 2:30pm | [Visualizing Images with Coordinates](08-Image-coords) | David Shupe |
 |2:30 - 3:00pm | [Intro to ccdproc and guide](09c-Ccdproc) | Brett Morris |
 |3:00 - 3:15pm | BREAK | |
 |3:15 - 4:00pm | [Photutils](09-Photutils) | Larry Bradley |
