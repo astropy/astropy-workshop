@@ -35,3 +35,4 @@ dependencies:
     - "photutils>=1.6.0"
     - "specutils>=1.1.1"
     - astroquery
+    - openpyxl
