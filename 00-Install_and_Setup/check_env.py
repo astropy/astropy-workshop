@@ -33,7 +33,8 @@ PKGS = {'IPython': '7.2',
         'ccdproc': '2.0',
         'photutils': '1.3.0',
         'specutils': '1.1.1',
-        'astroquery': '0.4.1'}
+        'astroquery': '0.4.1',
+        'openpyxl': None}
 
 
 def check_package(package_name, minimum_version=None, verbose=True):
