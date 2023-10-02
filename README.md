@@ -32,7 +32,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | David Shupe          |
 | 12:00 - 1:30pm | LUNCH                                                          |                      |
 | 1:30 - 2:00pm | [Specutils](09b-Specutils)                                     | Clare Shanahan       |
-| 2:00 - 2:30pm | TBD                                                            |                      |
+| 2:00 - 2:30pm | [Photutils](09-Photutils)                                      | Larry Bradley        |
 | 2:30 - 3:00pm | TBD                                                            |                      |
 | 3:00 - 3:15pm | BREAK                                                          |                      |
 | 3:15 - 4:00pm | TBD                                                            |                      |
