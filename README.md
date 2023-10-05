@@ -1,47 +1,47 @@
-Using Python and Astropy for Astronomical Data Analysis
-=======================================================
-*Workshop at the 241st Meeting of the AAS in Seattle, Washington, USA*
+Python and Astropy for Astronomical Data Analysis
+=================================================
+*Workshop at the 243rd Meeting of the AAS in New Orleans, Louisiana, USA*
 
-* **DATE:** Sunday January 8th, 2023
-* **TIME:** 9AM to 5:30PM Pacific Time
-* **LOCATION:** Room 401 at the Seattle Convention Center
+* **DATE:** Sunday January 7th, 2024
+* **TIME:** 9AM to 5:30PM Central Standard Time
+* **LOCATION:** TBD
 
 ## PRE-WORKSHOP SETUP
+
 Please be sure your laptop is properly configured before the workshop by following the
 [installation and setup instructions](00-Install_and_Setup).
 
-This could take as long as *one hour* depending on your current configuration and internet speeds.
+*Warning*: Installation and setup could take as long as *one hour* depending on your current configuration and internet speeds.
 DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
-If you are having problems, we will have facilitators on-site as early as 8:30AM PT who can help you in person.
+If you have any trouble, we will have facilitators on-site as early as 8:30 AM local time who can help you in person.
 
 As an alternative, a workshop session can be run on mybinder.org via this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stargaser/workshop-env/astropy-env/?urlpath=git-pull?repo%3Dhttps%253A%252F%252Fgithub.com%252Fastropy%252Fastropy-workshop%26branch%3Dmain)
 
 ## Schedule
 
-| Time (PT)        | Topic    | Presenter/Instructor |
-|-------------------|----------|-----------|
-|9:00 - 9:10am  | [Install and config](00-Install_and_Setup) help, if needed  | David Shupe |
-|9:10 - 9:20am  | [Intro to Astropy and Code of Conduct](01-IntroCoC) | David Shupe |
-|9:20 - 9:45am  | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Nathaniel Starkman |
-|9:45 - 10:15am | [Coordinates](04-Coordinates) | Brett Morris |
-|10:15 - 10:30am | BREAK | |
-|10:30 - 11:00am | [I/O: FITS and ASCII](05-FITS) | Brett Morris |
-|11:00 - 11:30pm | [Astropy Tables](06-Tables) | Brett Morris |
-|11:30 – 12:00pm | [Intro to Object Oriented Programming (OOP)](02b-OOP) | Brett Morris |
-|12:00 - 1:30pm | LUNCH | |
-|1:30 - 2:00pm | [Modeling](07-Models) | Nadia Dencheva |
-|2:00 - 2:30pm | [Visualizing Images with Coordinates](08-Image-coords) | David Shupe |
-|2:30 - 3:00pm | [Intro to ccdproc and guide](09c-Ccdproc) | Brett Morris |
-|3:00 - 3:15pm | BREAK | |
-|3:15 - 4:00pm | [Photutils](09-Photutils) | Larry Bradley |
-|4:00 - 4:30pm | [Intro to ASDF](12-ASDF) | Nadia Dencheva |
-|4:30 - 5:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp) | Brett Morris |
-|5:00 - 5:30pm | Spare / informal interactions | |
+| Time (PT)     | Topic                                                          | Presenter/Instructor |
+|---------------|----------------------------------------------------------------|----------------------|
+| 9:00 - 9:10am | [Install and config](00-Install_and_Setup) help, if needed     | Brett Morris         |
+| 9:10 - 9:20am | [Intro to Astropy and Code of Conduct](01-IntroCoC)            | Brett Morris         |
+| 9:20 - 9:45am | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Brett Morris         |
+| 9:45 - 10:15am | [Coordinates](04-Coordinates)                                  |                      |
+| 10:15 - 10:30am | BREAK                                                          |                      |
+| 10:30 - 11:00am | [Intro to Object Oriented Programming (OOP)](02b-OOP)          | Brett Morris         |
+| 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Clare Shanahan       |
+| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | David Shupe          |
+| 12:00 - 1:30pm | LUNCH                                                          |                      |
+| 1:30 - 2:00pm | [Specutils](09b-Specutils)                                     | Clare Shanahan       |
+| 2:00 - 2:30pm | [Photutils](09-Photutils)                                      | Larry Bradley        |
+| 2:30 - 3:00pm | TBD                                                            |                      |
+| 3:00 - 3:15pm | BREAK                                                          |                      |
+| 3:15 - 4:00pm | TBD                                                            |                      |
+| 4:00 - 4:30pm | TBD                                                            |                      |
+| 4:30 - 5:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Brett Morris         |
+| 5:00 - 5:30pm | Spare / informal interactions                                  |                      |
 
 ### Additional Helpers
 
-* Kristen Larson
 
 ## Description
 This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily
@@ -74,7 +74,7 @@ If you would like to get a head start with the tools we will be concentrating on
 * [Contributing to Astropy](https://docs.astropy.org/en/stable/development/workflow/development_workflow.html)
 * [Affiliated Packages](https://www.astropy.org/affiliated/)
 
-* Other tools we can answer questions about but probably won't discuss explicitly:
+* Other tools we can answer questions about, but probably won't discuss in detail:
   * [Numpy](https://numpy.org/)
   * [Scipy](https://www.scipy.org/)
   * [Jupyter](https://jupyter.org/)
