@@ -33,8 +33,8 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 12:00 - 1:30pm | LUNCH                                                          |                      |
 | 1:30 - 2:00pm | [Specutils](09b-Specutils)                                     | Clare Shanahan       |
 | 2:00 - 2:30pm | [Photutils](09-Photutils)                                      | Larry Bradley        |
-| 2:30 - 3:00pm | TBD                                                            |                      |
-| 3:00 - 3:15pm | BREAK                                                          |                      |
+| 2:30 - 3:00pm | BREAK                                                            |                      |
+| 3:00 - 3:15pm | TBD                                                          |                      |
 | 3:15 - 4:00pm | TBD                                                            |                      |
 | 4:00 - 4:30pm | TBD                                                            |                      |
 | 4:30 - 5:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Brett Morris         |
