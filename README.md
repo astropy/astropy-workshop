@@ -25,7 +25,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 9:00 - 9:10am | [Install and config](00-Install_and_Setup) help, if needed     | Brett Morris         |
 | 9:10 - 9:20am | [Intro to Astropy and Code of Conduct](01-IntroCoC)            | Brett Morris         |
 | 9:20 - 9:45am | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Brett Morris         |
-| 9:45 - 10:15am | [Coordinates](04-Coordinates)                                  |                      |
+| 9:45 - 10:15am | [Coordinates](04-Coordinates)                                  |  Erik Tollerud     |
 | 10:15 - 10:30am | BREAK                                                          |                      |
 | 10:30 - 11:00am | [Intro to Object Oriented Programming (OOP)](02b-OOP)          | Brett Morris         |
 | 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Clare Shanahan       |
