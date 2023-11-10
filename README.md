@@ -16,7 +16,7 @@ DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
 If you have any trouble, we will have facilitators on-site as early as 8:30 AM local time who can help you in person.
 
-As an alternative, a workshop session can be run on mybinder.org via this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stargaser/workshop-env/astropy-env/?urlpath=git-pull?repo%3Dhttps%253A%252F%252Fgithub.com%252Fastropy%252Fastropy-workshop%26branch%3Dmain)
+As an alternative, a workshop session can be run on mybinder.org via this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astropy/astropy-workshop/HEAD)
 
 ## Schedule
 
@@ -34,10 +34,10 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 1:30 - 2:00pm | [Specutils](09b-Specutils)                                     | Clare Shanahan       |
 | 2:00 - 2:30pm | [Photutils](09-Photutils)                                      | Larry Bradley        |
 | 2:30 - 3:00pm | BREAK                                                            |                      |
-| 3:00 - 3:20pm | Cosmology                                                  |    Nathaniel Starkman     |
+| 3:00 - 3:20pm | [Cosmology](11-Cosmology)                                                  |    Nathaniel Starkman     |
 | 3:20 - 3:40pm | Uncertainties                                                  |    Erik Tollerud     |
-| 3:30 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Kelle Cruz         |
-| 3:30 - 5:30pm | Explore together time                                          |           |
+| 3:40 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Kelle Cruz         |
+| 4:00 - 5:30pm | Explore together time                                          |           |
 
 ### Additional Helpers
 
