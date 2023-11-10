@@ -23,7 +23,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | Time (PT)     | Topic                                                          | Presenter/Instructor |
 |---------------|----------------------------------------------------------------|----------------------|
 | 9:00 - 9:10am | [Install and config](00-Install_and_Setup) help, if needed     | Brett Morris         |
-| 9:10 - 9:20am | [Intro to Astropy and Code of Conduct](01-IntroCoC)            | Brett Morris         |
+| 9:10 - 9:20am | [Intro to Astropy and Code of Conduct](01-IntroCoC)            | Kelle Cruz         |
 | 9:20 - 9:45am | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Brett Morris         |
 | 9:45 - 10:15am | [Coordinates](04-Coordinates)                                  |  Erik Tollerud     |
 | 10:15 - 10:30am | BREAK                                                          |                      |
@@ -36,7 +36,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 2:30 - 3:00pm | BREAK                                                            |                      |
 | 3:00 - 3:20pm | Cosmology                                                  |    Nathaniel Starkman     |
 | 3:20 - 3:40pm | Uncertainties                                                  |    Erik Tollerud     |
-| 3:30 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Brett Morris         |
+| 3:30 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Kelle Cruz         |
 | 3:30 - 5:30pm | Explore together time                                          |           |
 
 ### Additional Helpers
