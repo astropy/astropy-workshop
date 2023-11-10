@@ -1,18 +1,18 @@
 # Setup and Installation Instructions for Workshop
 
 To run all the workshop notebooks on your own computer, please be sure your machine is
-configured with the packages in the 
+configured with the packages in the
 [installation check file](https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup/).
 These packages are the ones we use to verify that the notebooks are working as expected.
 
-These instructions describe setup using `git` and `Mambaforge`. It is not strictly necessary
+These instructions describe setup using `git` and `Miniconda`. It is not strictly necessary
 to use either of these. See the section
 [Alternate Installation Methods](#alternate-installation-methods) at the end
 of this document.
 
 If you have any problems with any of these steps, please check if your problem has
 already been reported at [the issue tracker](https://github.com/astropy/astropy-workshop/issues/). If not,
-[ask your question in the issue tracker](https://github.com/astropy/astropy-workshop/issues/new?assignees=&labels=workshop-question&template=question-from-workshop-participant.md&title=%5BQuestion%5D+Summarize+your+question+here).
+[ask your question in the issue tracker](https://github.com/astropy/astropy-workshop/issues/new?assignees=&labels=workshop-question&template=question-from-workshop-participant.md&title=%5BQuestion%5D+Summarize+your+question+here). You can also [join Astropy Slack] and ask on the #workshops channel.
 
 For the commands shown, `%` (and anything to the left of it) represents the
 terminal prompt. You do not need to copy it; instead only copy the command to the
@@ -20,42 +20,43 @@ right of `%`.
 
 ## 0. (Only for Windows) Install WSL
 
-*If you are using Windows, we now recommend using the Windows Subsystem for Linux (WSL) instead of using native Windows tools. WSL is now fully supported by Microsoft and tends to result in fewer install headaches, and lets you use tools that were developed for Linux seemlessly in windows. While you still may be able to use the Windows-native installation of Mambaforge, these instructions focus on the WSL approach for the above reasons.*
+*If you are using Windows, we now recommend using the Windows Subsystem for Linux (WSL) instead of using native Windows tools. WSL is now fully supported by Microsoft and tends to result in fewer install headaches, and lets you use tools that were developed for Linux seemlessly in windows. While you still may be able to use the Windows-native installation of Miniconda, these instructions focus on the WSL approach for the above reasons.*
 
 To install WSL, you should follow the instructions Microsoft provides here: https://docs.microsoft.com/en-us/windows/wsl/install. While you may choose an alternative Linux distribution from the default Ubuntu, the instructions below have been tested on Ubuntu, so unless you have a specific reason, we suggest you stick with the default.  Once you reach the point in the instructions with a working Linux terminal prompt, you can proceed to step 1 of these instructions.
 
 *Optional* While you can run a WSL terminal with the command prompt built into Windows, it's rather bare-bones and you may not have the best experience.  For WSL on Windows you'll probably want to [install Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/install) to have a terminal experience closer to what you'd see on Mac or Linux.
 
-## 1. Install Mambaforge (if needed)
+## 1. Install Miniconda (if needed)
 
-*Mambaforge is a free minimal installer for mamba. It is a small, bootstrap
-version of mamba that includes only mamba, Python, and a few packages they depend
+*Miniconda is a free minimal installer for conda. It is a small, bootstrap
+version of Anaconda that includes only conda, Python, the packages they depend
 on, and a small number of other useful packages, including pip, zlib and a few
-others. Note, though, that if you have Mambaforge, Miniconda or the full Anaconda
+others. Note, though, that if you have either Miniconda or the full Anaconda
 already installed, you can skip to the next step.*
 
-In a terminal window, check if Mambaforge is already installed.
+In a terminal window, check if Miniconda is already installed.
 
-    % mamba info
+    % conda info
 
-If Mambaforge is not already installed, obtain an installer for your
-operating system: https://github.com/conda-forge/miniforge#mambaforge.
-Then follow the installation instructions at
-https://github.com/conda-forge/miniforge#mambaforge
+If Miniconda is not already installed, follow these instructions for your
+operating system: https://conda.io/projects/conda/en/latest/user-guide/install/index.html.
+Please be sure to install a **64-bit version** of Miniconda to ensure all packages work correctly.
+
+(On native Windows, you might also need [additional compilers](https://github.com/conda/conda-build/wiki/Windows-Compilers), although this should not be necessary in WSL).
 
 
-## 2. Open the mamba command prompt
+## 2. Open the conda command prompt
 
-*Mambaforge includes an environment manager called mamba. Environments
+*Miniconda includes an environment manager called conda. Environments
 allow you to have multiple sets of Python packages installed at the same
 time, making reproducibility and upgrades easier. You can create,
 export, list, remove, and update environments that have different versions of
 Python and/or packages installed in them. For this workshop, we will configure the
-environment using the mamba command prompt.*
+environment using the conda command prompt.*
 
-Open a terminal window and verify that mamba is working: 
+Open a terminal window and verify that conda is working:
 
-    % mamba info
+    % conda info
 
 If you are having trouble, check your shell in a terminal window:
 
@@ -63,7 +64,22 @@ If you are having trouble, check your shell in a terminal window:
 
 then run the initialization if needed, in that same terminal window:
 
-    % mamba init $SHELL
+    % conda init `basename $SHELL`
+
+You should open a new terminal window after `conda init` is run.
+
+It is advisable to update your conda to the latest version. We recommend a minimum
+version of 23.10.0. Check your conda version with:
+
+    % conda --version
+
+Update it with:
+
+    % conda update conda
+
+or
+
+    % conda update -n base conda
 
 
 ## 3. Install git (if needed)
@@ -74,9 +90,9 @@ At the prompt opened in the previous step, enter this command to see whether git
 
 If the output shows a git version, proceed to the next step.  Otherwise install git by entering the following command and following the prompts:
 
-    % mamba install git
+    % conda install git
 
-## 5. Clone this repository, or download a ZIP file 
+## 5. Clone this repository, or download a ZIP file
 
 If using `git`, clone the workshop repository using
 [git](https://help.github.com/articles/set-up-git/):
@@ -87,16 +103,16 @@ If you elect not to use `git`, you can download the ZIP file by opening the
 green *Code* button at
 https://github.com/astropy/astropy-workshop and selecting *Download ZIP*.
 
-## 6. Create a mamba environment for the workshop
+## 6. Create a conda environment for the workshop
 
-*Mambaforge includes an environment manager called mamba. Environments
+*Miniconda includes an environment manager called conda. Environments
 allow you to have multiple sets of Python packages installed at the same
 time, making reproducibility and upgrades easier. You can create,
 export, list, remove, and update environments that have different versions of
 Python and/or packages installed in them.*
 
-Create a mamba environment for this workshop using a yml file.
-The python version and all needed packages, including astropy, are listed in the
+Create a conda environment for this workshop using a yml file.
+The python version is specified in the
 [environment.yml](https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup/environment.yml) file.
 
 Open a terminal window using the appropriate one for your operating system.
@@ -109,14 +125,22 @@ following.
 
 And finally, on any platform, to install and activate the astropy-workshop environment, type:
 
-    % mamba env create --file environment.yml
-    % mamba activate astropy-env
+    % conda env create --file environment.yml
+    % conda activate astropy-env
 
-Note, you will need mamba version 1.0.0 and conda version 22.9 and later. If you need to update your version use `mamba update mamba`.
+Note, you will need conda version 23.10.0 and later. If you need to update your version use `conda update conda`.
+
+The name of the new conda environment created above should be displayed next
+to the terminal prompt: `(astropy-env) %`
+
+All the required packages are specified in the
+[requirements.txt](https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup/requirements.txt) file. Install them with:
+
+    (astropy-env) % pip install -r requirements.txt
 
 ## 7. Check Installation
 
-The name of the new mamba environment created above should be displayed next
+The name of the new conda environment created above should be displayed next
 to the terminal prompt: `(astropy-env) %`
 
 In the terminal you used in the preceding step, inside the `astropy-workshop/00_Install_and_Setup/`
@@ -126,16 +150,16 @@ check the Python environment and some of the required dependencies:
     (astropy-env) % python check_env.py
 
 If the script reports that some of the versions do not match, check first
-whether the package was installed using mamba or pip, then update accordingly.
+whether the package was installed using conda or pip, then update accordingly.
 The example below a fake package called `packagename`; replace it with the
 actual package that you need to update.
 
-    (astropy-env) % mamba list packagename
+    (astropy-env) % conda list packagename
 
-If it was installed with mamba, you will see (the channel column might or
+If it was installed with conda, you will see (the channel column might or
 might not be populated):
 
-    # packages in environment at .../mambaforge/envs/astropy-env:
+    # packages in environment at .../miniconda/envs/astropy-env:
     #
     # Name                    Version                   Build  Channel
     packagename               X.Y.Z         py37hf484d3e_1000
@@ -143,14 +167,14 @@ might not be populated):
 Otherwise, if it was installed with pip, you will see the channel stating the
 name `pypi`:
 
-    # packages in environment at .../mambaforge/envs/astropy-env:
+    # packages in environment at .../miniconda/envs/astropy-env:
     #
     # Name                    Version                   Build  Channel
     packagename               X.Y.Z                     pypi_0    pypi
 
-To update the reported package with mamba:
+To update the reported package with conda:
 
-    (astropy-env) % mamba update packagename
+    (astropy-env) % conda update packagename
 
 Otherwise, to update with pip:
 
@@ -163,11 +187,11 @@ out-of-date, always update to its pre-release version with pip:
 
 ## 8. Starting Jupyter Notebook
 
-In the terminal window you used with the mamba environment created above, 
+In the terminal window you used with the conda environment created above,
 change directory to the top level `astropy_workshop` directory.
 
     (astropy-env) % cd ..
-    
+
 Make sure the current directory in your terminal contains all the numbered notebook
 directories. Then start Jupyter notebook:
 
@@ -204,15 +228,15 @@ as instructed above.
 
 ## Alternate Installation Methods
 
-Although we recommend Mambaforge, you can use either the [conda package
-manager](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
-with the `environment.yml` file,  or 
-[pip/venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
-with the `requirements.txt` file in this directory.
- 
+Although we recommend Miniconda, you can use `pip install -r requirements.txt`
+into an existing Python installation, or create a virtual environment using
+[pip/venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
+If you are having trouble with the conda steps, you may wish to try
+[mamba](https://mamba.readthedocs.io/).
+
 ## Additional Resources
 
 - [Set up git](https://help.github.com/articles/set-up-git/)
-- [Mamba Documentation](https://mamba.readthedocs.io/)
+- [Conda Users Guide](https://docs.conda.io/projects/conda/en/latest/user-guide/)
 - [Astropy Install Instructions](http://docs.astropy.org/en/latest/install.html)
 - [Instructions for keeping this repo up to date](UPDATING.md)

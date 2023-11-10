@@ -9,16 +9,16 @@ Usage::
 from packaging.version import Version
 
 # NOTE: Update minversion values as needed.
-# This should match environment.yml file.
-PKGS = {'IPython': '7.2',
+# This should match environment.yml and requirements.txt contents.
+PKGS = {'IPython': '8.0',
         'cython': None,
         'jupyter': None,
         'notebook': '6.0',
-        'numpy': '1.16',
-        'scipy': '1.5',
-        'skimage': '0.17',
-        'matplotlib': '3.2',
-        'pandas': '1.0',
+        'numpy': '1.23',
+        'scipy': '1.11',
+        'skimage': '0.20',
+        'matplotlib': '3.6',
+        'pandas': '2.0',
         'bs4': None,  # beautifulsoup4
         'keyring': None,
         'html5lib': None,
@@ -27,13 +27,13 @@ PKGS = {'IPython': '7.2',
         'requests': None,
         'jupyterlab': None,
         'nbgitpuller': None,
-        'astropy': '4.2',
+        'astropy': '5.3.4',
         'asdf': None,
         'gwcs': '0.16',
         'ccdproc': '2.0',
-        'photutils': '1.3.0',
-        'specutils': '1.1.1',
-        'astroquery': '0.4.1',
+        'photutils': '1.9.0',
+        'specutils': '1.12.0',
+        'astroquery': '0.4.7dev8930',
         'openpyxl': None}
 
 
