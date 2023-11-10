@@ -29,14 +29,15 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 10:15 - 10:30am | BREAK                                                          |                      |
 | 10:30 - 11:00am | [Intro to Object Oriented Programming (OOP)](02b-OOP)          | Brett Morris         |
 | 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Clare Shanahan       |
-| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | David Shupe          |
+| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Brett Morris          |
 | 12:00 - 1:30pm | LUNCH                                                          |                      |
 | 1:30 - 2:00pm | [Specutils](09b-Specutils)                                     | Clare Shanahan       |
 | 2:00 - 2:30pm | [Photutils](09-Photutils)                                      | Larry Bradley        |
 | 2:30 - 3:00pm | BREAK                                                            |                      |
-| 3:00 - 3:30pm | Uncertainties                                                  |    Erik Tollerud     |
+| 3:00 - 3:20pm | Cosmology                                                  |    Nathaniel Starkman     |
+| 3:20 - 3:40pm | Uncertainties                                                  |    Erik Tollerud     |
 | 3:30 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Brett Morris         |
-| 3:30 - 5:30pm | Explore together time                                          |                      |
+| 3:30 - 5:30pm | Explore together time                                          |           |
 
 ### Additional Helpers
 
