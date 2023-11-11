@@ -1,11 +1,11 @@
 # Setup and Installation Instructions for Workshop
 
 To run all the workshop notebooks on your own computer, please be sure your machine is
-configured with the packages in the 
+configured with the packages in the
 [installation check file](https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup/).
 These packages are the ones we use to verify that the notebooks are working as expected.
 
-These instructions describe setup using `git` and `Mambaforge`. It is not strictly necessary
+These instructions describe setup using `git` and `miniforge`. It is not strictly necessary
 to use either of these. See the section
 [Alternate Installation Methods](#alternate-installation-methods) at the end
 of this document.
@@ -20,40 +20,40 @@ right of `%`.
 
 ## 0. (Only for Windows) Install WSL
 
-*If you are using Windows, we now recommend using the Windows Subsystem for Linux (WSL) instead of using native Windows tools. WSL is now fully supported by Microsoft and tends to result in fewer install headaches, and lets you use tools that were developed for Linux seemlessly in windows. While you still may be able to use the Windows-native installation of Mambaforge, these instructions focus on the WSL approach for the above reasons.*
+*If you are using Windows, we now recommend using the Windows Subsystem for Linux (WSL) instead of using native Windows tools. WSL is now fully supported by Microsoft and tends to result in fewer install headaches, and lets you use tools that were developed for Linux seemlessly in windows. While you still may be able to use the Windows-native installation of miniforge, these instructions focus on the WSL approach for the above reasons.*
 
 To install WSL, you should follow the instructions Microsoft provides here: https://docs.microsoft.com/en-us/windows/wsl/install. While you may choose an alternative Linux distribution from the default Ubuntu, the instructions below have been tested on Ubuntu, so unless you have a specific reason, we suggest you stick with the default.  Once you reach the point in the instructions with a working Linux terminal prompt, you can proceed to step 1 of these instructions.
 
 *Optional* While you can run a WSL terminal with the command prompt built into Windows, it's rather bare-bones and you may not have the best experience.  For WSL on Windows you'll probably want to [install Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/install) to have a terminal experience closer to what you'd see on Mac or Linux.
 
-## 1. Install Mambaforge (if needed)
+## 1. Install miniforge (if needed)
 
-*Mambaforge is a free minimal installer for mamba. It is a small, bootstrap
+*miniforge is a free minimal installer for mamba. It is a small, bootstrap
 version of mamba that includes only mamba, Python, and a few packages they depend
 on, and a small number of other useful packages, including pip, zlib and a few
-others. Note, though, that if you have Mambaforge, Miniconda or the full Anaconda
+others. Note, though, that if you have miniforge, Miniconda or the full Anaconda
 already installed, you can skip to the next step.*
 
-In a terminal window, check if Mambaforge is already installed.
+In a terminal window, check if miniforge is already installed.
 
     % mamba info
 
-If Mambaforge is not already installed, obtain an installer for your
-operating system: https://github.com/conda-forge/miniforge#mambaforge.
+If miniforge is not already installed, obtain an installer for your
+operating system: https://github.com/conda-forge/miniforge#miniforge3.
 Then follow the installation instructions at
-https://github.com/conda-forge/miniforge#mambaforge
+https://github.com/conda-forge/miniforge#install
 
 
 ## 2. Open the mamba command prompt
 
-*Mambaforge includes an environment manager called mamba. Environments
+*miniforge includes an environment manager called mamba. Environments
 allow you to have multiple sets of Python packages installed at the same
 time, making reproducibility and upgrades easier. You can create,
 export, list, remove, and update environments that have different versions of
 Python and/or packages installed in them. For this workshop, we will configure the
 environment using the mamba command prompt.*
 
-Open a terminal window and verify that mamba is working: 
+Open a terminal window and verify that mamba is working:
 
     % mamba info
 
@@ -76,7 +76,7 @@ If the output shows a git version, proceed to the next step.  Otherwise install 
 
     % mamba install git
 
-## 5. Clone this repository, or download a ZIP file 
+## 5. Clone this repository, or download a ZIP file
 
 If using `git`, clone the workshop repository using
 [git](https://help.github.com/articles/set-up-git/):
@@ -89,7 +89,7 @@ https://github.com/astropy/astropy-workshop and selecting *Download ZIP*.
 
 ## 6. Create a mamba environment for the workshop
 
-*Mambaforge includes an environment manager called mamba. Environments
+*miniforge includes an environment manager called mamba. Environments
 allow you to have multiple sets of Python packages installed at the same
 time, making reproducibility and upgrades easier. You can create,
 export, list, remove, and update environments that have different versions of
@@ -135,7 +135,7 @@ actual package that you need to update.
 If it was installed with mamba, you will see (the channel column might or
 might not be populated):
 
-    # packages in environment at .../mambaforge/envs/astropy-env:
+    # packages in environment at .../miniforge/envs/astropy-env:
     #
     # Name                    Version                   Build  Channel
     packagename               X.Y.Z         py37hf484d3e_1000
@@ -143,7 +143,7 @@ might not be populated):
 Otherwise, if it was installed with pip, you will see the channel stating the
 name `pypi`:
 
-    # packages in environment at .../mambaforge/envs/astropy-env:
+    # packages in environment at .../miniforge/envs/astropy-env:
     #
     # Name                    Version                   Build  Channel
     packagename               X.Y.Z                     pypi_0    pypi
@@ -163,11 +163,11 @@ out-of-date, always update to its pre-release version with pip:
 
 ## 8. Starting Jupyter Notebook
 
-In the terminal window you used with the mamba environment created above, 
+In the terminal window you used with the mamba environment created above,
 change directory to the top level `astropy_workshop` directory.
 
     (astropy-env) % cd ..
-    
+
 Make sure the current directory in your terminal contains all the numbered notebook
 directories. Then start Jupyter notebook:
 
@@ -204,12 +204,12 @@ as instructed above.
 
 ## Alternate Installation Methods
 
-Although we recommend Mambaforge, you can use either the [conda package
+Although we recommend miniforge, you can use either the [conda package
 manager](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
-with the `environment.yml` file,  or 
+with the `environment.yml` file,  or
 [pip/venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
 with the `requirements.txt` file in this directory.
- 
+
 ## Additional Resources
 
 - [Set up git](https://help.github.com/articles/set-up-git/)
