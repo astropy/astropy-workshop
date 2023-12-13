@@ -1,13 +1,13 @@
 ipython>=8.0
 cython
 jupyter
-notebook>=6.0
-numpy>=1.23
+notebook>=7.0
+numpy>=1.26
 scipy>=1.11
-scikit-image>=0.20
-matplotlib>=3.6
-pandas>=2.0
-ccdproc>=2.0
+scikit-image>=0.22
+matplotlib>=3.8
+pandas>=2.1
+ccdproc>=2.4
 pytest
 beautifulsoup4
 keyring
@@ -19,11 +19,11 @@ jupyterlab
 jupyter-offlinenotebook
 nbzip
 nbgitpuller
-astropy>=5.3.4
+astropy>=6.0
 asdf
 asdf-astropy
-gwcs>=0.16
-photutils>=1.9.0
+gwcs>=0.20
+photutils>=1.10.0
 specutils>=1.12.0
-astroquery>=0.4.7dev8930 --pre
+astroquery>=0.4.7dev9008
 openpyxl
