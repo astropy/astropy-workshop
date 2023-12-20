@@ -35,7 +35,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 2:00 - 2:30pm | [Photutils](09-Photutils)                                      | Larry Bradley ([@larrybradley](https://github.com/larrybradley))        |
 | 2:30 - 3:00pm | BREAK                                                            |                      |
 | 3:00 - 3:20pm | [Cosmology](11-Cosmology)                                                  |    Nathaniel Starkman ([@nstarman](https://github.com/nstarman))    |
-| 3:20 - 3:40pm | Uncertainties                                                  |    Erik Tollerud     |
+| 3:20 - 3:40pm | [Uncertainties](13-Uncertainties)                              |    Erik Tollerud     |
 | 3:40 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Kelle Cruz         |
 | 4:00 - 5:30pm | Explore together time                                          |           |
 
