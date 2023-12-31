@@ -13,11 +13,11 @@ Our facilitators will be making small adjustments to the content of the workshop
 __Schedule__
 https://github.com/astropy/astropy-workshop
 
-We've got a full day! 9:00am - 5:30pm in Room 401 at the Seattle Convention Center.
+We've got a full day! 9:00am - 5:30pm in Room 212 at the Ernest N. Morial Convention Center.
 
 This workshop is sold out and we are anticipating folks to show up who did not pre-register. If you do not arrive by 10:00, your seat may be given away. If you know you're going to be late, please drop me an email.
 
-Continental breakfast will be available from 9-10:30. Lunch will NOT be provided.
+Coffee, continental breakfast and an afternoon snack will be available. Lunch will NOT be provided.
 
 __Slack Channel__
 http://joinslack.astropy.org/
