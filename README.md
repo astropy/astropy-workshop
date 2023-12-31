@@ -4,7 +4,7 @@ Python and Astropy for Astronomical Data Analysis
 
 * **DATE:** Sunday January 7th, 2024
 * **TIME:** 9AM to 5:30PM Central Standard Time
-* **LOCATION:** TBD
+* **LOCATION:** Room 212 at the Ernest N. Morial Convention Center
 
 ## PRE-WORKSHOP SETUP
 

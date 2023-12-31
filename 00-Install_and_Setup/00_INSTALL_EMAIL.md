@@ -1,7 +1,7 @@
 Dear Astropy Workshop Participants,
 
 We are looking forward to seeing you at the _Using Python and Astropy for Astronomical Data Analysis Workshop_
-on January 8, 2023 at the American Astronomical Society meeting!
+on January 7, 2024 at the American Astronomical Society meeting!
 
 __Setup Instructions__
 https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup
@@ -25,12 +25,14 @@ Please join the #workshop channel in the Astropy slack.
 
 Looking forward to seeing you there!
 
-David Shupe, on behalf of the workshop team:
+Brett Morris, on behalf of the workshop team:
 
 * Larry Bradley
-* Nadia Dencheva
-* Kristen Larson
-* Brett Morris
+* Kelle Cruz
+* Beryl Kanali
+* Clare Shanahan
+* David Shupe
 * Leo Singer
 * Nathaniel Starkman
+* Erik Tollerud
 

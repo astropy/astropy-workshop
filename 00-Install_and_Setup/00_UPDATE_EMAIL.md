@@ -1,6 +1,6 @@
 Dear Astropy Workshop Participants,
 
-The workshop begins at 9:00am on January 8th! The room is 401 at the Seattle Convention Center.
+The workshop begins at 9:00am on January 7th! The room is 212 at the Ernest N. Morial Convention Center.
 
 If you have not yet done so, please follow the setup instructions at
 
@@ -36,12 +36,14 @@ Please join the #workshop channel in the Astropy slack.
 
 Looking forward to seeing you there!
 
-David Shupe, on behalf of the workshop team:
+Brett Morris, on behalf of the workshop team:
 
 * Larry Bradley
-* Nadia Dencheva
-* Kristen Larson
-* Brett Morris
+* Kelle Cruz
+* Beryl Kanali
+* Clare Shanahan
+* David Shupe
 * Leo Singer
 * Nathaniel Starkman
+* Erik Tollerud
 
