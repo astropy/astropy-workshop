@@ -28,7 +28,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 9:45 - 10:15am | [Coordinates](04-Coordinates)                                  |  Erik Tollerud ([@eteq](https://github.com/eteq))    |
 | 10:15 - 10:30am | BREAK                                                          |                      |
 | 10:30 - 11:00am | [Intro to Object Oriented Programming (OOP)](02b-OOP)          | Brett Morris         |
-| 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Clare Shanahan ([@cshanahan1](https://github.com/cshanahan1))      |
+| 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Brett Morris      |
 | 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Brett Morris          |
 | 12:00 - 1:30pm | LUNCH                                                          |                      |
 | 1:30 - 2:00pm | [Specutils](09b-Specutils)                                     | Clare Shanahan       |
