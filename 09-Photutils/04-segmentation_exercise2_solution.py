@@ -1,5 +1,5 @@
-from astropy.table import QTable
 import numpy as np
+from astropy.table import QTable
 from photutils.segmentation import SourceCatalog
 
 # load the F160W source catalog table
