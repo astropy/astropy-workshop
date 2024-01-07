@@ -25,16 +25,16 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 9:00 - 9:10am | [Install and config](00-Install_and_Setup) help, if needed     | Brett Morris ([@bmorris3](https://github.com/bmorris3))         |
 | 9:10 - 9:20am | [Intro to Astropy and Code of Conduct](01-IntroCoC)            | Kelle Cruz ([@kelle](https://github.com/kelle))        |
 | 9:20 - 9:45am | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Brett Morris         |
-| 9:45 - 10:15am | [Coordinates](04-Coordinates)                                  |  Erik Tollerud ([@eteq](https://github.com/eteq))    |
+| 9:45 - 10:15am | [Intro to Object Oriented Programming (OOP)](02b-OOP)                                   |  Brett Morris    |
 | 10:15 - 10:30am | BREAK                                                          |                      |
-| 10:30 - 11:00am | [Intro to Object Oriented Programming (OOP)](02b-OOP)          | Brett Morris         |
+| 10:30 - 11:00am | [Coordinates](04-Coordinates)         |  Erik Tollerud ([@eteq](https://github.com/eteq))        |
 | 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Brett Morris      |
 | 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Brett Morris          |
 | 12:00 - 1:30pm | LUNCH                                                          |                      |
 | 1:30 - 2:00pm | [Specutils](09b-Specutils)                                     | Erik Tollerud       |
 | 2:00 - 2:30pm | [Photutils](09-Photutils)                                      | Larry Bradley ([@larrybradley](https://github.com/larrybradley))        |
 | 2:30 - 3:00pm | BREAK                                                            |                      |
-| 3:00 - 3:20pm | [Cosmology](11-Cosmology)                                                  |    Nathaniel Starkman ([@nstarman](https://github.com/nstarman))    |
+| 3:00 - 3:20pm | Explore together time                                                |     |
 | 3:20 - 3:40pm | [Uncertainty](13-Uncertainty)                              |    Erik Tollerud     |
 | 3:40 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Kelle Cruz         |
 | 4:00 - 5:30pm | Explore together time                                          |           |
