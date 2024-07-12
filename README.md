@@ -1,10 +1,10 @@
 Python and Astropy for Astronomical Data Analysis
 =================================================
-*Workshop at the 243rd Meeting of the AAS in New Orleans, Louisiana, USA*
+*Workshop at the 245th Meeting of the AAS in National Harbor, MD, USA*
 
-* **DATE:** Sunday January 7th, 2024
-* **TIME:** 9AM to 5:30PM Central Standard Time
-* **LOCATION:** Room 212 at the Ernest N. Morial Convention Center
+* **DATE:** TBD
+* **TIME:** TBD
+* **LOCATION:** TBD
 
 ## PRE-WORKSHOP SETUP
 
@@ -24,24 +24,24 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |---------------|----------------------------------------------------------------|----------------------|
 | 9:00 - 9:10am | [Install and config](00-Install_and_Setup) help, if needed     | Brett Morris ([@bmorris3](https://github.com/bmorris3))         |
 | 9:10 - 9:20am | [Intro to Astropy and Code of Conduct](01-IntroCoC)            | Kelle Cruz ([@kelle](https://github.com/kelle))        |
-| 9:20 - 9:45am | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Brett Morris         |
-| 9:45 - 10:15am | [Intro to Object Oriented Programming (OOP)](02b-OOP)                                   |  Brett Morris    |
+| 9:20 - 9:45am | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) |          |
+| 9:45 - 10:15am | [Intro to Object Oriented Programming (OOP)](02b-OOP)                                   |    |
 | 10:15 - 10:30am | BREAK                                                          |                      |
-| 10:30 - 11:00am | [Coordinates](04-Coordinates)         |  Erik Tollerud ([@eteq](https://github.com/eteq))        |
-| 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Brett Morris      |
-| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Brett Morris          |
+| 10:30 - 11:00am | [Coordinates](04-Coordinates)         |         |
+| 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    |    |
+| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 |        |
 | 12:00 - 1:30pm | LUNCH                                                          |                      |
-| 1:30 - 2:00pm | [Specutils](09b-Specutils)                                     | Erik Tollerud       |
-| 2:00 - 2:30pm | [Photutils](09-Photutils)                                      | Larry Bradley ([@larrybradley](https://github.com/larrybradley))        |
+| 1:30 - 2:00pm | [Specutils](09b-Specutils)                                     | |
+| 2:00 - 2:30pm | [Photutils](09-Photutils)                                      |  |
 | 2:30 - 3:00pm | BREAK                                                            |                      |
 | 3:00 - 3:20pm | Explore together time                                                |     |
-| 3:20 - 3:40pm | [Uncertainty](13-Uncertainty)                              |    Erik Tollerud     |
-| 3:40 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Kelle Cruz         |
+| 3:20 - 3:40pm | [Uncertainty](13-Uncertainty)                              |     |
+| 3:40 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp)     |  |
 | 4:00 - 5:30pm | Explore together time                                          |           |
 
 ### Additional Helpers
 
-David Shupe ([@stargaser](https://github.com/stargaser)), Leo Singer ([@lpsinger](https://github.com/lpsinger))
+TBD
 
 ## Description
 This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily
