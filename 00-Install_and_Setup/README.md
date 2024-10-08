@@ -20,34 +20,37 @@ right of `%`.
 
 ## 0. (Only for Windows) Install WSL
 
-*If you are using Windows, we now recommend using the Windows Subsystem for Linux (WSL) instead of using native Windows tools. WSL is now fully supported by Microsoft and tends to result in fewer install headaches, and lets you use tools that were developed for Linux seemlessly in windows. While you still may be able to use the Windows-native installation of Miniconda, these instructions focus on the WSL approach for the above reasons.*
+*If you are using Windows, we now recommend using the Windows Subsystem for Linux (WSL) instead of using native Windows tools. WSL is now fully supported by Microsoft and tends to result in fewer install headaches, and lets you use tools that were developed for Linux seemlessly in windows. While you still may be able to use the Windows-native installation of Miniforge, these instructions focus on the WSL approach for the above reasons.*
 
 To install WSL, you should follow the instructions Microsoft provides here: https://docs.microsoft.com/en-us/windows/wsl/install. While you may choose an alternative Linux distribution from the default Ubuntu, the instructions below have been tested on Ubuntu, so unless you have a specific reason, we suggest you stick with the default.  Once you reach the point in the instructions with a working Linux terminal prompt, you can proceed to step 1 of these instructions.
 
 *Optional* While you can run a WSL terminal with the command prompt built into Windows, it's rather bare-bones and you may not have the best experience.  For WSL on Windows you'll probably want to [install Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/install) to have a terminal experience closer to what you'd see on Mac or Linux.
 
-## 1. Install Miniconda (if needed)
+## 1. Install Miniforge (if needed)
 
-*Miniconda is a free minimal installer for conda. It is a small, bootstrap
+*Miniforge is a free minimal installer for conda. It is a small, bootstrap
 version of Anaconda that includes only conda, Python, the packages they depend
 on, and a small number of other useful packages, including pip, zlib and a few
-others. Note, though, that if you have either Miniconda or the full Anaconda
-already installed, you can skip to the next step.*
+others. It also defaults to using the conda-forge service to get packages,
+which has the widest set of packages and has all freely-licensed software 
+(unlike Anaconda of miniconda).Note, though, that if you have either Miniforge,
+miniconda, or the full Anaconda already installed, you can skip to the next step.*
 
-In a terminal window, check if Miniconda is already installed.
+In a terminal window, check if Miniforge or another conda-like installer
+is already installed.
 
     % conda info
 
-If Miniconda is not already installed, follow these instructions for your
-operating system: https://conda.io/projects/conda/en/latest/user-guide/install/index.html.
-Please be sure to install a **64-bit version** of Miniconda to ensure all packages work correctly.
+If a conda is not already installed, follow these instructions for your
+operating system: https://github.com/conda-forge/miniforge/blob/main/README.md .
+Please be sure to install a **64-bit version** of Miniforge to ensure all packages work correctly.
 
 (On native Windows, you might also need [additional compilers](https://github.com/conda/conda-build/wiki/Windows-Compilers), although this should not be necessary in WSL).
 
 
 ## 2. Open the conda command prompt
 
-*Miniconda includes an environment manager called conda. Environments
+*Miniforge includes an environment manager called conda. Environments
 allow you to have multiple sets of Python packages installed at the same
 time, making reproducibility and upgrades easier. You can create,
 export, list, remove, and update environments that have different versions of
@@ -105,7 +108,7 @@ https://github.com/astropy/astropy-workshop and selecting *Download ZIP*.
 
 ## 6. Create a conda environment for the workshop
 
-*Miniconda includes an environment manager called conda. Environments
+*Miniforge includes an environment manager called conda. Environments
 allow you to have multiple sets of Python packages installed at the same
 time, making reproducibility and upgrades easier. You can create,
 export, list, remove, and update environments that have different versions of
@@ -159,7 +162,7 @@ actual package that you need to update.
 If it was installed with conda, you will see (the channel column might or
 might not be populated):
 
-    # packages in environment at .../miniconda/envs/astropy-env:
+    # packages in environment at .../miniforge/envs/astropy-env:
     #
     # Name                    Version                   Build  Channel
     packagename               X.Y.Z         py37hf484d3e_1000
@@ -167,7 +170,7 @@ might not be populated):
 Otherwise, if it was installed with pip, you will see the channel stating the
 name `pypi`:
 
-    # packages in environment at .../miniconda/envs/astropy-env:
+    # packages in environment at .../miniforge/envs/astropy-env:
     #
     # Name                    Version                   Build  Channel
     packagename               X.Y.Z                     pypi_0    pypi
@@ -228,11 +231,9 @@ as instructed above.
 
 ## Alternate Installation Methods
 
-Although we recommend Miniconda, you can use `pip install -r requirements.txt`
+Although we recommend Miniforge, you can use `pip install -r requirements.txt`
 into an existing Python installation, or create a virtual environment using
 [pip/venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
-If you are having trouble with the conda steps, you may wish to try
-[mamba](https://mamba.readthedocs.io/).
 
 ## Additional Resources
 
