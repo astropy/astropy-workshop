@@ -2,8 +2,8 @@ Python and Astropy for Astronomical Data Analysis
 =================================================
 *Workshop at the 245th Meeting of the AAS in National Harbor, MD, USA*
 
-* **DATE:** TBD
-* **TIME:** TBD
+* **DATE:** Sunday January 12, 2025
+* **TIME:** 9:00 am – 5:30 pm
 * **LOCATION:** TBD
 
 ## PRE-WORKSHOP SETUP
