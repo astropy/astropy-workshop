@@ -24,12 +24,12 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |---------------|----------------------------------------------------------------|----------------------|
 | 9:00 - 9:10am | [Install and config](00-Install_and_Setup) help, if needed     | Brett Morris ([@bmorris3](https://github.com/bmorris3))         |
 | 9:10 - 9:20am | [Intro to Astropy and Code of Conduct](01-IntroCoC)            | Kelle Cruz ([@kelle](https://github.com/kelle))        |
-| 9:20 - 9:45am | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) |          |
-| 9:45 - 10:15am | [Intro to Object Oriented Programming (OOP)](02b-OOP)                                   |    |
+| 9:20 - 9:45am | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Brett Morris ([@bmorris3](https://github.com/bmorris3))         |
+| 9:45 - 10:15am | [Intro to Object Oriented Programming (OOP)](02b-OOP)         | Brett Morris ([@bmorris3](https://github.com/bmorris3))    |
 | 10:15 - 10:30am | BREAK                                                          |                      |
 | 10:30 - 11:00am | [Coordinates](04-Coordinates)         |         |
-| 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    |    |
-| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 |        |
+| 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Clara Brasseur ([@ceb8](https://github.com/ceb8))   |
+| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Clara Brasseur ([@ceb8](https://github.com/ceb8))       |
 | 12:00 - 1:30pm | LUNCH                                                          |                      |
 | 1:30 - 2:00pm | [Specutils](09b-Specutils)                                     | |
 | 2:00 - 2:30pm | [Photutils](09-Photutils)                                      |  |
