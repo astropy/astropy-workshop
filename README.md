@@ -1,12 +1,11 @@
-Python and Astropy for Astronomical Data Analysis
-=================================================
-*Workshop at the 245th Meeting of the AAS in National Harbor, MD, USA*
+# Astropy Learning at Observatories of HAwaii (ALOHA)
 
-* **DATE:** Sunday January 12, 2025
-* **TIME:** 9:00 am – 5:30 pm
-* **LOCATION:** TBD
+*Workshops at Subaru and Keck*
 
-## PRE-WORKSHOP SETUP
+
+## PRE-WORKSHOP TO-DOs
+
+### Install Python if you do not have it
 
 Please be sure your laptop is properly configured before the workshop by following the
 [installation and setup instructions](00-Install_and_Setup).
@@ -18,26 +17,62 @@ If you have any trouble, we will have facilitators on-site as early as 8:30 AM l
 
 As an alternative, a workshop session can be run on mybinder.org via this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astropy/astropy-workshop/HEAD)
 
-## Schedule
+### Review some introductory Python if you have not used Python
 
-| Time (PT)     | Topic                                                          | Presenter/Instructor |
-|---------------|----------------------------------------------------------------|----------------------|
-| Before 9:00am | [Install and config](00-Install_and_Setup) help, if needed     | (All)         |
-| 9:00 - 9:20am | [Intro to Astropy and Code of Conduct](01-IntroCoC)            | Kelle Cruz ([@kelle](https://github.com/kelle))        |
-| 9:20 - 9:45am | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Brett Morris ([@bmorris3](https://github.com/bmorris3))         |
-| 9:45 - 10:15am | [Intro to Object Oriented Programming (OOP)](02b-OOP)         | Brett Morris ([@bmorris3](https://github.com/bmorris3))    |
-| 10:15 - 10:30am | BREAK                                                          |                      |
-| 10:30 - 11:00am | [Coordinates](04-Coordinates)         |         |
-| 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Clara Brasseur ([@ceb8](https://github.com/ceb8))   |
-| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Clara Brasseur ([@ceb8](https://github.com/ceb8))       |
-| 12:00 - 1:30pm | LUNCH                                                          |                      |
-| 1:30 - 2:00pm | [Specutils](09b-Specutils)                                     | |
-| 2:00 - 2:30pm | [Photutils](09-Photutils)                                      |  |
-| 2:30 - 3:00pm | BREAK                                                            |                      |
-| 3:00 - 3:20pm | Explore together time                                                |     |
-| 3:20 - 3:40pm | [Uncertainty](13-Uncertainty)                              |     |
-| 3:40 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp)     |  |
-| 4:00 - 5:30pm | Explore together time                                          |           |
+That material is in the folder `02-PythonIntro`. A link to that -- so that you can read it even if you have not used Python before -- is [here](https://github.com/mwcraig/astropy-workshop/tree/ALOHA-2024/02-PythonIntro). Click on the individual notebooks, whose names end `.ipynb`, to open them.
+
+Doing this before the workshop will put you in a better position to follow along with the workshop materials.
+
+## Schedules
+
+At both sets of workshops there will be science use cases integrated into
+the presentation topics.
+
+### Subaru, Dec 2 and Dec 3, 2024
+
+#### Day 1: Mon, December 2, 2024
+
+* 10:00 AM - 10:30 AM: Intro to astropy and orientation to the astropy ecosystem
+* 10:30 AM - 11:00 AM: More astropy fundamentals and science examples
+* 11:00 AM - 11:30 PM: Visualization options with astropy and Python by Erik Tollerud (tentative)
+* 11:30 AM - 12:00 PM: Visualization Q&A / User stories
+* 12:00 PM - 01:30 PM: Lunch
+* 01:30 PM - 02:30 PM: Photometry with Astropy by Pey Lian Lim (tentative)
+* 02:30 PM - 04:30 PM: Office hours / "code along"
+* $\color{gray}{Organizers' \space BBQ \space (private \space event)}$
+
+### Day 2: Tue, December 3, 2024 Subaru workshop day 2:
+
+* 10:00 AM - 10:30 AM: Spectroscopy with Astropy by Erik Tollerud
+* 10:30 AM - 11:00 AM: Spectroscopy continued / Q&A
+* 11:00 AM - 11:30 PM: DevOps Q&A by Pey Lian Lim
+* 11:30 AM - 12:00 PM: More astropy science use cases by Matt Craig (tentative)
+* 12:00 PM - 01:30 PM: Lunch
+* 01:30 PM - 02:30 PM: Deeper dive (a couple of topics based on participants interest/needs)
+* 02:30 PM - 04:30 PM: Office hours / "code along"
+* $\color{gray}{Organizers' \space picnic \space and \space observation \space shadowing \space (private \space event)}$
+
+### Day 3: Wed, December 4, 2024 Keck workshop day 1:
+
+* 10:00 AM - 10:30 AM: Intro to astropy and orientation to the astropy ecosystem by Pey Lian Lim (tentative) (this is a repeat of Day 1 opening talk)
+* 10:30 AM - 11:00 AM: More astropy fundamentals and science examples by Matt Craig (this is a repeat of Day 1)
+* 11:00 AM - 11:30 AM: Visualization options with astropy and Python by Erik Tollerud (tentative)
+* 11:30 AM - 12:00 PM: Visualization Q&A / User stories
+* 12:00 PM - 01:30 PM: Lunch
+* 01:30 PM - 02:30 PM: DevOps Q&A by Pey Lian Lim / discussion
+* 02:30 PM - 04:30 PM: Office hours / "code along"
+
+### Day 4: Thu, December 5, 2024 Keck workshop day 2:
+* 10:00 AM - 10:30 AM: Photometry with Astropy by Pey Lian Lim (tentative)
+* 10:30 AM - 11:00 AM: Photometry continued / Q&A
+* 11:00 AM - 11:30 AM: Spectroscopy with Astropy by Erik Tollerud
+* 11:30 AM - 12:00 PM: More astropy science use cases by Matt Craig (tentative)
+* 12:00 PM - 01:30 PM: Lunch
+* 01:30 PM - 02:30 PM: Deeper dive (topic based on participants interest)
+* 02:30 PM - 04:30 PM: Office hours / "code along"
+* Group dinner
+* 07:00 PM - 09:00 PM: Astronomy On Tap at Hilo Town Tavern in Hilo, by Matt Craig
+
 
 ### Additional Helpers
 
