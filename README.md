@@ -26,7 +26,7 @@ the presentation topics.
 
 Note that the materials are very similar between the two workshops, although the emphasis on the Subaru and Keck days are slightly different.
 
-### Subaru, Dec 2 and Dec 3, 2024
+### Subaru, Dec 2-3, 2024
 
 #### Day 1: Mon, December 2, 2024
 
