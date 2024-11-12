@@ -11,7 +11,7 @@ Please be sure your laptop is properly configured before the workshop by followi
 [installation and setup instructions](00-Install_and_Setup).
 
 *Warning*: Installation and setup could take as long as *one hour* depending on your current configuration and internet speeds.
-DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.s
+DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
 ### Review some introductory Python if you have not used Python
 
