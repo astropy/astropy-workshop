@@ -39,7 +39,7 @@ Note that the materials are very similar between the two workshops, although the
 * 02:30 PM - 04:30 PM: Office hours / "code along"
 * $\color{gray}{Organizers' \space BBQ \space (private \space event)}$
 
-### Day 2: Tue, December 3, 2024 Subaru workshop day 2:
+#### Day 2: Tue, December 3, 2024 (Subaru workshop day 2)
 
 * 10:00 AM - 10:30 AM: Spectroscopy with Astropy by Erik Tollerud
 * 10:30 AM - 11:00 AM: Spectroscopy continued / Q&A
