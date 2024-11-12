@@ -50,7 +50,9 @@ Note that the materials are very similar between the two workshops, although the
 * 02:30 PM - 04:30 PM: Office hours / "code along"
 * $\color{gray}{Organizers' \space picnic \space and \space observation \space shadowing \space (private \space event)}$
 
-### Day 3: Wed, December 4, 2024 Keck workshop day 1:
+### Keck, Dec 4-5, 2024
+
+#### Day 3: Wed, December 4, 2024 (Keck workshop day 1)
 
 * 10:00 AM - 10:30 AM: Intro to astropy package and orientation to the Astropy ecosystem by Matt Craig
 * 10:30 AM - 11:00 AM: More astropy fundamentals and science examples by Matt Craig
