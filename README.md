@@ -28,6 +28,8 @@ Doing this before the workshop will put you in a better position to follow along
 At both sets of workshops there will be science use cases integrated into
 the presentation topics.
 
+Note that the materials are very similar between the two workshops, although the emphasis on the Subaru and Keck days are slightly different.
+
 ### Subaru, Dec 2 and Dec 3, 2024
 
 #### Day 1: Mon, December 2, 2024
@@ -54,8 +56,8 @@ the presentation topics.
 
 ### Day 3: Wed, December 4, 2024 Keck workshop day 1:
 
-* 10:00 AM - 10:30 AM: Intro to astropy and orientation to the astropy ecosystem by Pey Lian Lim (tentative) (this is a repeat of Day 1 opening talk)
-* 10:30 AM - 11:00 AM: More astropy fundamentals and science examples by Matt Craig (this is a repeat of Day 1)
+* 10:00 AM - 10:30 AM: Intro to astropy and orientation to the astropy ecosystem by Pey Lian Lim (tentative) 
+* 10:30 AM - 11:00 AM: More astropy fundamentals and science examples by Matt Craig 
 * 11:00 AM - 11:30 AM: Visualization options with astropy and Python by Erik Tollerud (tentative)
 * 11:30 AM - 12:00 PM: Visualization Q&A / User stories
 * 12:00 PM - 01:30 PM: Lunch
