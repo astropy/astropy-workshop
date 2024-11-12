@@ -28,7 +28,7 @@ Note that the materials are very similar between the two workshops, although the
 
 ### Subaru, Dec 2-3, 2024
 
-#### Day 1: Mon, December 2, 2024
+#### Day 1: Mon, December 2, 2024 (Subaru workshop day 1)
 
 * 10:00 AM - 10:30 AM: Intro to astropy package and orientation to the Astropy ecosystem by Matt Craig
 * 10:30 AM - 11:00 AM: More astropy fundamentals and science examples by Matt Craig
