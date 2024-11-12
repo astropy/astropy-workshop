@@ -11,11 +11,7 @@ Please be sure your laptop is properly configured before the workshop by followi
 [installation and setup instructions](00-Install_and_Setup).
 
 *Warning*: Installation and setup could take as long as *one hour* depending on your current configuration and internet speeds.
-DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
-
-If you have any trouble, we will have facilitators on-site as early as 8:30 AM local time who can help you in person.
-
-As an alternative, a workshop session can be run on mybinder.org via this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astropy/astropy-workshop/HEAD)
+DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.s
 
 ### Review some introductory Python if you have not used Python
 
@@ -57,7 +53,7 @@ Note that the materials are very similar between the two workshops, although the
 ### Day 3: Wed, December 4, 2024 Keck workshop day 1:
 
 * 10:00 AM - 10:30 AM: Intro to astropy package and orientation to the Astropy ecosystem by Matt Craig
-* 10:30 AM - 11:00 AM: More astropy fundamentals and science examples by Matt Craig 
+* 10:30 AM - 11:00 AM: More astropy fundamentals and science examples by Matt Craig
 * 11:00 AM - 11:30 AM: Visualization options with astropy and Python by Erik Tollerud
 * 11:30 AM - 12:00 PM: Visualization Q&A / User stories
 * 12:00 PM - 01:30 PM: Lunch
