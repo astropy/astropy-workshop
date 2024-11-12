@@ -60,7 +60,7 @@ Note that the materials are very similar between the two workshops, although the
 * 01:30 PM - 02:30 PM: DevOps Q&A by Pey Lian Lim / discussion
 * 02:30 PM - 04:30 PM: Office hours / "code along"
 
-### Day 4: Thu, December 5, 2024 Keck workshop day 2:
+#### Day 4: Thu, December 5, 2024 (Keck workshop day 2)
 
 * 10:00 AM - 10:30 AM: Photometry with Astropy by Pey Lian Lim
 * 10:30 AM - 11:00 AM: Photometry continued / Q&A
