@@ -35,11 +35,11 @@ Note that the materials are very similar between the two workshops, although the
 #### Day 1: Mon, December 2, 2024
 
 * 10:00 AM - 10:30 AM: Intro to astropy and orientation to the astropy ecosystem
-* 10:30 AM - 11:00 AM: More astropy fundamentals and science examples
-* 11:00 AM - 11:30 PM: Visualization options with astropy and Python by Erik Tollerud (tentative)
+* 10:30 AM - 11:00 AM: More astropy fundamentals and science examples by Matt Craig
+* 11:00 AM - 11:30 PM: Visualization options with astropy and Python by Erik Tollerud
 * 11:30 AM - 12:00 PM: Visualization Q&A / User stories
 * 12:00 PM - 01:30 PM: Lunch
-* 01:30 PM - 02:30 PM: Photometry with Astropy by Pey Lian Lim (tentative)
+* 01:30 PM - 02:30 PM: Photometry with Astropy by Pey Lian Lim
 * 02:30 PM - 04:30 PM: Office hours / "code along"
 * $\color{gray}{Organizers' \space BBQ \space (private \space event)}$
 
@@ -48,7 +48,7 @@ Note that the materials are very similar between the two workshops, although the
 * 10:00 AM - 10:30 AM: Spectroscopy with Astropy by Erik Tollerud
 * 10:30 AM - 11:00 AM: Spectroscopy continued / Q&A
 * 11:00 AM - 11:30 PM: DevOps Q&A by Pey Lian Lim
-* 11:30 AM - 12:00 PM: More astropy science use cases by Matt Craig (tentative)
+* 11:30 AM - 12:00 PM: More astropy science use cases by Matt Craig
 * 12:00 PM - 01:30 PM: Lunch
 * 01:30 PM - 02:30 PM: Deeper dive (a couple of topics based on participants interest/needs)
 * 02:30 PM - 04:30 PM: Office hours / "code along"
@@ -56,25 +56,25 @@ Note that the materials are very similar between the two workshops, although the
 
 ### Day 3: Wed, December 4, 2024 Keck workshop day 1:
 
-* 10:00 AM - 10:30 AM: Intro to astropy and orientation to the astropy ecosystem by Pey Lian Lim (tentative) 
+* 10:00 AM - 10:30 AM: Intro to astropy package and orientation to the Astropy ecosystem by Matt Craig
 * 10:30 AM - 11:00 AM: More astropy fundamentals and science examples by Matt Craig 
-* 11:00 AM - 11:30 AM: Visualization options with astropy and Python by Erik Tollerud (tentative)
+* 11:00 AM - 11:30 AM: Visualization options with astropy and Python by Erik Tollerud
 * 11:30 AM - 12:00 PM: Visualization Q&A / User stories
 * 12:00 PM - 01:30 PM: Lunch
 * 01:30 PM - 02:30 PM: DevOps Q&A by Pey Lian Lim / discussion
 * 02:30 PM - 04:30 PM: Office hours / "code along"
 
 ### Day 4: Thu, December 5, 2024 Keck workshop day 2:
-* 10:00 AM - 10:30 AM: Photometry with Astropy by Pey Lian Lim (tentative)
+
+* 10:00 AM - 10:30 AM: Photometry with Astropy by Pey Lian Lim
 * 10:30 AM - 11:00 AM: Photometry continued / Q&A
 * 11:00 AM - 11:30 AM: Spectroscopy with Astropy by Erik Tollerud
-* 11:30 AM - 12:00 PM: More astropy science use cases by Matt Craig (tentative)
+* 11:30 AM - 12:00 PM: More astropy science use cases by Matt Craig
 * 12:00 PM - 01:30 PM: Lunch
 * 01:30 PM - 02:30 PM: Deeper dive (topic based on participants interest)
 * 02:30 PM - 04:30 PM: Office hours / "code along"
 * Group dinner
 * 07:00 PM - 09:00 PM: Astronomy On Tap at Hilo Town Tavern in Hilo, by Matt Craig
-
 
 ### Additional Helpers
 
