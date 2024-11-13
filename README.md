@@ -1,12 +1,11 @@
-Python and Astropy for Astronomical Data Analysis
-=================================================
-*Workshop at the 245th Meeting of the AAS in National Harbor, MD, USA*
+# Astropy Learning at Observatories of HAwaii (ALOHA)
 
-* **DATE:** Sunday January 12, 2025
-* **TIME:** 9:00 am – 5:30 pm
-* **LOCATION:** TBD
+*Workshops at Subaru and Keck*
 
-## PRE-WORKSHOP SETUP
+
+## PRE-WORKSHOP TO-DOs
+
+### Install Python if you do not have it
 
 Please be sure your laptop is properly configured before the workshop by following the
 [installation and setup instructions](00-Install_and_Setup).
@@ -14,53 +13,77 @@ Please be sure your laptop is properly configured before the workshop by followi
 *Warning*: Installation and setup could take as long as *one hour* depending on your current configuration and internet speeds.
 DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
 
-If you have any trouble, we will have facilitators on-site as early as 8:30 AM local time who can help you in person.
+### Review some introductory Python if you have not used Python
 
-As an alternative, a workshop session can be run on mybinder.org via this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astropy/astropy-workshop/HEAD)
+That material is in the folder `02-PythonIntro`. A link to that -- so that you can read it even if you have not used Python before -- is [here](https://github.com/mwcraig/astropy-workshop/tree/ALOHA-2024/02-PythonIntro). Click on the individual notebooks, whose names end `.ipynb`, to open them.
 
-## Schedule
+Doing this before the workshop will put you in a better position to follow along with the workshop materials.
 
-| Time (PT)     | Topic                                                          | Presenter/Instructor |
-|---------------|----------------------------------------------------------------|----------------------|
-| Before 9:00am | [Install and config](00-Install_and_Setup) help, if needed     | (All)         |
-| 9:00 - 9:20am | [Intro to Astropy and Code of Conduct](01-IntroCoC)            | Kelle Cruz ([@kelle](https://github.com/kelle))        |
-| 9:20 - 9:45am | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Brett Morris ([@bmorris3](https://github.com/bmorris3))         |
-| 9:45 - 10:15am | [Intro to Object Oriented Programming (OOP)](02b-OOP)         | Brett Morris ([@bmorris3](https://github.com/bmorris3))    |
-| 10:15 - 10:30am | BREAK                                                          |                      |
-| 10:30 - 11:00am | [Coordinates](04-Coordinates)         |         |
-| 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Clara Brasseur ([@ceb8](https://github.com/ceb8))   |
-| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Clara Brasseur ([@ceb8](https://github.com/ceb8))       |
-| 12:00 - 1:30pm | LUNCH                                                          |                      |
-| 1:30 - 2:00pm | [Specutils](09b-Specutils)                                     | |
-| 2:00 - 2:30pm | [Photutils](09-Photutils)                                      |  |
-| 2:30 - 3:00pm | BREAK                                                            |                      |
-| 3:00 - 3:20pm | Explore together time                                                |     |
-| 3:20 - 3:40pm | [Uncertainty](13-Uncertainty)                              |     |
-| 3:40 - 4:00pm | [Astropy Communities & Contributing to Astropy](10-WrapUp)     |  |
-| 4:00 - 5:30pm | Explore together time                                          |           |
+## Schedules
 
-### Additional Helpers
+At both sets of workshops there will be science use cases integrated into
+the presentation topics.
 
-TBD
+Note that the materials are very similar between the two workshops, although the emphasis on the Subaru and Keck days are slightly different.
+
+### Subaru, Dec 2-3, 2024
+
+#### Day 1: Mon, December 2, 2024 (Subaru workshop day 1)
+
+* 10:00 AM - 10:30 AM: Intro to astropy package and orientation to the Astropy ecosystem by Matt Craig
+* 10:30 AM - 11:00 AM: More astropy fundamentals and science examples by Matt Craig
+* 11:00 AM - 11:30 PM: Visualization options with astropy and Python by Erik Tollerud
+* 11:30 AM - 12:00 PM: Visualization Q&A / User stories
+* 12:00 PM - 01:30 PM: Lunch
+* 01:30 PM - 02:30 PM: Photometry with Astropy by Pey Lian Lim
+* 02:30 PM - 04:30 PM: Office hours / "code along"
+* $\color{gray}{Organizers' \space BBQ \space (private \space event)}$
+
+#### Day 2: Tue, December 3, 2024 (Subaru workshop day 2)
+
+* 10:00 AM - 10:30 AM: Spectroscopy with Astropy by Erik Tollerud
+* 10:30 AM - 11:00 AM: Spectroscopy continued / Q&A
+* 11:00 AM - 11:30 PM: DevOps Q&A by Pey Lian Lim
+* 11:30 AM - 12:00 PM: More astropy science use cases by Matt Craig
+* 12:00 PM - 01:30 PM: Lunch
+* 01:30 PM - 02:30 PM: Deeper dive (a couple of topics based on participants interest/needs)
+* 02:30 PM - 04:30 PM: Office hours / "code along"
+* $\color{gray}{Organizers' \space picnic \space and \space observation \space shadowing \space (private \space event)}$
+
+### Keck, Dec 4-5, 2024
+
+#### Day 3: Wed, December 4, 2024 (Keck workshop day 1)
+
+* 10:00 AM - 10:30 AM: Intro to astropy package and orientation to the Astropy ecosystem by Matt Craig
+* 10:30 AM - 11:00 AM: More astropy fundamentals and science examples by Matt Craig
+* 11:00 AM - 11:30 AM: Visualization options with astropy and Python by Erik Tollerud
+* 11:30 AM - 12:00 PM: Visualization Q&A / User stories
+* 12:00 PM - 01:30 PM: Lunch
+* 01:30 PM - 02:30 PM: DevOps Q&A by Pey Lian Lim / discussion
+* 02:30 PM - 04:30 PM: Office hours / "code along"
+
+#### Day 4: Thu, December 5, 2024 (Keck workshop day 2)
+
+* 10:00 AM - 10:30 AM: Photometry with Astropy by Pey Lian Lim
+* 10:30 AM - 11:00 AM: Photometry continued / Q&A
+* 11:00 AM - 11:30 AM: Spectroscopy with Astropy by Erik Tollerud
+* 11:30 AM - 12:00 PM: More astropy science use cases by Matt Craig
+* 12:00 PM - 01:30 PM: Lunch
+* 01:30 PM - 02:30 PM: Deeper dive (topic based on participants interest)
+* 02:30 PM - 04:30 PM: Office hours / "code along"
+* Group dinner
+* 07:00 PM - 09:00 PM: Astronomy On Tap at Hilo Town Tavern in Hilo, by Matt Craig
 
 ## Description
-This workshop covers the use of Python tools for astronomical data analysis and visualization, with the focus primarily
-on UV, Optical, and IR data. Data analysis tools for JWST are being written in Python and distributed as part of Astropy,
-a community developed Python library for astronomy,  and its affiliated packages.
 
-The workshop goals introduce you to the variety of tools which are already available inside the Astropy library as
-well as provide ample hands-on time during which you’ll be able to explore the science analysis capabilities which the
-greater Python environment and community provide.
+The goal of the workshops is threefold:
 
-We plan on accomplishing this with brief overview talks on the main tools followed by extended instructor guided tutorials
-where you’ll be able to try them out for yourself and ask questions in the company of expert users and developers.
++ Increase the adoption of Astropy (both core astropy and Astropy Affiliated packages) in the workflow of Hawaii Island Observatories.
++ Encourage participation of observatory scientists and developers in the development of astropy and Astropy Affiliated packages.
++ Identify priority areas for Astropy development to facilitate adoption of astropy and Astropy Affiliated packages.
 
-Some basic Python experience is highly recommended to be able to effectively participate in the exercises,
-but those without Python experience will still get much useful information about the capabilities for data analysis in
-Python and perhaps pick up some pointers on where they can get started learning more scientific Python and integrating
-it into their work flow.
-
-If you would like to get a head start with the tools we will be concentrating on you can check out their documentation on readthedocs:
+## Further information
+References to the Astropy documentation and other resources are below.:
 
 * [Physical Units and Quantities](https://docs.astropy.org/en/stable/units/index.html)
 * [Constants](https://docs.astropy.org/en/stable/constants/index.html)
