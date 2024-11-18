@@ -2,6 +2,7 @@ ipython>=8.0
 cython
 jupyter
 notebook>=7.0
+jupyterlab>=4.0
 numpy>=1.26
 scipy>=1.11
 scikit-image>=0.22
@@ -19,11 +20,11 @@ jupyterlab
 jupyter-offlinenotebook
 nbzip
 nbgitpuller
-astropy>=6.0
+astropy>=6.1
 asdf
 asdf-astropy
 gwcs>=0.20
-photutils>=1.10.0
+photutils>=2.0
 specutils>=1.18.0
 astroquery>=0.4.7dev9008
 openpyxl
