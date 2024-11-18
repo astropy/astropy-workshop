@@ -1,6 +1,5 @@
-name: astropy-env
+name: astropy-aloha-2024
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
-  - astroscrappy
+  - python=3.12
