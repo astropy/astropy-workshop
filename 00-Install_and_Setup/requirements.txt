@@ -20,7 +20,7 @@ jupyterlab
 jupyter-offlinenotebook
 nbzip
 nbgitpuller
-astropy>6.0
+astropy>=6.1
 asdf
 asdf-astropy
 gwcs>=0.20
