@@ -1,4 +1,4 @@
-name: astropy-aloha-2024
+name: astropy-env
 channels:
   - conda-forge
 dependencies:
