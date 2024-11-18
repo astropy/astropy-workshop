@@ -32,8 +32,8 @@ To install WSL, you should follow the instructions Microsoft provides here: http
 version of Anaconda that includes only conda, Python, the packages they depend
 on, and a small number of other useful packages, including pip, zlib and a few
 others. It also defaults to using the conda-forge service to get packages,
-which has the widest set of packages and has all freely-licensed software 
-(unlike Anaconda of miniconda).Note, though, that if you have either Miniforge,
+which has the widest set of packages and has all freely-licensed software
+(unlike Anaconda or miniconda). Note, though, that if you have either Miniforge,
 miniconda, or the full Anaconda already installed, you can skip to the next step.*
 
 In a terminal window, check if Miniforge or another conda-like installer
@@ -50,14 +50,14 @@ Please be sure to install a **64-bit version** of Miniforge to ensure all packag
 
 ## 2. Open the conda command prompt
 
-*Miniforge includes an environment manager called conda. Environments
+*Miniforge includes an environment manager called `conda`. Environments
 allow you to have multiple sets of Python packages installed at the same
 time, making reproducibility and upgrades easier. You can create,
 export, list, remove, and update environments that have different versions of
 Python and/or packages installed in them. For this workshop, we will configure the
-environment using the conda command prompt.*
+environment using the `conda` command prompt.*
 
-Open a terminal window and verify that conda is working:
+Open a terminal window and verify that `conda` is working:
 
     % conda info
 
