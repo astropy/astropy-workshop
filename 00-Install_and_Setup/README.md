@@ -97,24 +97,32 @@ If the output shows a git version, proceed to the next step.  Otherwise install 
 
 ## 5. Clone this repository, or download a ZIP file
 
+### Cloning: remember to also checkout the ALOHA-2024 branch
+
 If using `git`, clone the workshop repository using
 [git](https://help.github.com/articles/set-up-git/):
 
     % git clone https://github.com/astropy/astropy-workshop
 
-If you elect not to use `git`, you can download the ZIP file by opening the
-green *Code* button at
-https://github.com/astropy/astropy-workshop and selecting *Download ZIP*.
+Next, check out the version of the workshop we are using for these
+workshops:
+
+    % git checkout -b ALOHA-2024
+
+
+### Downloading the zip file
+
+If you elect not to use `git`, you can download the ZIP file using this link: https://github.com/astropy/astropy-workshop/archive/refs/heads/ALOHA-2024.zip
 
 ## 6. Create a conda environment for the workshop
 
-*Miniforge includes an environment manager called conda. Environments
+*Miniforge includes an environment manager called `conda`. Environments
 allow you to have multiple sets of Python packages installed at the same
 time, making reproducibility and upgrades easier. You can create,
 export, list, remove, and update environments that have different versions of
 Python and/or packages installed in them.*
 
-Create a conda environment for this workshop using a yml file.
+Create a `conda` environment for this workshop using a yml file.
 The python version is specified in the
 [environment.yml](https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup/environment.yml) file.
 
