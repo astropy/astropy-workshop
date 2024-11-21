@@ -185,7 +185,7 @@ name `pypi`:
 
 To update the reported package with conda:
 
-    (astropy-env) % conda update packagename
+    (astropy-env) % conda update packagename -c conda-forge
 
 Otherwise, to update with pip:
 
@@ -204,9 +204,9 @@ change directory to the top level `astropy_workshop` directory.
     (astropy-env) % cd ..
 
 Make sure the current directory in your terminal contains all the numbered notebook
-directories. Then start Jupyter notebook:
+directories. Then start Jupyter Lab:
 
-    (astropy-env) % jupyter notebook
+    (astropy-env) % jupyter lab
 
 If successful, your browser would open a new page/tab pointing to
 `localhost` and show you a listing of the directory including all the numbered
@@ -222,7 +222,7 @@ shut down the notebook server on your terminal and run this command:
 
     (astropy-env) % python -m ipykernel install --user
 
-Now, try run `jupyter notebook` again as above, and the "Kernel Error"
+Now, try run `jupyter lab` again as above, and the "Kernel Error"
 should be gone. Just to be sure, run the first cell (usually an `import`)
 and see if it is successful.
 

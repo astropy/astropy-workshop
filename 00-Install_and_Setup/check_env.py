@@ -11,30 +11,18 @@ from packaging.version import Version
 # NOTE: Update minversion values as needed.
 # This should match environment.yml and requirements.txt contents.
 PKGS = {'IPython': '8.0',
-        'cython': None,
         'jupyter': None,
-        'notebook': '7.0',
+        'jupyterlab': '4.0',
         'numpy': '1.26',
         'scipy': '1.11',
         'skimage': '0.22',
         'matplotlib': '3.8',
         'pandas': '2.1',
-        'bs4': None,  # beautifulsoup4
-        'keyring': None,
-        'html5lib': None,
-        'xlwt': None,
-        'xlrd': None,
-        'requests': None,
-        'jupyterlab': None,
-        'nbgitpuller': None,
-        'astropy': '6.0',
-        'asdf': None,
-        'gwcs': '0.20',
-        'ccdproc': '2.4',
-        'photutils': '1.10.0',
-        'specutils': '1.12.0',
+        'astropy': '6.1',
+        'photutils': '2.0',
+        'specutils': '1.18.0',
         'astroquery': '0.4.7dev9008',
-        'openpyxl': None}
+        'astrowidgets': '0.3'}
 
 
 def check_package(package_name, minimum_version=None, verbose=True):
