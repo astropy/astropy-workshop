@@ -1,3 +1,0 @@
-### ccdproc
-
-**Authors**: Matt Craig

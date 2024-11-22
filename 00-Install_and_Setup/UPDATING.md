@@ -24,7 +24,7 @@ If there are modified local files reported, your best option instead is as
 follows (which *will destroy* any local file changes you made):
 
     % git fetch --all
-    % git reset --hard origin/main
+    % git reset --hard origin/ALOHA-2024
 
 **ADVANCED OPTION**: This is not a git workshop, but if you want to keep
 your file modifications, you can commit your modified files to the git
@@ -33,7 +33,7 @@ GitHub server:
 
     % git commit -a "Save my modified files"
     % git fetch origin
-    % git checkout origin/main -b workshop-main
+    % git checkout origin/ALOHA-2024 -b workshop-ALOHA-2024
 
 This is probably overkill unless you already use git regularly. When in doubt,
 please ask the instructors or helpers.
