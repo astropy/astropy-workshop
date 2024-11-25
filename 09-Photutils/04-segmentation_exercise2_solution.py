@@ -11,7 +11,7 @@ f105w_cat = SourceCatalog(f105w_data, f160w_segm)
 
 # calculate the AB magnitudes using the filter zero points
 f105w_abmag = -2.5 * np.log10(f105w_cat.segment_flux.value) + 26.264
-f160w_abmag = -2.5 * np.log10(f160w_tbl['segment_flux'].value) + 25.936
+f160w_abmag = -2.5 * np.log10(f160w_tbl['segment_flux'].value) + 25.9447
 
 # calculate the Y-H colors
 yh_colors = f105w_abmag - f160w_abmag
