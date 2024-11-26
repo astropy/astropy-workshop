@@ -29,7 +29,7 @@ If you have private code (e.g., sensitive observatory controls), you probably wa
 [self-hosted runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners). While those can still
 fall within GitHub's free-tier usage, you have to pay the cost of maintaining
 your own hardware and runners. In practice, if you need this, your usage would
-exceed the free-tier limit anyway, so you will likely have to pay for a
+exceed the free-tier limit, so you will likely have to pay for a
 GitHub Actions plan anyway.
 
 If you have needs for uncommon architectures or large runners, you will likely
@@ -58,7 +58,7 @@ Other services out there (list not exhaustive):
   internal stuff and have the expertise to understand/maintain this framework.
   This is not really recommended for small project with limited resources.
 
-Complementary services/tools that are useful but has limited scope
+Complementary services/tools that are useful but have limited scope
 (list not exhaustive):
 
 * [ReadTheDocs](https://about.readthedocs.com/) for online documentation building, hosting, and
@@ -96,7 +96,7 @@ one right answer.
 
 CI does not work without a meaningful test suite or workflows.
 The building blocks are unit tests. Depending on your needs,
-you might also need expanded test suite, e.g., system or integration tests.
+you might also need an expanded test suite, e.g., system or integration tests.
 
 Test matrix could help in determining that your code works in
 different enviroments that you support; e.g., OSes, Python versions,
@@ -151,7 +151,7 @@ run these only as needed or in a set schedule outside of regular CI.
 # What can you do to improve your package/pipeline?
 
 If all this information is overwhelming to you, that is totally alright.
-After all, Rome was not built overnight. You could start small and work
+After all, Rome was not built in a day. You could start small and work
 your way up to your final DevOps goal eventually.
 
 Some preliminary steps you could take as a package maintainer:
