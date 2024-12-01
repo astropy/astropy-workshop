@@ -11,3 +11,4 @@ photutils>=2.0
 specutils>=1.18.0
 astroquery>=0.4.7dev9008
 astrowidgets>=0.3.0
+jdaviz>=3.10
