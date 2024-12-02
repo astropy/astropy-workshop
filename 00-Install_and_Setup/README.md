@@ -105,9 +105,9 @@ If using `git`, clone the workshop repository using
     % git clone https://github.com/astropy/astropy-workshop
 
 Next, check out the version of the workshop we are using for these
-workshops:
+workshops (**updated late on Dec 1**):
 
-    % git checkout -b ALOHA-2024
+    % git checkout -b ALOHA-2024 origin/ALOHA-2024
 
 
 ### Downloading the zip file
