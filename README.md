@@ -25,11 +25,11 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | Before 9:00am   | [Install and config](00-Install_and_Setup) help, if needed     | (All)         |
 | 9:00 - 9:20am   | [Intro to Astropy and Code of Conduct](01-IntroCoC)            | Kelle Cruz ([@kelle](https://github.com/kelle))         |
 | 9:20 - 9:45am   | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Brett Morris ([@bmorris3](https://github.com/bmorris3)) |
-| 9:45 - 10:15am  | [Intro to Object Oriented Programming (OOP)](02b-OOP)          | Brett Morris ([@bmorris3](https://github.com/bmorris3)) |
+| 9:45 - 10:15am  | [Intro to Object Oriented Programming (OOP)](02b-OOP)          | Brett Morris |
 | 10:15 - 10:30am | BREAK                                                          |  |
-| 10:30 - 11:00am | [Coordinates](04-Coordinates)                                  |  |
+| 10:30 - 11:00am | [Coordinates](04-Coordinates)                                  | Brett Morris |
 | 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Clara Brasseur ([@ceb8](https://github.com/ceb8)) |
-| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Clara Brasseur ([@ceb8](https://github.com/ceb8)) |
+| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Clara Brasseur |
 | 12:00 - 1:30pm  | LUNCH                                                          |  |
 | 1:30 - 2:00pm   | [Specutils](09b-Specutils)                                     |  |
 | 2:00 - 2:30pm   | [Photutils](09-Photutils)                                      | Larry Bradley ([@larrybradley](https://github.com/larrybradley)) |
