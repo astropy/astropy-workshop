@@ -35,8 +35,8 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 2:00 - 2:30pm   | [Photutils](09-Photutils)                                      | Larry Bradley ([@larrybradley](https://github.com/larrybradley)) |
 | 2:30 - 3:00pm   | BREAK                                                          |  |
 | 3:00 - 3:20pm   | Explore together time                                          |  |
-| 3:20 - 3:40pm   | [Uncertainty](13-Uncertainty)                                  |  |
-| 3:40 - 4:00pm   | [Astropy Communities & Contributing to Astropy](10-WrapUp)     |  |
+| 3:20 - 3:40pm   | [Process CCD observations with ccdproc](09c-Ccdproc)           | Brett Morris |
+| 3:40 - 4:00pm   | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Brett Morris |
 | 4:00 - 5:30pm   | Explore together time                                          |  |
 
 ### Additional Helpers
