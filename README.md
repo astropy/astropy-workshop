@@ -4,7 +4,7 @@ Python and Astropy for Astronomical Data Analysis
 
 * **DATE:** Sunday January 12, 2025
 * **TIME:** 9:00 am – 5:30 pm
-* **LOCATION:** TBD
+* **LOCATION:** National Harbor 6/7 Room
 
 ## PRE-WORKSHOP SETUP
 
