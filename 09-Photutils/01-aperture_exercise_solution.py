@@ -18,7 +18,7 @@ phot = aperture_photometry(data << unit, aper, error=error << unit)
 snr = phot['aperture_sum'] / phot['aperture_sum_err']
 phot['snr'] = snr
 
-f160w_zpt = 25.9447
+f160w_zpt = 25.941
 abmag = -2.5 * np.log10(phot['aperture_sum'].value) + f160w_zpt
 phot['f160w_abmag'] = abmag
 
