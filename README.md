@@ -31,7 +31,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Clara Brasseur ([@ceb8](https://github.com/ceb8)) |
 | 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Clara Brasseur |
 | 12:00 - 1:30pm  | LUNCH                                                          |  |
-| 1:30 - 2:00pm   | [Specutils](09b-Specutils)                                     |  |
+| 1:30 - 2:00pm   | [Specutils](09b-Specutils)                                     | Brett Morris |
 | 2:00 - 2:30pm   | [Photutils](09-Photutils)                                      | Larry Bradley ([@larrybradley](https://github.com/larrybradley)) |
 | 2:30 - 3:00pm   | BREAK                                                          |  |
 | 3:00 - 3:20pm   | Explore together time                                          |  |
