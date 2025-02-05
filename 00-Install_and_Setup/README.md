@@ -22,32 +22,32 @@ right of `%`.
 
 *If you are using Windows, we now recommend using the Windows Subsystem for Linux (WSL) instead of using native Windows tools. WSL is now fully supported by Microsoft and tends to result in fewer install headaches, and lets you use tools that were developed for Linux seemlessly in windows. While you still may be able to use the Windows-native installation of Miniconda, these instructions focus on the WSL approach for the above reasons.*
 
-To install WSL, you should follow the instructions Microsoft provides here: https://docs.microsoft.com/en-us/windows/wsl/install. While you may choose an alternative Linux distribution from the default Ubuntu, the instructions below have been tested on Ubuntu, so unless you have a specific reason, we suggest you stick with the default.  Once you reach the point in the instructions with a working Linux terminal prompt, you can proceed to step 1 of these instructions.
+To install WSL, you should follow the instructions Microsoft provides here: https://docs.microsoft.com/en-us/windows/wsl/install. While you may choose an alternative Linux distribution from the default Ubuntu, the instructions below have been tested on Ubuntu, so unless you have a specific reason, we suggest you stick with Ubuntu.  Once you have a Linux terminal prompt, proceed to step 1 of these instructions.
 
-*Optional* While you can run a WSL terminal with the command prompt built into Windows, it's rather bare-bones and you may not have the best experience.  For WSL on Windows you'll probably want to [install Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/install) to have a terminal experience closer to what you'd see on Mac or Linux.
+*Optional* While you can run a WSL terminal with the command prompt built into Windows, it's rather bare-bones and you may not have the best experience.  For WSL on Windows you'll probably want to [install Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/install) to have a terminal experience closer to what you'd see on Mac or Linux. See also [Set up a WSL development environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment).
 
-## 1. Install Miniconda (if needed)
+## 1. Install Miniforge (if needed)
 
-*Miniconda is a free minimal installer for conda. It is a small, bootstrap
-version of Anaconda that includes only conda, Python, the packages they depend
+*Miniforge is a free minimal installer for conda that is free of commercial license restrictions. 
+It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend
 on, and a small number of other useful packages, including pip, zlib and a few
-others. Note, though, that if you have either Miniconda or the full Anaconda
+others. Note, though, that if you have either miniforge, miniconda, or the full Anaconda
 already installed, you can skip to the next step.*
 
-In a terminal window, check if Miniconda is already installed.
+In a terminal window, check if conda is already installed.
 
     % conda info
 
-If Miniconda is not already installed, follow these instructions for your
-operating system: https://conda.io/projects/conda/en/latest/user-guide/install/index.html.
-Please be sure to install a **64-bit version** of Miniconda to ensure all packages work correctly.
+If conda is not already installed, follow these instructions for your
+operating system: https://github.com/conda-forge/miniforge.
 
-(On native Windows, you might also need [additional compilers](https://github.com/conda/conda-build/wiki/Windows-Compilers), although this should not be necessary in WSL).
+If you are using Windows, run the *Linux* installer in a WSL terminal, rather than using the Windows installer.
 
+(On native Windows, you might also need [additional compilers](https://github.com/conda/conda-build/wiki/Windows-Compilers). This should not be necessary in WSL).
 
 ## 2. Open the conda command prompt
 
-*Miniconda includes an environment manager called conda. Environments
+*Miniforge includes an environment manager called conda. Environments
 allow you to have multiple sets of Python packages installed at the same
 time, making reproducibility and upgrades easier. You can create,
 export, list, remove, and update environments that have different versions of
