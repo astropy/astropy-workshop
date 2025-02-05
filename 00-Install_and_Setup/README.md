@@ -5,7 +5,7 @@ configured with the packages in the
 [installation check file](https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup/).
 These packages are the ones we use to verify that the notebooks are working as expected.
 
-These instructions describe setup using `git` and `Miniconda`. It is not strictly necessary
+These instructions describe setup using `git` and `Miniforge`. It is not strictly necessary
 to use either of these. See the section
 [Alternate Installation Methods](#alternate-installation-methods) at the end
 of this document.
@@ -22,9 +22,9 @@ right of `%`.
 
 *If you are using Windows, we now recommend using the Windows Subsystem for Linux (WSL) instead of using native Windows tools. WSL is now fully supported by Microsoft and tends to result in fewer install headaches, and lets you use tools that were developed for Linux seemlessly in windows. While you still may be able to use the Windows-native installation of Miniforge, these instructions focus on the WSL approach for the above reasons.*
 
-To install WSL, you should follow the instructions Microsoft provides here: https://docs.microsoft.com/en-us/windows/wsl/install. While you may choose an alternative Linux distribution from the default Ubuntu, the instructions below have been tested on Ubuntu, so unless you have a specific reason, we suggest you stick with the default.  Once you reach the point in the instructions with a working Linux terminal prompt, you can proceed to step 1 of these instructions.
+To install WSL, you should follow the instructions Microsoft provides here: https://docs.microsoft.com/en-us/windows/wsl/install. While you may choose an alternative Linux distribution from the default Ubuntu, the instructions below have been tested on Ubuntu, so unless you have a specific reason, we suggest you stick with Ubuntu.  Once you have a working Linux terminal prompt, you can proceed to step 1 of these instructions.
 
-*Optional* While you can run a WSL terminal with the command prompt built into Windows, it's rather bare-bones and you may not have the best experience.  For WSL on Windows you'll probably want to [install Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/install) to have a terminal experience closer to what you'd see on Mac or Linux.
+*Optional* While you can run a WSL terminal with the command prompt built into Windows, it's rather bare-bones and you may not have the best experience.  For WSL on Windows you'll probably want to [install Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/install) to have a terminal experience closer to what you'd see on Mac or Linux. See also [Set up a WSL development environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment).
 
 ## 1. Install Miniforge (if needed)
 
@@ -33,7 +33,7 @@ version of Anaconda that includes only conda, Python, the packages they depend
 on, and a small number of other useful packages, including pip, zlib and a few
 others. It also defaults to using the conda-forge service to get packages,
 which has the widest set of packages and has all freely-licensed software 
-(unlike Anaconda of miniconda).Note, though, that if you have either Miniforge,
+(unlike Anaconda of miniconda). Note, if you have either Miniforge,
 miniconda, or the full Anaconda already installed, you can skip to the next step.*
 
 In a terminal window, check if Miniforge or another conda-like installer
@@ -43,7 +43,8 @@ is already installed.
 
 If a conda is not already installed, follow these instructions for your
 operating system: https://github.com/conda-forge/miniforge/blob/main/README.md .
-Please be sure to install a **64-bit version** of Miniforge to ensure all packages work correctly.
+
+If you are using Windows, run the *Linux* installer in a WSL terminal, rather than using the Windows installer.
 
 (On native Windows, you might also need [additional compilers](https://github.com/conda/conda-build/wiki/Windows-Compilers), although this should not be necessary in WSL).
 
