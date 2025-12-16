@@ -31,7 +31,7 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Clara Brasseur ([@ceb8](https://github.com/ceb8)) |
 | 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Brett Morris |
 | 12:00 - 1:30pm  | LUNCH                                                          |  |
-| 1:30 - 2:00pm   | [Photutils](09-Photutils)                                     | Erik Tollerud [@eteq](https://github.com/eteq) |
+| 1:30 - 2:00pm   | [Photutils](09-Photutils)                                     | Erik Tollerud ([@eteq](https://github.com/eteq)) |
 | 2:00 - 2:30pm   | [Specutils](09b-Specutils)                                      | Kelle Cruz |
 | 2:30 - 3:00pm   | BREAK                                                          |  |
 | 3:00 - 3:20pm   | [Process CCD observations with ccdproc](09c-Ccdproc)           | Erik Tollerud |
