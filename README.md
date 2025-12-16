@@ -27,15 +27,15 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 9:20 - 9:45am   | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Kelle Cruz |
 | 9:45 - 10:15am  | [Intro to Object Oriented Programming (OOP)](02b-OOP)          | Brett Morris ([@bmorris3](https://github.com/bmorris3)) |
 | 10:15 - 10:30am | BREAK                                                          |  |
-| 10:30 - 11:00am | [Coordinates](04-Coordinates)                                  |  |
+| 10:30 - 11:00am | [Coordinates](04-Coordinates)                                  | Brett Morris |
 | 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Clara Brasseur ([@ceb8](https://github.com/ceb8)) |
-| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 |  |
+| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Brett Morris |
 | 12:00 - 1:30pm  | LUNCH                                                          |  |
 | 1:30 - 2:00pm   | [Specutils](09b-Specutils)                                     | Kelle Cruz |
-| 2:00 - 2:30pm   | [Photutils](09-Photutils)                                      | Brett Morris |
+| 2:00 - 2:30pm   | [Photutils](09-Photutils)                                      | Erik Tollerud [@eteq](https://github.com/eteq) |
 | 2:30 - 3:00pm   | BREAK                                                          |  |
 | 3:00 - 3:20pm   | Explore together time                                          |  |
-| 3:20 - 3:40pm   | [Process CCD observations with ccdproc](09c-Ccdproc)           |  |
+| 3:20 - 3:40pm   | [Process CCD observations with ccdproc](09c-Ccdproc)           | Erik Tollerud |
 | 3:40 - 4:00pm   | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Kelle Cruz |
 | 4:00 - 5:30pm   | Explore together time                                          |  |
 
