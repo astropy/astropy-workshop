@@ -31,13 +31,12 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 | 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Clara Brasseur ([@ceb8](https://github.com/ceb8)) |
 | 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Brett Morris |
 | 12:00 - 1:30pm  | LUNCH                                                          |  |
-| 1:30 - 2:00pm   | [Specutils](09b-Specutils)                                     | Kelle Cruz |
-| 2:00 - 2:30pm   | [Photutils](09-Photutils)                                      | Erik Tollerud [@eteq](https://github.com/eteq) |
+| 1:30 - 2:00pm   | [Photutils](09-Photutils)                                     | Erik Tollerud [@eteq](https://github.com/eteq) |
+| 2:00 - 2:30pm   | [Specutils](09b-Specutils)                                      | Kelle Cruz |
 | 2:30 - 3:00pm   | BREAK                                                          |  |
-| 3:00 - 3:20pm   | Explore together time                                          |  |
-| 3:20 - 3:40pm   | [Process CCD observations with ccdproc](09c-Ccdproc)           | Erik Tollerud |
-| 3:40 - 4:00pm   | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Kelle Cruz |
-| 4:00 - 5:30pm   | Explore together time                                          |  |
+| 3:00 - 3:20pm   | [Process CCD observations with ccdproc](09c-Ccdproc)           | Erik Tollerud |
+| 3:20 - 3:40pm   | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Kelle Cruz |
+| 3:40 - 5:30pm   | Explore together time                                          |  |
 
 ### Additional Helpers
 
