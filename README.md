@@ -1,10 +1,10 @@
 Python and Astropy for Astronomical Data Analysis
 =================================================
-*Workshop at the 245th Meeting of the AAS in National Harbor, MD, USA*
+*Workshop at the 247th Meeting of the AAS in Phoenix, AZ, USA*
 
-* **DATE:** Sunday January 12, 2025
+* **DATE:** Sunday January 4, 2026
 * **TIME:** 9:00 am – 5:30 pm
-* **LOCATION:** National Harbor 6/7 Room
+* **LOCATION:** TBD
 
 ## PRE-WORKSHOP SETUP
 
@@ -24,19 +24,19 @@ As an alternative, a workshop session can be run on mybinder.org via this link: 
 |-----------------|----------------------------------------------------------------|----------------------|
 | Before 9:00am   | [Install and config](00-Install_and_Setup) help, if needed     | (All)         |
 | 9:00 - 9:20am   | [Intro to Astropy and Code of Conduct](01-IntroCoC)            | Kelle Cruz ([@kelle](https://github.com/kelle))         |
-| 9:20 - 9:45am   | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Brett Morris ([@bmorris3](https://github.com/bmorris3)) |
-| 9:45 - 10:15am  | [Intro to Object Oriented Programming (OOP)](02b-OOP)          | Brett Morris |
+| 9:20 - 9:45am   | [Astropy Units, Quantities, and Constants](03-UnitsQuantities) | Kelle Cruz |
+| 9:45 - 10:15am  | [Intro to Object Oriented Programming (OOP)](02b-OOP)          | Brett Morris ([@bmorris3](https://github.com/bmorris3)) |
 | 10:15 - 10:30am | BREAK                                                          |  |
-| 10:30 - 11:00am | [Coordinates](04-Coordinates)                                  | Brett Morris |
+| 10:30 - 11:00am | [Coordinates](04-Coordinates)                                  |  |
 | 11:00 - 11:30pm | [Astropy Tables](06-Tables)                                    | Clara Brasseur ([@ceb8](https://github.com/ceb8)) |
-| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 | Clara Brasseur |
+| 11:30 – 12:00pm | [I/O: FITS and ASCII](05-FITS)                                 |  |
 | 12:00 - 1:30pm  | LUNCH                                                          |  |
-| 1:30 - 2:00pm   | [Specutils](09b-Specutils)                                     | Brett Morris |
-| 2:00 - 2:30pm   | [Photutils](09-Photutils)                                      | Larry Bradley ([@larrybradley](https://github.com/larrybradley)) |
+| 1:30 - 2:00pm   | [Specutils](09b-Specutils)                                     | Kelle Cruz |
+| 2:00 - 2:30pm   | [Photutils](09-Photutils)                                      | Brett Morris |
 | 2:30 - 3:00pm   | BREAK                                                          |  |
 | 3:00 - 3:20pm   | Explore together time                                          |  |
-| 3:20 - 3:40pm   | [Process CCD observations with ccdproc](09c-Ccdproc)           | Brett Morris |
-| 3:40 - 4:00pm   | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Brett Morris |
+| 3:20 - 3:40pm   | [Process CCD observations with ccdproc](09c-Ccdproc)           |  |
+| 3:40 - 4:00pm   | [Astropy Communities & Contributing to Astropy](10-WrapUp)     | Kelle Cruz |
 | 4:00 - 5:30pm   | Explore together time                                          |  |
 
 ### Additional Helpers
