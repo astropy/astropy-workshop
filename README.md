@@ -4,7 +4,7 @@ Python and Astropy for Astronomical Data Analysis
 
 * **DATE:** Sunday January 4, 2026
 * **TIME:** 9:00 am – 5:30 pm
-* **LOCATION:** TBD
+* **LOCATION:** Room 131 C at the Phoenix Convention Center
 
 ## PRE-WORKSHOP SETUP
 
