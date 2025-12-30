@@ -27,3 +27,4 @@ photutils>=1.10.0
 specutils>=1.18.0
 astroquery>=0.4.7dev9008
 openpyxl
+ipydatagrid
