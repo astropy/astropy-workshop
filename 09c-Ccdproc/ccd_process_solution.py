@@ -7,3 +7,4 @@ stars_calibrated = ccdp.ccd_process(raw_stars,
                                     exposure_key='exposure', exposure_unit=u.second,
                                     dark_scale=True,
                                     master_flat=flat)
+show_image(stars_calibrated)  # this should look just like the previous version
