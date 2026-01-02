@@ -230,6 +230,14 @@ If the reported `astropy` version is older than expected and you have
 not run the `python -m ipykernel install --user` command, then run it
 as instructed above.
 
+*You can also use the more recent interface to jupyter Jupyter Lab - this is
+generally recommended and the only change to do this is to give the command as
+`jupyter lab` instead of `jupyter notebook`, but it is on some level personal
+preference - either may work.  You can also use an IDE or VS Code and its
+integrated notebook feature if you prefer, although you will need to be sure it
+is using the environment you have just installed, and the workshop staff may or
+may not be able to help with that if you don't follow the above instructions.*
+
 ## Alternate Installation Methods
 
 Although we recommend Miniforge, you can use `pip install -r requirements.txt`
