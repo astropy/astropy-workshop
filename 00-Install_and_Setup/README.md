@@ -5,7 +5,7 @@ configured with the packages in the
 [installation check file](https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup/).
 These packages are the ones we use to verify that the notebooks are working as expected.
 
-These instructions describe setup using `git` and `Miniforge`. It is not strictly necessary
+These instructions describe setup using `git` and `pixi`. It is not strictly necessary
 to use either of these. See the section
 [Alternate Installation Methods](#alternate-installation-methods) at the end
 of this document.
@@ -26,77 +26,59 @@ To install WSL, you should follow the instructions Microsoft provides here: http
 
 *Optional* While you can run a WSL terminal with the command prompt built into Windows, it's rather bare-bones and you may not have the best experience.  For WSL on Windows you'll probably want to [install Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/install) to have a terminal experience closer to what you'd see on Mac or Linux. See also [Set up a WSL development environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment).
 
-## 1. Install Miniforge (if needed)
+## 1. Install Pixi (if needed)
 
-*Miniforge is a free minimal installer for conda. It is a small, bootstrap
-version of Anaconda that includes only conda, Python, the packages they depend
-on, and a small number of other useful packages, including pip, zlib and a few
-others. It also defaults to using the conda-forge service to get packages,
-which has the widest set of packages and has all freely-licensed software 
-(unlike Anaconda of miniconda). Note, if you have either Miniforge,
-miniconda, or the full Anaconda already installed, you can skip to the next step.*
+*Pixi is a tool that can both manage environments for interactive sessions,
+like we are doing here. Environments
+allow you to have multiple sets of Python packages installed at the same
+time, making reproducibility and upgrades easier. Pixi can handle installing
+both pypi and conda packages, so in theory combines the best
+of both worlds for Python packaging. If those words mean nothing to you, then
+don't worry, you can just follow the instructions.*
 
-In a terminal window, check if Miniforge or another conda-like installer
-is already installed.
+In a terminal window, check if Pixi is already installed.
 
-    % conda info
+    % pixi info
 
-If a conda is not already installed, follow these instructions for your
-operating system: https://github.com/conda-forge/miniforge/blob/main/README.md .
+If a pixi is not already installed, follow these instructions for your
+operating system: https://pixi.prefix.dev/latest/installation/ .
 
 If you are using Windows, run the *Linux* installer in a WSL terminal, rather than using the Windows installer.
 
-(On native Windows, you might also need [additional compilers](https://github.com/conda/conda-build/wiki/Windows-Compilers), although this should not be necessary in WSL).
+Once you are finished installing, run this again 
+
+    % pixi info
 
 
-## 2. Open the conda command prompt
-
-*Miniforge includes an environment manager called conda. Environments
-allow you to have multiple sets of Python packages installed at the same
-time, making reproducibility and upgrades easier. You can create,
-export, list, remove, and update environments that have different versions of
-Python and/or packages installed in them. For this workshop, we will configure the
-environment using the conda command prompt.*
-
-Open a terminal window and verify that conda is working:
-
-    % conda info
-
-If you are having trouble, check your shell in a terminal window:
-
-    % echo $SHELL
-
-then run the initialization if needed, in that same terminal window:
-
-    % conda init `basename $SHELL`
-
-You should open a new terminal window after `conda init` is run.
-
-It is advisable to update your conda to the latest version. We recommend a minimum
-version of 23.10.0. Check your conda version with:
-
-    % conda --version
-
-Update it with:
-
-    % conda update conda
-
-or
-
-    % conda update -n base conda
+which should yield some information about your pixi version and your computer's
+setup  (in a section named "System") and your global pixi environment (in a 
+section "Global"). Note in general these instructions assume you have not set
+anything up in your global pixi environment.  If you have then hopefully you
+know enough about pixi to make sure it doesn't conflict with these workshop
+materials.  But if you're not sure, you can always ask for help!
 
 
-## 3. Install git (if needed)
+## 2. Install git (if needed)
 
 At the prompt opened in the previous step, enter this command to see whether git is already installed and accessible to this shell:
 
     % git --version
 
-If the output shows a git version, proceed to the next step.  Otherwise install git by entering the following command and following the prompts:
+If the output shows a git version, proceed to the next step.  Otherwise install git by entering the following command:
 
-    % conda install git
+    % pixi global install git
 
-## 5. Clone this repository, or download a ZIP file
+*Global pixi installs can cause some confusion depending on how you have your
+system set up. If this concerns you you could also install git using your 
+specific operating system's approach - see https://git-scm.com/install/ 
+just remember that if you're using WSL you'll want to use the linux 
+instructions, not windows.*
+
+If this install instruction is tripping you up, it is technically optional - 
+you can use the zip download option below.  Just be aware it will be harder
+for you to keep things up-to-date if you follow that path.
+
+## 3. Clone this repository, or download a ZIP file
 
 If using `git`, clone the workshop repository using
 [git](https://help.github.com/articles/set-up-git/):
@@ -107,99 +89,47 @@ If you elect not to use `git`, you can download the ZIP file by opening the
 green *Code* button at
 https://github.com/astropy/astropy-workshop and selecting *Download ZIP*.
 
-## 6. Create a conda environment for the workshop
+## 4. Have pixi build the environment for the workshop
 
-*Miniforge includes an environment manager called conda. Environments
-allow you to have multiple sets of Python packages installed at the same
-time, making reproducibility and upgrades easier. You can create,
-export, list, remove, and update environments that have different versions of
-Python and/or packages installed in them.*
+Pixi in general does operations only as they are needed, but it's often useful
+to prompt it to do so to test for issues. If you have not already, cd into the
+directory where the tutorial materials are:
 
-Create a conda environment for this workshop using a yml file.
-The python version is specified in the
-[environment.yml](https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup/environment.yml) file.
+    % cd astropy-workshop
 
-Open a terminal window using the appropriate one for your operating system.
+and then try to have pixi install the requirements from there:
 
-Now navigate to this directory in the terminal. For example, if you installed
-the astropy-workshop directory in your home directory, you could type the
-following.
+    % pixi install
 
-    % cd astropy-workshop/00-Install_and_Setup/
+This may take some time to download and install all the various needed packages
+but if it succeeds, you are ready to proceed. If not, ask for help!
 
-And finally, on any platform, to install and activate the astropy-workshop environment, type:
+## 5. Check Installation
 
-    % conda env create --file environment.yml
-    % conda activate astropy-env
+You can confirm that pixi installed all the correct pakcages by running a
+script in the repository:
 
-Note, you will need conda version 23.10.0 and later. If you need to update your version use `conda update conda`.
+    % pixi run python 00-Install_and_Setup/check_env.py
 
-The name of the new conda environment created above should be displayed next
-to the terminal prompt: `(astropy-env) %`
+If the script reports that some of the versions do not match, you may need to
+re-install the pixi environment.  While there are clever ways to do this, the
+easiest is to usually just delete the whole environment and let pixi re-create
+it:
 
-All the required packages are specified in the
-[requirements.txt](https://github.com/astropy/astropy-workshop/blob/main/00-Install_and_Setup/requirements.txt) file. Install them with:
+   % rm -rf .pixi
+   % pixi run python 00-Install_and_Setup/check_env.py
 
-    (astropy-env) % pip install -r requirements.txt
+If you still are getting version mis-matches, ask for help.
 
-## 7. Check Installation
+## 6. Starting Jupyter Notebook
 
-The name of the new conda environment created above should be displayed next
-to the terminal prompt: `(astropy-env) %`
+We are now ready to start jupyter. Note that it is important that you start
+jupyter using pixi, *not* your system jupyter (if you have one).  That is:
 
-In the terminal you used in the preceding step, inside the `astropy-workshop/00_Install_and_Setup/`
-directory, run the `check_env.py` script to
-check the Python environment and some of the required dependencies:
+    % pixi run jupyter notebook
 
-    (astropy-env) % python check_env.py
-
-If the script reports that some of the versions do not match, check first
-whether the package was installed using conda or pip, then update accordingly.
-The example below a fake package called `packagename`; replace it with the
-actual package that you need to update.
-
-    (astropy-env) % conda list packagename
-
-If it was installed with conda, you will see (the channel column might or
-might not be populated):
-
-    # packages in environment at .../miniforge/envs/astropy-env:
-    #
-    # Name                    Version                   Build  Channel
-    packagename               X.Y.Z         py37hf484d3e_1000
-
-Otherwise, if it was installed with pip, you will see the channel stating the
-name `pypi`:
-
-    # packages in environment at .../miniforge/envs/astropy-env:
-    #
-    # Name                    Version                   Build  Channel
-    packagename               X.Y.Z                     pypi_0    pypi
-
-To update the reported package with conda:
-
-    (astropy-env) % conda update packagename
-
-Otherwise, to update with pip:
-
-    (astropy-env) % pip install packagename --upgrade
-
-The exception to this is if the `astroquery` package is reported as
-out-of-date, always update to its pre-release version with pip:
-
-    (astropy-env) % pip install astroquery --pre --upgrade
-
-## 8. Starting Jupyter Notebook
-
-In the terminal window you used with the conda environment created above,
-change directory to the top level `astropy_workshop` directory.
-
-    (astropy-env) % cd ..
-
-Make sure the current directory in your terminal contains all the numbered notebook
-directories. Then start Jupyter notebook:
-
-    (astropy-env) % jupyter notebook
+You should do this in the base astropy-workshop directory - it may not work if
+you have cded into one of the workshop directories or the install directory.
 
 If successful, your browser would open a new page/tab pointing to
 `localhost` and show you a listing of the directory including all the numbered
@@ -213,7 +143,7 @@ then all is well. However, if you see a red "Kernel Error," click on it
 and scroll down to see the error message. If it says `FileNotFoundError`,
 shut down the notebook server on your terminal and run this command:
 
-    (astropy-env) % python -m ipykernel install --user
+    % pixi run python -m ipykernel install --user
 
 Now, try run `jupyter notebook` again as above, and the "Kernel Error"
 should be gone. Just to be sure, run the first cell (usually an `import`)
@@ -232,13 +162,13 @@ as instructed above.
 
 ## Alternate Installation Methods
 
-Although we recommend Miniforge, you can use `pip install -r requirements.txt`
+Although we recommend Pixi, you can use `pip install -r requirements.txt`
 into an existing Python installation, or create a virtual environment using
 [pip/venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
 
 ## Additional Resources
 
 - [Set up git](https://help.github.com/articles/set-up-git/)
-- [Conda Users Guide](https://docs.conda.io/projects/conda/en/latest/user-guide/)
+- [Pixi Documentation](https://pixi.prefix.dev/latest/)
 - [Astropy Install Instructions](http://docs.astropy.org/en/latest/install.html)
 - [Instructions for keeping this repo up to date](UPDATING.md)
