@@ -32,7 +32,7 @@ PKGS = {'IPython': '8.0',
         'gwcs': '0.20',
         'ccdproc': '2.4',
         'photutils': '1.10.0',
-        'specutils': '1.12.0',
+        'specutils': '2.0.0',
         'astroquery': '0.4.7dev9008',
         'openpyxl': None}
 
