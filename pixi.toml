@@ -1,0 +1,41 @@
+[workspace]
+authors = ["Astropy Workshop Team", "Erik Tollerud <erik.tollerud@gmail.com>"]
+channels = ["conda-forge"]
+name = "astropy-workshop"
+platforms = ["linux-64", "osx-arm64"]
+
+[tasks]
+
+[dependencies]
+astropy = "*"
+astroquery = ">=0.4.11,<0.5"
+ipython = ">=8.0"
+cython = "*"
+jupyter = "*"
+notebook = ">=7.0"
+numpy = ">=1.26"
+scipy = ">=1.11"
+scikit-image = ">=0.22"
+matplotlib = ">=3.8"
+pandas = ">=2.1"
+ccdproc = ">=2.4"
+pytest = "*"
+beautifulsoup4 = "*"
+keyring = "*"
+html5lib = "*"
+xlwt = "*"
+xlrd = "*"
+requests = "*"
+jupyterlab = "*"
+jupyter-offlinenotebook = "*"
+nbgitpuller = "*"
+asdf = "*"
+asdf-astropy = "*"
+gwcs = ">=0.20"
+photutils = ">=1.10.0"
+specutils = ">=2.0.0"
+openpyxl = "*"
+ipydatagrid = "*"
+
+[pypi-dependencies]
+nbzip = ">=0.1.0, <0.2"
