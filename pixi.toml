@@ -33,7 +33,7 @@ asdf = "*"
 asdf-astropy = "*"
 gwcs = ">=0.20"
 photutils = ">=1.10.0"
-specutils = ">=1.18.0"
+specutils = ">=2.0.0"
 openpyxl = "*"
 ipydatagrid = "*"
 
